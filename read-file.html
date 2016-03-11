@@ -1,0 +1,131 @@
+<!doctype html>
+<html ng-app="fieraApp">
+<head>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular/angular-sanitize.js"></script>
+
+    <script src="app.js"></script>
+    <script src="read-file.js"></script>
+    <title>Fiera File Editor</title>
+    <style>
+        h1, h2, h3{
+            color:#366097;
+        }
+        body {
+            font-family: Verdana;
+            font-size:12px;
+        }
+        .container{
+            margin-left:330px;
+
+        }
+        .hl{
+            background-color:#cde7f6;
+        }
+        .small-input{
+            width:80px;
+        }
+        .icon-up:before {
+            font-size: 20px;
+            color: green;
+            content: "\271A";
+        }
+        .cross:before{
+            font-size: 20px;
+            color: red;
+            content: "\2716";
+        }
+        .table-border{
+            border: 1px solid darkslategray;
+        }
+        .row-highlighted{
+            background-color:#cde7f6;
+        }
+        .row-comment{
+            background-color:#c2ccd1;
+        }
+        .spinner {
+            position: fixed;
+            top: 30%;
+            left: 45%;
+            margin-top: -50px;
+            margin-left: -50px;
+            width:100px;
+            height:100px;
+            z-index: 1234;
+
+        }
+
+
+    </style>
+</head>
+<body>
+<div class="container" id="filesTop" ng-controller="ReadFileCtrl">
+
+
+    <h1>Order to select files:</h1>
+    <h3><span ng-class="source.length >= 1 ? 'hl' : '' ">Source Fiera Out</span> > <span ng-class="source.length >= 2 ? 'hl' : '' ">Source Fiera Local</span> >
+        <span ng-class="source.length >= 3 ? 'hl' : '' ">Fiera Out</span></h3>
+    <input type="file" on-read-file="loadFile($fileContent)"/>
+    <button ng-click="showFile()" ng-disabled="source.length===0">Show</button>
+    <button ng-click="createFile('out')" ng-disabled="source.length<3">Save to Fiera OUT</button>
+    <button ng-click="createFile('local')" ng-disabled="source.length<3">Save to Fiera Local</button>
+
+    <a download="{{fileName}}.txt" id="downloadlink" style="display: none">Download</a>
+
+    <button onclick="location.reload();">Clear</button>
+    <div ng-if="toSave && toSave.length>0">
+        <!--<div ng-repeat="line in toSave track by $index">{{line}}</div>-->
+        <textarea data-ng-model="toSaveLines" style="min-height:600px;width:100%"></textarea>
+
+    </div>
+
+
+    <div>
+        <div style="position: fixed;top:2%;left:2%;width:250px;height:98%;z-index: 1234;cursor:pointer;overflow:auto;border:1px solid #c0c0c0;background-color: #fff" ng-if="groups.length>1">
+            <div style="padding-left:5px;" ng-repeat = "group in groups track by $index"><strong><u><span ng-click="gotoGroup(group.groupId)">{{group.groupName}}</span></u></strong></div>
+        </div>
+
+        <div style="color:red;cursor:pointer" ng-show="errorMessage" ng-click="showErrors=!showErrors;"><strong>Errors</strong></div>
+        <div style="color:red;" ng-bind-html="errorMessage" ng-if="errorMessage && showErrors"></div>
+        <!--<pre>{{ content }}</pre>-->
+        <table class="table-border" border="1px" width="100%" ng-if="isShow">
+            <tr ng-repeat="line in masterJSON track by $index" ng-class="getRowColor(line);">
+                <td>{{$index}}</td>
+                <td style="cursor:pointer;" ng-if="!line.groupTitle">
+                    <div ng-click="createNew($index, line, true)"><span class="icon-up"></span></div>
+                    <div ng-click="removeIt($index, line)"><span class="cross"></span></div>
+                    <div ng-click="createNew($index+1, line, false)"><span class="icon-up"></span></div>
+                </td>
+                <td ng-if="line.groupTitle" id="{{line.groupId}}" colspan="8"><strong>{{line.group}}</strong></td>
+                <td ng-if="!line.groupTitle"><input type="text" class="small-input" data-ng-model="line.camNum" ng-blur="copyCamera(line)" ng-change="updateValue(line, '{{line.camNum}}')"  /></td>
+
+                <td ng-if="!line.groupTitle">
+                    <input ng-if="line.isNew" type="text"  data-ng-model="line.dns" />
+                    <span ng-if="!line.isNew" >{{line.dns}}</span>
+                </td>
+                <td ng-if="!line.groupTitle">
+                    <input ng-if="line.isNew" type="text" class="small-input" data-ng-model="line.prop1" />
+                    <span ng-if="!line.isNew">{{line.prop1}}</span>
+                </td>
+
+                <td ng-if="!line.groupTitle">
+                    <input ng-if="line.isNew" type="text"  data-ng-model="line.dns3" />
+
+                    <span ng-if="!line.isNew">{{line.dns3}}</span>
+                </td>
+
+                <td ng-if="!line.groupTitle" style="width:300px;">
+                    <span >{{line.desc2}}</span><br/>
+                    <span ng-if="line.desc2.trim() !== line.desc3.trim()">{{line.desc3}}<br/></span>
+                    {{line.groupIndex}}-{{line.camNumFormatted}}<input type="text" data-ng-model="line.descShort"/>
+                </td>
+
+
+            </tr>
+        </table>
+
+    </div>
+</div>
+</body>
+</html>
