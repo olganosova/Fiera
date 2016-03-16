@@ -22,6 +22,12 @@
         .hl{
             background-color:#cde7f6;
         }
+        .hlg{
+            background-color:greenyellow;
+        }
+        .hly{
+            background-color:yellow;
+        }
         .small-input{
             width:80px;
         }
@@ -64,12 +70,12 @@
 
 
     <h1>Order to select files:</h1>
-    <h3><span ng-class="source.length >= 1 ? 'hl' : '' ">Source Fiera Out</span> > <span ng-class="source.length >= 2 ? 'hl' : '' ">Source Fiera Local</span> >
-        <span ng-class="source.length >= 3 ? 'hl' : '' ">Fiera Out</span></h3>
+    <h3><span ng-class="source.length >= 1 ? 'hl' : '' ">Source Out</span> > <span ng-class="source.length >= 2 ? 'hlg' : '' ">Source Local</span> >
+        <span ng-class="source.length >= 3 ? 'hly' : '' ">Fiera Out</span></h3>
     <input type="file" on-read-file="loadFile($fileContent)"/>
-    <button ng-click="showFile()" ng-disabled="source.length===0">Show</button>
-    <button ng-click="createFile('out')" ng-disabled="source.length<3">Save to Fiera OUT</button>
-    <button ng-click="createFile('local')" ng-disabled="source.length<3">Save to Fiera Local</button>
+
+    <button ng-click="createFile('out')" ng-disabled="source.length<3">Review Fiera OUT</button>
+    <button ng-click="createFile('local')" ng-disabled="source.length<3">Review Fiera Local</button>
 
     <a download="{{fileName}}.txt" id="downloadlink" style="display: none">Download</a>
 
@@ -91,9 +97,9 @@
         <!--<pre>{{ content }}</pre>-->
         <table class="table-border" border="1px" width="100%" ng-if="isShow">
             <tr ng-repeat="line in masterJSON track by $index" ng-class="getRowColor(line);">
-                <td>{{$index}}</td>
+                <!--<td>{{$index}}</td>-->
                 <td style="cursor:pointer;" ng-if="!line.groupTitle">
-                    <div ng-click="createNew($index, line, true)"><span class="icon-up"></span></div>
+                    <div ng-if="line.groupIndex===1" ng-click="createNew($index, line, true)"><span class="icon-up"></span></div>
                     <div ng-click="removeIt($index, line)"><span class="cross"></span></div>
                     <div ng-click="createNew($index+1, line, false)"><span class="icon-up"></span></div>
                 </td>

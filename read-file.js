@@ -114,19 +114,25 @@
             $scope.groups.push({groupId: "filesTop", groupName: "SCROLL TO TOP"});
 
             for (var ix = 0; ix < textLines.length; ix++) {
+                var mainTitle = false;
                 var section = textLines[ix];
+                var nextLine = textLines[ix+1];
                 var lines = section.split('||');
+
 
                 var lineObj = {};
                 lineObj.index = ix;
                 lineObj.groupIndex = 0; //index cam in group
 
                 if (lines.length === 1) {
+                    if(nextLine && nextLine.split('||').length===1){
+                        mainTitle = true;
+                    }
                     lineObj.groupTitle = true;
                     lineObj.group = lines[0];
                     $scope.currentGroup = lineObj.group;
                     if ($scope.currentGroup) {
-                        if ($scope.currentGroup.trim() !== '') {
+                        if ($scope.currentGroup.trim() !== '' && !mainTitle) {
                             $scope.groups.push({groupId: groupId, groupName: $scope.currentGroup});
 
                         }
@@ -305,6 +311,7 @@
             var newGroupIndex = 0;
             var lastGroupIndex = 0;
 
+
             for (var ix = 0; ix < founds.length; ix++) {
                 if (!founds[ix].comment) {
                     lastGroupIndex = founds[ix].groupIndex;
@@ -329,6 +336,8 @@
             if (uncomment) {
                 line.groupIndex = newGroupIndex;
             }
+
+            line.comment = !uncomment;
 
 
         };
@@ -464,16 +473,7 @@
                 }
             };
         })
-        //.
-        //config(function ($routeProvider) {
-        //    $routeProvider.
-        //    when('/', {controller: ReadFileCtrl, templateUrl: 'read-file.html'}).
-        //    when('/read-file', {
-        //        controller: ReadFileCtrl, templateUrl: 'read-file.html', resolve: function () {
-        //        }
-        //    }).
-        //    otherwise({redirectTo: '/'});
-        //})
+
     ;
 }());
 
