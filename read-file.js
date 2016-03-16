@@ -24,10 +24,13 @@
         $scope.errorMessage = "";
         $scope.isShow = false;
         $scope.step = 0;
-        $scope.progress= true;
+        $scope.progress = true;
 
         $scope.allCameras = [];
         $scope.missingMaster = [];
+        $scope.descrMaster = [];
+        $scope.missingCamOut = "";
+        $scope.missingCamLocal = "";
 
         var textFile = null;
 
@@ -41,34 +44,34 @@
                 $scope.errorMessage = "";
                 $scope.sourceJSON = [];
                 $scope.masterJSON = [];
+                $scope.missingMaster = [];
+                $scope.descrMaster = [];
                 var inner1 = $scope.parseFile($scope.source[0]); //master
                 var inner2 = $scope.parseFile($scope.source[1]); //local
 
-                $scope.processs2Files(inner1, inner2, "source out from source local", true);
-                $scope.processs2Files(inner2, inner1, "source local from source out", false);
+                $scope.processs2Files(inner1, inner2, "out", true);
+                $scope.processs2Files(inner2, inner1, "local", false);
                 $scope.sourceJSON = angular.copy($scope.masterJSON);
+                $scope.descrMaster = angular.copy($scope.compareDesc($scope.sourceJSON));
 
             }
             if ($scope.source.length === 3) {
+
+                $scope.missingCamOut = "Missing cameras in Fieraout: ";
 
                 $scope.joined = angular.copy($scope.masterJSON);
                 $scope.masterJSON = [];
                 var joined = $scope.joined;//source
                 var fieraout = $scope.parseFile($scope.source[2]); //fiera out
-                $scope.processs2Files(fieraout, joined, "fieraout from source", true);
-                $scope.processs2Files(joined, fieraout, "source from fieraout", false);
+                $scope.processs2Files(fieraout, joined, "fieraout", true);
+                $scope.processs2Files(joined, fieraout, "source", false);
                 $scope.isShow = true;
-                $scope.progress= false;
+                $scope.progress = false;
 
             }
 
 
         };
-
-        $scope.showFile = function () {
-            $scope.isShow = true;
-        };
-
 
         $scope.processs2Files = function (first, second, lbl, errorOnly) {
             var inner1 = first; //master
@@ -76,9 +79,8 @@
 
             for (var ix = 0; ix < inner2.length; ix++) {
                 var lineObj = inner2[ix];
-                var found = ($filter('filter')(inner1, {camNum: inner2[ix].camNum}))[0];
+                var found = ($filter('filter')(inner1, {camNum: inner2[ix].camNum}, true))[0];
                 if (found) {
-
                     if (!errorOnly) {
                         lineObj.desc2 = found.desc;
                         lineObj.dns2 = found.dns;
@@ -86,13 +88,23 @@
                         lineObj.desc3 = found.desc2;
                         lineObj.dns3 = found.dns2;
                     }
-
                 }
                 else {
-                    if (!isNaN(inner2[ix].camNum)) {
+                    if (!isNaN(inner2[ix].camNum) || inner2[ix].camNum.substring(0, 1 === ".")) {
+                        if ((lbl === "out" || lbl === "local") && inner2[ix].camNum.trim() !== "") {
+                            var mObj = {};
+                            mObj.camNum = inner2[ix].camNum;
+                            mObj.missingOut = (lbl === "out") ? "N" : "Y";
+                            mObj.missingLocal = (lbl === "local") ? "N" : "Y";
+
+                            $scope.missingMaster.push(mObj);
+                        }
+                        if((lbl === "fieraout" || lbl === "source") && inner2[ix].camNum.trim() !== ""){
+                            $scope.missingCamOut += inner2[ix].camNum + ",";
+
+                        }
                         $scope.errorMessage += $sce.trustAsHtml("Missing Camera in " + lbl + " : " + inner2[ix].camNum + "<br/>");
                     }
-
                 }
                 if (!errorOnly) {
                     $scope.masterJSON.push(lineObj);
@@ -116,7 +128,7 @@
             for (var ix = 0; ix < textLines.length; ix++) {
                 var mainTitle = false;
                 var section = textLines[ix];
-                var nextLine = textLines[ix+1];
+                var nextLine = textLines[ix + 1];
                 var lines = section.split('||');
 
 
@@ -125,7 +137,7 @@
                 lineObj.groupIndex = 0; //index cam in group
 
                 if (lines.length === 1) {
-                    if(nextLine && nextLine.split('||').length===1){
+                    if (nextLine && nextLine.split('||').length === 1) {
                         mainTitle = true;
                     }
                     lineObj.groupTitle = true;
@@ -372,7 +384,7 @@
                 line.desc3 = found.desc3;
                 line.dns3 = found.dns3;
             }
-            else{
+            else {
                 line.desc2 = found.desc;
                 line.dns2 = found.dns;
 
@@ -436,15 +448,33 @@
             return result;
 
         }
-        $scope.getRowColor = function(line){
+
+
+        $scope.compareDesc = function (source) {
+            var returnObj = [];
+            for (var ix = 0; ix < source.length; ix++) {
+
+                var line = source[ix];
+
+                if (!line.groupTitle && line.camNum && ((line.camNum.trim() !== "") && (!isNaN(line.camNum) || line.camNum.substring(0, 1 === ".")))){
+                    if (line.desc && line.desc2 && (line.desc.trim() != line.desc2.trim())) {
+                        returnObj.push(line);
+                    }
+                }
+            }
+            return returnObj;
+        };
+
+
+        $scope.getRowColor = function (line) {
             var result = "";
-            if(line.isNew){
+            if (line.isNew) {
                 result = "row-highlighted";
             }
-            else if (line.comment){
+            else if (line.comment) {
                 result = "row-comment";
             }
-           return result;
+            return result;
         }
 
 

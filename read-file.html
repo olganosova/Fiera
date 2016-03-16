@@ -8,56 +8,68 @@
     <script src="read-file.js"></script>
     <title>Fiera File Editor</title>
     <style>
-        h1, h2, h3{
-            color:#366097;
+        h1, h2, h3 {
+            color: #366097;
         }
+
         body {
             font-family: Verdana;
-            font-size:12px;
+            font-size: 12px;
         }
-        .container{
-            margin-left:330px;
+
+        .container {
+            margin-left: 330px;
 
         }
-        .hl{
-            background-color:#cde7f6;
+
+        .hl {
+            background-color: #cde7f6;
         }
-        .hlg{
-            background-color:greenyellow;
+
+        .hlg {
+            background-color: greenyellow;
         }
-        .hly{
-            background-color:yellow;
+
+        .hly {
+            background-color: yellow;
         }
-        .small-input{
-            width:80px;
+
+        .small-input {
+            width: 80px;
         }
+
         .icon-up:before {
             font-size: 20px;
             color: green;
             content: "\271A";
         }
-        .cross:before{
+
+        .cross:before {
             font-size: 20px;
             color: red;
             content: "\2716";
         }
-        .table-border{
+
+        .table-border {
             border: 1px solid darkslategray;
         }
-        .row-highlighted{
-            background-color:#cde7f6;
+
+        .row-highlighted {
+            background-color: #cde7f6;
         }
-        .row-comment{
-            background-color:#c2ccd1;
+
+        .row-comment {
+            background-color: #c2ccd1;
         }
+
         .spinner {
             position: fixed;
             top: 30%;
             left: 45%;
             margin-top: -50px;
             margin-left: -50px;
-            width:100px;
-            height:100px;
+            width: 100px;
+            height: 100px;
             z-index: 1234;
 
         }
@@ -70,14 +82,16 @@
 
 
     <h1>Order to select files:</h1>
-    <h3><span ng-class="source.length >= 1 ? 'hl' : '' ">Source Out</span> > <span ng-class="source.length >= 2 ? 'hlg' : '' ">Source Local</span> >
+
+    <h3><span ng-class="source.length >= 1 ? 'hl' : '' ">Source Out</span> > <span
+            ng-class="source.length >= 2 ? 'hlg' : '' ">Source Local</span> >
         <span ng-class="source.length >= 3 ? 'hly' : '' ">Fiera Out</span></h3>
     <input type="file" on-read-file="loadFile($fileContent)"/>
 
     <button ng-click="createFile('out')" ng-disabled="source.length<3">Review Fiera OUT</button>
     <button ng-click="createFile('local')" ng-disabled="source.length<3">Review Fiera Local</button>
 
-    <a download="{{fileName}}.txt" id="downloadlink" style="display: none">Download</a>
+    <a download="{{fileName}}.txt" id="downloadlink" style="display: none">Download {{fileName}}</a>
 
     <button onclick="location.reload();">Clear</button>
     <div ng-if="toSave && toSave.length>0">
@@ -88,41 +102,85 @@
 
 
     <div>
-        <div style="position: fixed;top:2%;left:2%;width:250px;height:98%;z-index: 1234;cursor:pointer;overflow:auto;border:1px solid #c0c0c0;background-color: #fff" ng-if="groups.length>1">
-            <div style="padding-left:5px;" ng-repeat = "group in groups track by $index"><strong><u><span ng-click="gotoGroup(group.groupId)">{{group.groupName}}</span></u></strong></div>
+        <div style="position: fixed;top:2%;left:2%;width:250px;height:98%;z-index: 1234;cursor:pointer;overflow:auto;border:1px solid #c0c0c0;background-color: #fff"
+             ng-if="groups.length>1">
+            <div style="padding-left:5px;" ng-repeat="group in groups track by $index"><strong><u><span
+                    ng-click="gotoGroup(group.groupId)">{{group.groupName}}</span></u></strong></div>
         </div>
+        <br/>
 
-        <div style="color:red;cursor:pointer" ng-show="errorMessage" ng-click="showErrors=!showErrors;"><strong>Errors</strong></div>
-        <div style="color:red;" ng-bind-html="errorMessage" ng-if="errorMessage && showErrors"></div>
+        <div style="color:green;cursor:pointer" ng-show="!errorMessage && source.length === 2"><strong>No
+            Errors</strong></div>
+        <div style="color:red;cursor:pointer" ng-show="errorMessage" ng-click="showErrors=!showErrors;">
+            <strong>Errors</strong></div>
+        <div style="color:red;" ng-bind-html="missingCamOut" ng-if="missingCamOut && showErrors"></div>
+        <table ng-show="errorMessage && source.length === 2 && showErrors">
+            <tr>
+                <td valign="top">
+                    <table width="200px">
+                        <td>Cam #</td>
+                        <td>Out</td>
+                        <td>Local</td>
+                        </tr>
+                        <tr ng-repeat="err in missingMaster track by $index">
+                            <td>{{err.camNum}}</td>
+                            <td>{{err.missingOut}}</td>
+                            <td>{{err.missingLocal}}</td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table>
+                        <td>Cam #</td>
+                        <td>Description</td>
+
+                        </tr>
+                        <tr ng-repeat="err in descrMaster track by $index">
+                            <td valign="top">{{err.camNum}}</td>
+                            <td  ><div class="hl">{{err.desc}}</div>
+                                <div class="hlg">{{err.desc2}}</div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+
+        </table>
+
+
         <!--<pre>{{ content }}</pre>-->
         <table class="table-border" border="1px" width="100%" ng-if="isShow">
             <tr ng-repeat="line in masterJSON track by $index" ng-class="getRowColor(line);">
                 <!--<td>{{$index}}</td>-->
                 <td style="cursor:pointer;" ng-if="!line.groupTitle">
-                    <div ng-if="line.groupIndex===1" ng-click="createNew($index, line, true)"><span class="icon-up"></span></div>
+                    <div ng-if="line.groupIndex===1" ng-click="createNew($index, line, true)"><span
+                            class="icon-up"></span></div>
                     <div ng-click="removeIt($index, line)"><span class="cross"></span></div>
                     <div ng-click="createNew($index+1, line, false)"><span class="icon-up"></span></div>
                 </td>
                 <td ng-if="line.groupTitle" id="{{line.groupId}}" colspan="8"><strong>{{line.group}}</strong></td>
-                <td ng-if="!line.groupTitle"><input type="text" class="small-input" data-ng-model="line.camNum" ng-blur="copyCamera(line)" ng-change="updateValue(line, '{{line.camNum}}')"  /></td>
+                <td ng-if="!line.groupTitle"><input type="text" class="small-input" data-ng-model="line.camNum"
+                                                    ng-blur="copyCamera(line)"
+                                                    ng-change="updateValue(line, '{{line.camNum}}')"/></td>
 
                 <td ng-if="!line.groupTitle">
-                    <input ng-if="line.isNew" type="text"  data-ng-model="line.dns" />
-                    <span ng-if="!line.isNew" >{{line.dns}}</span>
+                    <input ng-if="line.isNew" type="text" data-ng-model="line.dns"/>
+                    <span ng-if="!line.isNew">{{line.dns}}</span>
                 </td>
                 <td ng-if="!line.groupTitle">
-                    <input ng-if="line.isNew" type="text" class="small-input" data-ng-model="line.prop1" />
+                    <input ng-if="line.isNew" type="text" class="small-input" data-ng-model="line.prop1"/>
                     <span ng-if="!line.isNew">{{line.prop1}}</span>
                 </td>
 
                 <td ng-if="!line.groupTitle">
-                    <input ng-if="line.isNew" type="text"  data-ng-model="line.dns3" />
+                    <input ng-if="line.isNew" type="text" data-ng-model="line.dns3"/>
 
                     <span ng-if="!line.isNew">{{line.dns3}}</span>
                 </td>
 
                 <td ng-if="!line.groupTitle" style="width:300px;">
-                    <span >{{line.desc2}}</span><br/>
+                    <span>{{line.desc2}}</span><br/>
                     <span ng-if="line.desc2.trim() !== line.desc3.trim()">{{line.desc3}}<br/></span>
                     {{line.groupIndex}}-{{line.camNumFormatted}}<input type="text" data-ng-model="line.descShort"/>
                 </td>
