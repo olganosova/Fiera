@@ -30,7 +30,8 @@
         $scope.missingMaster = [];
         $scope.descrMaster = [];
         $scope.missingCamOut = "";
-        $scope.missingCamLocal = "";
+        $scope.missingCamSource = "";
+        $scope.stage = "";
 
         var textFile = null;
 
@@ -53,12 +54,13 @@
                 $scope.processs2Files(inner2, inner1, "local", false);
                 $scope.sourceJSON = angular.copy($scope.masterJSON);
                 $scope.descrMaster = angular.copy($scope.compareDesc($scope.sourceJSON));
+                $scope.stage = "SOURCE";
 
             }
             if ($scope.source.length === 3) {
 
-                $scope.missingCamOut = "Missing cameras in Fieraout: ";
-
+                $scope.missingCamOut = "";
+                $scope.missingCamSource = "";
                 $scope.joined = angular.copy($scope.masterJSON);
                 $scope.masterJSON = [];
                 var joined = $scope.joined;//source
@@ -67,6 +69,7 @@
                 $scope.processs2Files(joined, fieraout, "source", false);
                 $scope.isShow = true;
                 $scope.progress = false;
+                $scope.stage = "GROUPS";
 
             }
 
@@ -99,9 +102,11 @@
 
                             $scope.missingMaster.push(mObj);
                         }
-                        if((lbl === "fieraout" || lbl === "source") && inner2[ix].camNum.trim() !== ""){
+                        if((lbl === "fieraout") && inner2[ix].camNum.trim() !== ""){
                             $scope.missingCamOut += inner2[ix].camNum + ",";
-
+                        }
+                        if((lbl === "source") && inner2[ix].camNum.trim() !== ""){
+                            $scope.missingCamSource += inner2[ix].camNum + ",";
                         }
                         $scope.errorMessage += $sce.trustAsHtml("Missing Camera in " + lbl + " : " + inner2[ix].camNum + "<br/>");
                     }
@@ -123,7 +128,7 @@
             $scope.lastlines = [];
 
             $scope.groups = [];
-            $scope.groups.push({groupId: "filesTop", groupName: "SCROLL TO TOP"});
+            //$scope.groups.push({groupId: "filesTop", groupName: "SCROLL TO TOP"});
 
             for (var ix = 0; ix < textLines.length; ix++) {
                 var mainTitle = false;
@@ -144,8 +149,8 @@
                     lineObj.group = lines[0];
                     $scope.currentGroup = lineObj.group;
                     if ($scope.currentGroup) {
-                        if ($scope.currentGroup.trim() !== '' && !mainTitle) {
-                            $scope.groups.push({groupId: groupId, groupName: $scope.currentGroup});
+                        if ($scope.currentGroup.trim()) {
+                            $scope.groups.push({groupId: groupId, groupName: $scope.currentGroup, isMain : mainTitle});
 
                         }
                         lineObj.groupId = groupId;
@@ -284,20 +289,33 @@
                     founds[xx].groupIndex--;
                 }
             }
+
+            $scope.updateIndexes(val, false);
         };
 
         $scope.createNew = function (val, line, up) {
             var newIx = up ? line.groupIndex : line.groupIndex + 1;
+
+            var increment = 0;
+            if(line.isNew){
+                increment = 1;
+            }
+
             var founds = ($filter('filter')($scope.masterJSON, {groupId: line.groupId}, true));
             for (var ix = 0; ix < founds.length; ix++) {
                 if (founds[ix].index >= line.index && up && !founds[ix].comment) {
                     founds[ix].groupIndex++;
                 }
-                if (founds[ix].index > line.index && !up && !founds[ix].comment) {
-                    founds[ix].groupIndex = founds[ix].groupIndex + 1;
+                if (founds[ix].index > line.index  && !up && !founds[ix].comment) {
+
+                    founds[ix].groupIndex++; //  founds[ix].groupIndex + increment;
+                  //  console.log( founds[ix].groupIndex);
                 }
             }
 
+
+
+            var test = founds;
             var lineObj = {};
             lineObj.index = val;
             lineObj.group = line.group;
@@ -314,9 +332,24 @@
             lineObj.prop3 = '';
             lineObj.prop4 = '';
             lineObj.desc = '';
+            $scope.updateIndexes(val, true);
             $scope.masterJSON.splice(val, 0, lineObj);
 
+
         };
+
+        $scope.updateIndexes = function(index, add){
+            for (var ix = 0; ix < $scope.masterJSON.length; ix++) {
+                if($scope.masterJSON[ix].index>=index){
+                    if(add){
+                        $scope.masterJSON[ix].index++;
+                    }
+                    if(!add){
+                        $scope.masterJSON[ix].index--;
+                    }
+                }
+            }
+        }
 
         $scope.handleComment = function (line, uncomment) {
             var founds = ($filter('filter')($scope.masterJSON, {groupId: line.groupId}, true));
@@ -458,6 +491,7 @@
 
                 if (!line.groupTitle && line.camNum && ((line.camNum.trim() !== "") && (!isNaN(line.camNum) || line.camNum.substring(0, 1 === ".")))){
                     if (line.desc && line.desc2 && (line.desc.trim() != line.desc2.trim())) {
+                        line.mismatch = "1";
                         returnObj.push(line);
                     }
                 }

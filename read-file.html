@@ -25,6 +25,9 @@
         .hl {
             background-color: #cde7f6;
         }
+        .h-orange {
+            background-color:orange;
+        }
 
         .hlg {
             background-color: greenyellow;
@@ -73,6 +76,7 @@
             z-index: 1234;
 
         }
+        .screen-width{min-height:600px;width:100%}
 
 
     </style>
@@ -88,23 +92,28 @@
         <span ng-class="source.length >= 3 ? 'hly' : '' ">Fiera Out</span></h3>
     <input type="file" on-read-file="loadFile($fileContent)"/>
 
-    <button ng-click="createFile('out')" ng-disabled="source.length<3">Review Fiera OUT</button>
-    <button ng-click="createFile('local')" ng-disabled="source.length<3">Review Fiera Local</button>
+    <button ng-click="createFile('out')" ng-disabled="source.length<3">Preview Fiera OUT</button>
+    <button ng-click="createFile('local')" ng-disabled="source.length<3">Preview Fiera Local</button>
 
     <a download="{{fileName}}.txt" id="downloadlink" style="display: none">Download {{fileName}}</a>
 
     <button onclick="location.reload();">Clear</button>
     <div ng-if="toSave && toSave.length>0">
         <!--<div ng-repeat="line in toSave track by $index">{{line}}</div>-->
-        <textarea data-ng-model="toSaveLines" style="min-height:600px;width:100%"></textarea>
+        <textarea data-ng-model="toSaveLines" class="screen-width"></textarea>
 
     </div>
 
 
     <div>
-        <div style="position: fixed;top:2%;left:2%;width:250px;height:98%;z-index: 1234;cursor:pointer;overflow:auto;border:1px solid #c0c0c0;background-color: #fff"
+        <div style="position: fixed;top:0;left:2%;width:250px;z-index: 2000;cursor:pointer;border:1px solid #c0c0c0;background-color:darkorange"
+        ng-click="gotoGroup('filesTop')">
+            SCROLL TO TOP
+
+        </div>
+        <div style="position: fixed;top:3%;left:2%;width:250px;height:98%;z-index: 1234;cursor:pointer;overflow:auto;border:1px solid #c0c0c0;background-color: #fff"
              ng-if="groups.length>1">
-            <div style="padding-left:5px;" ng-repeat="group in groups track by $index"><strong><u><span
+            <div style="padding-left:5px;"  ng-class="group.isMain ? 'h-orange' : ''" ng-repeat="group in groups track by $index"><strong><u><span
                     ng-click="gotoGroup(group.groupId)">{{group.groupName}}</span></u></strong></div>
         </div>
         <br/>
@@ -113,7 +122,8 @@
             Errors</strong></div>
         <div style="color:red;cursor:pointer" ng-show="errorMessage" ng-click="showErrors=!showErrors;">
             <strong>Errors</strong></div>
-        <div style="color:red;" ng-bind-html="missingCamOut" ng-if="missingCamOut && showErrors"></div>
+        <div style="color:red;"  ng-if="missingCamOut && showErrors" style="width:600px;">Missing records in Fieraout: <span ng-bind-html="missingCamOut"></span></div>
+        <div style="color:red;"  ng-if="missingCamSource && showErrors" style="width:600px;">Missing records in Source: <span ng-bind-html="missingCamSource"></span></div>
         <table ng-show="errorMessage && source.length === 2 && showErrors">
             <tr>
                 <td valign="top">
@@ -135,7 +145,7 @@
                         <td>Description</td>
 
                         </tr>
-                        <tr ng-repeat="err in descrMaster track by $index">
+                        <tr ng-repeat="err in sourceJSON track by $index ">
                             <td valign="top">{{err.camNum}}</td>
                             <td  ><div class="hl">{{err.desc}}</div>
                                 <div class="hlg">{{err.desc2}}</div>
@@ -152,7 +162,7 @@
         <!--<pre>{{ content }}</pre>-->
         <table class="table-border" border="1px" width="100%" ng-if="isShow">
             <tr ng-repeat="line in masterJSON track by $index" ng-class="getRowColor(line);">
-                <!--<td>{{$index}}</td>-->
+                <td>{{$index}}</td>
                 <td style="cursor:pointer;" ng-if="!line.groupTitle">
                     <div ng-if="line.groupIndex===1" ng-click="createNew($index, line, true)"><span
                             class="icon-up"></span></div>
@@ -182,7 +192,9 @@
                 <td ng-if="!line.groupTitle" style="width:300px;">
                     <span>{{line.desc2}}</span><br/>
                     <span ng-if="line.desc2.trim() !== line.desc3.trim()">{{line.desc3}}<br/></span>
-                    {{line.groupIndex}}-{{line.camNumFormatted}}<input type="text" data-ng-model="line.descShort"/>
+                    <span ng-if="stage === 'GROUPS'">{{line.groupIndex}}-{{line.camNumFormatted}}</span>
+                    <input ng-if="stage === 'GROUPS'" type="text" data-ng-model="line.descShort"/>
+                    <input ng-if="stage === 'SOURCE'" type="text" data-ng-model="line.desc"/>
                 </td>
 
 
