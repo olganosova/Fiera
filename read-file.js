@@ -210,6 +210,8 @@
             $scope.toSaveLines = "";
             for (var ix = 0; ix < $scope.masterJSON.length; ix++) {
                 var lineToSave = "";
+
+
                 var lineObj = $scope.masterJSON[ix];
                 if (lineObj.groupTitle) {
                     lineToSave += lineObj.group;
@@ -238,12 +240,14 @@
                     }
 
                 }
-
+                if(lineToSave === "" || lineToSave === "\n" || lineToSave === "\r" || lineToSave === "\r\n"){
+                    continue;
+                }
                 $scope.toSave.push(lineToSave.trim());
 
             }
            //
-            $scope.toSave.push("\n");
+            $scope.toSave.push("\r\n");
            // $scope.toSave.push("\n");
             $scope.toSave = $scope.toSave.concat($scope.lastlines);
             $scope.toSaveLines = $scope.toSave.toString();
