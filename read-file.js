@@ -54,6 +54,7 @@
                 $scope.processs2Files(inner2, inner1, "local", false);
                 $scope.sourceJSON = angular.copy($scope.masterJSON);
                 $scope.descrMaster = angular.copy($scope.compareDesc($scope.sourceJSON));
+                $scope.isShow = true;
                 $scope.stage = "SOURCE";
 
             }
@@ -68,9 +69,8 @@
                 $scope.processs2Files(fieraout, joined, "fieraout", true);
                 $scope.processs2Files(joined, fieraout, "source", false);
                 $scope.isShow = true;
-                $scope.progress = false;
                 $scope.stage = "GROUPS";
-
+                $scope.toSave = [];
             }
 
 
@@ -189,14 +189,14 @@
                     lineObj.descShort = $scope.parseDescription(lineObj.desc);
                     lineObj.lastLines = !isData;
                 }
-                if (lines.length === 0 || lines[0] === "" || lines[0] === "\r" || lines[0] === "\n") {  //empty line
+                if (lines.length === 0 || lines[0].trim() === "" || lines[0] === "\r" || lines[0] === "\n") {  //empty line
                     isData = false;
                 }
                 if (!lineObj.lastLines) {
                     processed.push(lineObj);
                 }
                 else {
-                    $scope.lastlines.push(textLines[ix]);
+                    $scope.lastlines.push(textLines[ix].trim());
                 }
 
 
@@ -205,6 +205,7 @@
         };
 
         $scope.createFile = function (val) {
+
             $scope.toSave = [];
             $scope.toSaveLines = "";
             for (var ix = 0; ix < $scope.masterJSON.length; ix++) {
@@ -218,26 +219,35 @@
                     if (val === "out") {
                         lineToSave += lineObj.dns + "||";
                     }
-                    if (val === "local") {
+                    if (val === "local" && $scope.stage === 'GROUPS') {
                         lineToSave += lineObj.dns3 + "||";
+                    }
+                    if (val === "local" && $scope.stage === 'SOURCE') {
+                        lineToSave += lineObj.dns2 + "||";
                     }
                     lineToSave += lineObj.prop1 + "||";
                     lineToSave += lineObj.prop2 + "||";
                     lineToSave += lineObj.prop3 + "||";
                     lineToSave += lineObj.prop4 + "||";
 
-                    lineToSave += lineObj.groupIndex + "-" + lineObj.camNumFormatted + " " + lineObj.descShort;
+                    if ($scope.stage === 'GROUPS') {
+                        lineToSave += lineObj.groupIndex + "-" + lineObj.camNumFormatted + " " + lineObj.descShort;
+                    }
+                    if ($scope.stage === 'SOURCE') {
+                        lineToSave += lineObj.desc;
+                    }
 
                 }
 
-                $scope.toSave.push(lineToSave);
+                $scope.toSave.push(lineToSave.trim());
 
             }
-            $scope.toSave.push("\n\n");
-
+           //
+            $scope.toSave.push("\n");
+           // $scope.toSave.push("\n");
             $scope.toSave = $scope.toSave.concat($scope.lastlines);
             $scope.toSaveLines = $scope.toSave.toString();
-            $scope.toSaveLines = $scope.toSaveLines.replace(/,/g, '\n');
+            $scope.toSaveLines = $scope.toSaveLines.replace(/,/g, '\r\n');
 
             $scope.fileName = val;
 

@@ -92,10 +92,10 @@
         <span ng-class="source.length >= 3 ? 'hly' : '' ">Fiera Out</span></h3>
     <input type="file" on-read-file="loadFile($fileContent)"/>
 
-    <button ng-click="createFile('out')" ng-disabled="source.length<3">Preview Fiera OUT</button>
-    <button ng-click="createFile('local')" ng-disabled="source.length<3">Preview Fiera Local</button>
+    <button ng-click="createFile('out')" ng-disabled="source.length<2">Preview {{stage}} OUT</button>
+    <button ng-click="createFile('local')" ng-disabled="source.length<2">Preview {{stage}} Local</button>
 
-    <a download="{{fileName}}.txt" id="downloadlink" style="display: none">Download {{fileName}}</a>
+    <a download="{{fileName}}.txt" id="downloadlink" style="display: none">Download {{stage}} {{fileName}}</a>
 
     <button onclick="location.reload();">Clear</button>
     <div ng-if="toSave && toSave.length>0">
@@ -106,7 +106,7 @@
 
 
     <div>
-        <div style="position: fixed;top:0;left:2%;width:250px;z-index: 2000;cursor:pointer;border:1px solid #c0c0c0;background-color:darkorange"
+        <div style="position: fixed;top:0;left:2%;width:250px;z-index: 2000;cursor:pointer;border:1px solid #c0c0c0;background-color:green;color:#fff"
         ng-click="gotoGroup('filesTop')">
             SCROLL TO TOP
 
@@ -118,13 +118,13 @@
         </div>
         <br/>
 
-        <div style="color:green;cursor:pointer" ng-show="!errorMessage && source.length === 2"><strong>No
+        <div style="color:green;cursor:pointer" ng-show="!errorMessage && !descrMaster.length && source.length === 2"><strong>No
             Errors</strong></div>
-        <div style="color:red;cursor:pointer" ng-show="errorMessage" ng-click="showErrors=!showErrors;">
+        <div style="color:red;cursor:pointer" ng-show="errorMessage || descrMaster.length>0" ng-click="showErrors=!showErrors;">
             <strong>Errors</strong></div>
         <div style="color:red;"  ng-if="missingCamOut && showErrors" style="width:600px;">Missing records in Fieraout: <span ng-bind-html="missingCamOut"></span></div>
         <div style="color:red;"  ng-if="missingCamSource && showErrors" style="width:600px;">Missing records in Source: <span ng-bind-html="missingCamSource"></span></div>
-        <table ng-show="errorMessage && source.length === 2 && showErrors">
+        <table ng-show="(errorMessage || descrMaster.length>0) && source.length === 2 && showErrors">
             <tr>
                 <td valign="top">
                     <table width="200px">
@@ -145,7 +145,7 @@
                         <td>Description</td>
 
                         </tr>
-                        <tr ng-repeat="err in sourceJSON track by $index ">
+                        <tr ng-repeat="err in descrMaster track by $index ">
                             <td valign="top">{{err.camNum}}</td>
                             <td  ><div class="hl">{{err.desc}}</div>
                                 <div class="hlg">{{err.desc2}}</div>
@@ -162,7 +162,7 @@
         <!--<pre>{{ content }}</pre>-->
         <table class="table-border" border="1px" width="100%" ng-if="isShow">
             <tr ng-repeat="line in masterJSON track by $index" ng-class="getRowColor(line);">
-                <td>{{$index}}</td>
+                <!--<td>{{$index}}</td>-->
                 <td style="cursor:pointer;" ng-if="!line.groupTitle">
                     <div ng-if="line.groupIndex===1" ng-click="createNew($index, line, true)"><span
                             class="icon-up"></span></div>
@@ -184,9 +184,11 @@
                 </td>
 
                 <td ng-if="!line.groupTitle">
-                    <input ng-if="line.isNew" type="text" data-ng-model="line.dns3"/>
+                    <input ng-if="line.isNew && stage === 'GROUPS'" type="text" data-ng-model="line.dns3"/>
+                    <span ng-if="!line.isNew && stage === 'GROUPS'">{{line.dns3}}</span>
 
-                    <span ng-if="!line.isNew">{{line.dns3}}</span>
+                    <input ng-if="line.isNew && stage === 'SOURCE'" type="text" data-ng-model="line.dns2"/>
+                    <span ng-if="!line.isNew && stage === 'SOURCE'">{{line.dns2}}</span>
                 </td>
 
                 <td ng-if="!line.groupTitle" style="width:300px;">
