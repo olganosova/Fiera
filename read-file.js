@@ -111,7 +111,7 @@
                         $scope.errorMessage += $sce.trustAsHtml("Missing Camera in " + lbl + " : " + inner2[ix].camNum + "<br/>");
                     }
                 }
-                if (!errorOnly) {
+                if (!errorOnly && lineObj.camNum) {
                     $scope.masterJSON.push(lineObj);
                 }
 
@@ -331,6 +331,7 @@
 
             var test = founds;
             var lineObj = {};
+
             lineObj.index = val;
             lineObj.group = line.group;
             lineObj.groupTitle = false;
@@ -347,7 +348,10 @@
             lineObj.prop4 = 'FIERA';
             lineObj.desc = '';
             $scope.updateIndexes(val, true);
-            $scope.masterJSON.splice(val, 0, lineObj);
+
+                $scope.masterJSON.splice(val, 0, lineObj);
+
+
 
 
         };
@@ -408,7 +412,7 @@
             }
             var found = ($filter('filter')($scope.masterJSON, {camNum: line.camNum, isNew: false}, true))[0];
             if (!found) {
-                found = ($filter('filter')($scope.sourceJSON, {camNum: line.camNum, isNew: false}, true))[0];
+                found = ($filter('filter')($scope.sourceJSON, {camNum: line.camNum}, true))[0];
                 if (!found) {
                     return;
                 }
@@ -430,6 +434,7 @@
 
                 line.desc3 = found.desc3;
                 line.dns3 = found.dns3;
+                line.camNumFormatted = found.camNumFormatted;
             }
             else {
                 line.desc2 = found.desc;
@@ -437,9 +442,11 @@
 
                 line.desc3 = found.desc2;
                 line.dns3 = found.dns2;
+                line.descShort = found.desc;
+                line.camNumFormatted = found.camNum.replace('.', '');
             }
 
-            line.camNumFormatted = found.camNumFormatted;
+
         };
 
 

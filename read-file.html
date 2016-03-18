@@ -162,7 +162,7 @@
         <!--<pre>{{ content }}</pre>-->
         <table class="table-border" border="1px" width="100%" ng-if="isShow">
             <tr ng-repeat="line in masterJSON track by $index" ng-class="getRowColor(line);">
-                <!--<td>{{$index}}</td>-->
+                <td>{{$index}}</td>
                 <td style="cursor:pointer;" ng-if="!line.groupTitle">
                     <div ng-if="line.groupIndex===1" ng-click="createNew($index, line, true)"><span
                             class="icon-up"></span></div>

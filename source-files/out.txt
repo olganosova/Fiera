@@ -680,7 +680,7 @@
 683||fieramarmora.dyndns.org||1827||4||10003||FIERA||F Refrigeration Office Corridor
 684||fieramarmora.dyndns.org||1828||4||10003||FIERA||F Main Floor Packaging
 685||fieramarmora.dyndns.org||1829||4||10003||FIERA||F Speed Search
-
+686||fieramarmora.dyndns.org||1830||4||10003||FIERA||F Noise Detector
 
 
 Finkel||4||29||27||90||96||97||98||74||75||76||

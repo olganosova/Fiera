@@ -1,120 +1,120 @@
-2||fieramarmora.dyndns.org||1702||4||10003||FIERA||F Spiral#4
-.3||fieramarmora.dyndns.org||1703||4||10003||FIERA||F Spiral Cooler
-4||fieramarmora.dyndns.org||1700||4||10003||FIERA||F SP#2
-5||fieramarmora.dyndns.org||1697||4||10003||FIERA||MF Dough slabs loading
-6||fieramarmora.dyndns.org||1698||4||10003||FIERA||MF Dough Mixers
-7||fieramarmora.dyndns.org||1699||4||10003||FIERA||MF Laminated Line
-8||fieramarmora.dyndns.org||1610||4||10003||FIERA||F LD2 Out2
-9||fieramarmora.dyndns.org||1611||4||10003||FIERA||F Gate # 18
-10||fieramarmora.dyndns.org||1612||4||10003||FIERA||F Mech room
-11||fieramarmora.dyndns.org||1613||4||10003||FIERA||F Main Entance
-12||fieramarmora.dyndns.org||1614||4||10003||FIERA||F UCM Gate-Out
-13||fieramarmora.dyndns.org||1615||4||10003||FIERA||F Parking South 3
-14||fieramarmora.dyndns.org||1616||4||10003||FIERA||F Doors to Freezer
-15||fieramarmora.dyndns.org||1617||4||10003||FIERA||F Bread to SF1
-16||fieramarmora.dyndns.org||1618||4||10003||FIERA||F Small Ovens Out
-17||fieramarmora.dyndns.org||1619||4||10003||FIERA||F Muffin Line
-18||fieramarmora.dyndns.org||1620||4||10003||FIERA||F Product to SF#4
-19||fieramarmora.dyndns.org||1621||4||10003||FIERA||F Bagel Line
-20||fieramarmora.dyndns.org||1622||4||10003||FIERA||F Receiving1
-21||fieramarmora.dyndns.org||1623||4||10003||FIERA||F Product to Proofer & SF
-22||fieramarmora.dyndns.org||1624||4||10003||FIERA||F Small Oven In
-23||fieramarmora.dyndns.org||1625||4||10003||FIERA||F Receiving2
-24||fieramarmora.dyndns.org||1652||4||10003||FIERA||MF Make Up Lines
-25||fieramarmora.dyndns.org||1627||4||10003||FIERA||BD Depanning
-26||fieramarmora.dyndns.org||1628||4||10003||FIERA||BD Warehouse
-27||fieramarmora.dyndns.org||1629||4||10003||FIERA||BD Oil Oven
-28||fieramarmora.dyndns.org||1630||4||10003||FIERA||BD Packaging1
-29||fieramarmora.dyndns.org||1631||4||10003||FIERA||BD Packaging2
-30||fieramarmora.dyndns.org||1632||4||10003||FIERA||BD Canoll #1
-31||fieramarmora.dyndns.org||1633||4||10003||FIERA||BD Bread Line
-32||fieramarmora.dyndns.org||1634||4||10003||FIERA||BD Oddy Line
-33||fieramarmora.dyndns.org||1635||4||10003||FIERA||BD Waste Compactor
-34||fieramarmora.dyndns.org||1636||4||10003||FIERA||BD Gate # 17
-35||fieramarmora.dyndns.org||1637||4||10003||FIERA||BD Lunch Room
-36||fieramarmora.dyndns.org||1638||4||10003||FIERA||F SF4 Out
-37||fieramarmora.dyndns.org||1639||4||10003||FIERA||F SF2 Out
-38||fieramarmora.dyndns.org||1640||4||10003||FIERA||F SF3 Out
-39||fieramarmora.dyndns.org||1641||4||10003||FIERA||F Door #18
-40||fieramarmora.dyndns.org||1941||4||10003||FIERA||F SF1 OUT
-41||fieramarmora.dyndns.org||1681||||10003||FIERA||F Silo East
-42||fieramarmora.dyndns.org||1644||4||10003||FIERA||MF Conveyors
-43||fieramarmora.dyndns.org||1645||4||10003||FIERA||BD Retractors
-44||fieramarmora.dyndns.org||1646||4||10003||FIERA||BD Dry Mix
-45||fieramarmora.dyndns.org||1647||4||10003||FIERA||BD Ovens1
-46||fieramarmora.dyndns.org||1648||4||10003||FIERA||F BagelMixers
-47||fieramarmora.dyndns.org||1649||4||10003||FIERA||F BagelRePack
-48||fieramarmora.dyndns.org||1650||4||10003||FIERA||F Croissant production
-49||fieramarmora.dyndns.org||1651||4||10003||FIERA||F Packing Mez
-51||fieramarmora.dyndns.org||1682||4||10003||FIERA||F Wrapping
-52||fieramarmora.dyndns.org||1654||4||10003||FIERA||F LD#2 South
-53||fieramarmora.dyndns.org||1655||4||10003||FIERA||F Palletizing
-54||fieramarmora.dyndns.org||1656||4||10003||FIERA||F LD#2 North
-55||fieramarmora.dyndns.org||1657||4||10003||FIERA||F Outside Eq.Storage
-56||fieramarmora.dyndns.org||1658||4||10003||FIERA||F LD #1 Out
-57||fieramarmora.dyndns.org||1659||4||10003||FIERA||F Driveway North2
-58||fieramarmora.dyndns.org||1660||4||10003||FIERA||F Driveway North1
-59||fieramarmora.dyndns.org||1661||4||10003||FIERA||BD Washing 2
-60||fieramarmora.dyndns.org||1666||4||10003||FIERA||F Front Exit SW
-61||fieramarmora.dyndns.org||1667||4||10003||FIERA||F Driveway West 4
-62||fieramarmora.dyndns.org||1688||4||10003||FIERA||F Croissant 30000 Line
-63||fieramarmora.dyndns.org||1696||4||10003||FIERA||F PTZ
-64||fieramarmora.dyndns.org||1693||4||10003||FIERA||F Spiral #5
-65||fieramarmora.dyndns.org||1694||4||10003||FIERA||F Entrance Door
-66||fieramarmora.dyndns.org||1672||4||10003||FIERA||F Lab1
-67||fieramarmora.dyndns.org||1673||4||10003||FIERA||F Lab2
-68||fieramarmora.dyndns.org||1689||4||10003||FIERA||F Shipping Door1
-69||fieramarmora.dyndns.org||1690||4||10003||FIERA||F ABL Door1
-70||fieramarmora.dyndns.org||1691||4||10003||FIERA||F ShippingDoor2
-71||fieramarmora.dyndns.org||1692||4||10003||FIERA||F ABL Door2
-72||fieramarmora.dyndns.org||1713||4||10003||FIERA||F LD#2 charger
-73||fieramarmora.dyndns.org||1714||4||10003||FIERA||F LD#2 Door
-74||fieramarmora.dyndns.org||1715||4||10003||FIERA||BD Conveyor1
-75||fieramarmora.dyndns.org||1716||4||10003||FIERA||BD Canoll #2
-76||fieramarmora.dyndns.org||1717||4||10003||FIERA||BD Conveyor3
-77||fieramarmora.dyndns.org||1718||4||10003||FIERA||F Main Floor
-78||fieramarmora.dyndns.org||1719||4||10003||FIERA||BD Jola's Cooler2
-79||fieramarmora.dyndns.org||1728||4||10003||FIERA||BD Warehouse 1
-80||fieramarmora.dyndns.org||1721||4||10003||FIERA||BD Warehouse 2
-81||fieramarmora.dyndns.org||1722||4||10003||FIERA||BD Warehouse 3
-82||fieramarmora.dyndns.org||1723||4||10003||FIERA||F AP Box Filling Station
-83||fieramarmora.dyndns.org||1724||4||10003||FIERA||BD Cooler
-84||fieramarmora.dyndns.org||1725||4||10003||FIERA||BD STF2 Entrance
-85||fieramarmora.dyndns.org||1726||4||10003||FIERA||BD STF2
-86||fieramarmora.dyndns.org||1729||4||10003||FIERA||BD MechMeint room
-87||fieramarmora.dyndns.org||1730||4||10003||FIERA||BD Mixers Bread
-88||fieramarmora.dyndns.org||1731||4||10003||FIERA||BD Welding shop
-89||fieramarmora.dyndns.org||1732||4||10003||FIERA||F SP #1
-90||fieramarmora.dyndns.org||1668||4||10003||FIERA||M Guet1DoughFeed
-91||fieramarmora.dyndns.org||1669||4||10003||FIERA||M From Boiler to SF#5
-92||fieramarmora.dyndns.org||1670||4||10003||FIERA||M Board Striping
-93||fieramarmora.dyndns.org||1671||4||10003||FIERA||M Dough Conveyors
-94||fieramarmora.dyndns.org||1683||4||10003||FIERA||M Proofer Out
-95||fieramarmora.dyndns.org||1684||4||10003||FIERA||M Sorting after SF#5
-96||fieramarmora.dyndns.org||1685||4||10003||FIERA||M Guet1MakeUp
-97||fieramarmora.dyndns.org||1686||4||10003||FIERA||M Guet1 Depanner
-98||fieramarmora.dyndns.org||1687||4||10003||FIERA||M AP Retractor
-99||fieramarmora.dyndns.org||1798||4||10003||FIERA||F SILO NORTH1
-100||fieramarmora.dyndns.org||1799||4||10003||FIERA||F SILO NORTH2
-101||fieramarmora.dyndns.org||1663||4||10003||FIERA||M DOOR#2
-102||fieramarmora.dyndns.org||1695||4||10003||FIERA||M A-B FRONT
-103||fieramarmora.dyndns.org||1664||4||10003||FIERA||M C-D FRONT
-104||fieramarmora.dyndns.org||1679||4||10003||FIERA||M E-F FRONT
-105||fieramarmora.dyndns.org||1678||4||10003||FIERA||M G-H FRONT
-106||fieramarmora.dyndns.org||1676||4||10003||FIERA||M I-J FRONT
-107||fieramarmora.dyndns.org||1677||4||10003||FIERA||M K-L FRONT
-108||fieramarmora.dyndns.org||1675||||10003||FIERA||M M-N FRONT
-109||fieramarmora.dyndns.org||1674||||10003||FIERA||M O-P FRONT
-110||fieramarmora.dyndns.org||1665||||10003||FIERA||M Storage Freezer Front
-111||fieramarmora.dyndns.org||1705||4||10003||FIERA||M A-B BACK
-112||fieramarmora.dyndns.org||1706||4||10003||FIERA||M C-D BACK
-113||fieramarmora.dyndns.org||1707||4||10003||FIERA||M E-F BACK
-114||fieramarmora.dyndns.org||1708||4||10003||FIERA||M G-H BACK
-115||fieramarmora.dyndns.org||1709||4||10003||FIERA||M I-J BACK
-116||fieramarmora.dyndns.org||1710||4||10003||FIERA||M K-L BACK
-117||fieramarmora.dyndns.org||1711||4||10003||FIERA||M M-N BACK
-118||fieramarmora.dyndns.org||1712||4||10003||FIERA||M O-P BACK
-119||fieramarmora.dyndns.org||2044||4||10003||FIERA||F Driveway E1
+2||10.10.10.102||1702||4||10003||FIERA||F Spiral#4
+.3||10.10.10.103||1703||4||10003||FIERA||F Spiral Cooler
+4||10.10.10.98||1700||4||10003||FIERA||F SP#2
+5||10.10.10.95||1697||4||10003||FIERA||MF Dough slabs loading
+6||10.10.10.96||1698||4||10003||FIERA||MF Dough Mixers
+7||10.10.10.97||1699||4||10003||FIERA||MF Laminated Line
+8||10.10.10.36||1610||4||10003||FIERA||F LD2 Out2
+9||10.10.10.37||1611||4||10003||FIERA||F Gate # 18
+10||10.10.10.38||1612||4||10003||FIERA||F Mech room
+11||10.10.10.39||1613||4||10003||FIERA||F Main Entance
+12||10.10.10.25||1614||4||10003||FIERA||F UCM Gate-Out
+13||10.10.10.40||1615||4||10003||FIERA||F Parking South 3
+14||10.10.10.11||1616||4||10003||FIERA||F Doors to Freezer
+15||10.10.10.35||1617||4||10003||FIERA||F Bread to SF1
+16||10.10.10.14||1618||4||10003||FIERA||F Small Ovens Out
+17||10.10.10.51||1619||4||10003||FIERA||F Muffin Line
+18||10.10.10.23||1620||4||10003||FIERA||F Product to SF#4
+19||10.10.10.13||1621||4||10003||FIERA||F Bagel Line
+20||10.10.10.12||1622||4||10003||FIERA||F Receiving1
+21||10.10.10.34||1623||4||10003||FIERA||F Product to Proofer & SF
+22||10.10.10.16||1624||4||10003||FIERA||F Small Oven In
+23||10.10.10.28||1625||4||10003||FIERA||F Receiving2
+24||10.10.10.41||1652||4||10003||FIERA||MF Make Up Lines
+25||10.10.10.22||1627||4||10003||FIERA||BD Depanning
+26||10.10.10.29||1628||4||10003||FIERA||BD Warehouse
+27||10.10.10.17||1629||4||10003||FIERA||BD Oil Oven
+28||10.10.10.21||1630||4||10003||FIERA||BD Packaging1
+29||10.10.10.20||1631||4||10003||FIERA||BD Packaging2
+30||10.10.10.32||1632||4||10003||FIERA||BD Canoll #1
+31||10.10.10.19||1633||4||10003||FIERA||BD Bread Line
+32||10.10.10.18||1634||4||10003||FIERA||BD Oddy Line
+33||10.10.10.27||1635||4||10003||FIERA||BD Waste Compactor
+34||10.10.10.31||1636||4||10003||FIERA||BD Gate # 17
+35||10.10.10.26||1637||4||10003||FIERA||BD Lunch Room
+36||10.10.10.15||1638||4||10003||FIERA||F SF4 Out
+37||10.10.10.24||1639||4||10003||FIERA||F SF2 Out
+38||10.10.10.33||1640||4||10003||FIERA||F SF3 Out
+39||10.10.10.42||1641||4||10003||FIERA||F Door #18
+40||10.10.9.41||1941||4||10003||FIERA||F SF1 OUT
+41||10.10.10.79||1681||||10003||FIERA||F Silo East
+42||10.10.10.43||1644||4||10003||FIERA||MF Conveyors
+43||10.10.10.44||1645||4||10003||FIERA||BD Retractors
+44||10.10.10.45||1646||4||10003||FIERA||BD Dry Mix
+45||10.10.10.46||1647||4||10003||FIERA||BD Ovens1
+46||10.10.10.47||1648||4||10003||FIERA||F BagelMixers
+47||10.10.10.48||1649||4||10003||FIERA||F BagelRePack
+48||10.10.10.49||1650||4||10003||FIERA||F Croissant production
+49||10.10.10.50||1651||4||10003||FIERA||F Packing Mez
+51||10.10.10.80||1682||4||10003||FIERA||F Wrapping
+52||10.10.10.52||1654||4||10003||FIERA||F LD#2 South
+53||10.10.10.54||1655||4||10003||FIERA||F Palletizing
+54||10.10.10.53||1656||4||10003||FIERA||F LD#2 North
+55||10.10.10.57||1657||4||10003||FIERA||F Outside Eq.Storage
+56||10.10.10.55||1658||4||10003||FIERA||F LD #1 Out
+57||10.10.10.56||1659||4||10003||FIERA||F Driveway North2
+58||10.10.10.59||1660||4||10003||FIERA||F Driveway North1
+59||10.10.10.58||1661||4||10003||FIERA||BD Washing 2
+60||10.10.10.64||1666||4||10003||FIERA||F Front Exit SW
+61||10.10.10.65||1667||4||10003||FIERA||F Driveway West 4
+62||10.10.10.86||1688||4||10003||FIERA||F Croissant 30000 Line
+63||10.10.10.94||1696||4||10003||FIERA||F PTZ
+64||10.10.10.91||1693||4||10003||FIERA||F Spiral #5
+65||10.10.10.92||1694||4||10003||FIERA||F Entrance Door
+66||10.10.10.70||1672||4||10003||FIERA||F Lab1
+67||10.10.10.71||1673||4||10003||FIERA||F Lab2
+68||10.10.10.87||1689||4||10003||FIERA||F Shipping Door1
+69||10.10.10.88||1690||4||10003||FIERA||F ABL Door1
+70||10.10.10.89||1691||4||10003||FIERA||F ShippingDoor2
+71||10.10.10.90||1692||4||10003||FIERA||F ABL Door2
+72||10.10.10.113||1713||4||10003||FIERA||F LD#2 charger
+73||10.10.10.114||1714||4||10003||FIERA||F LD#2 Door
+74||10.10.10.115||1715||4||10003||FIERA||BD Conveyor1
+75||10.10.10.116||1716||4||10003||FIERA||BD Canoll #2
+76||10.10.10.117||1717||4||10003||FIERA||BD Conveyor3
+77||10.10.10.118||1718||4||10003||FIERA||F Main Floor
+78||10.10.10.119||1719||4||10003||FIERA||BD Jola's Cooler2
+79||10.10.10.128||1728||4||10003||FIERA||BD Warehouse 1
+80||10.10.10.121||1721||4||10003||FIERA||BD Warehouse 2
+81||10.10.10.122||1722||4||10003||FIERA||BD Warehouse 3
+82||10.10.10.123||1723||4||10003||FIERA||F AP Box Filling Station
+83||10.10.10.124||1724||4||10003||FIERA||BD Cooler
+84||10.10.10.125||1725||4||10003||FIERA||BD STF2 Entrance
+85||10.10.10.126||1726||4||10003||FIERA||BD STF2
+86||10.10.10.129||1729||4||10003||FIERA||BD MechMeint room
+87||10.10.10.130||1730||4||10003||FIERA||BD Mixers Bread
+88||10.10.10.131||1731||4||10003||FIERA||BD Welding shop
+89||10.10.10.132||1732||4||10003||FIERA||F SP #1
+90||10.10.10.66||1668||4||10003||FIERA||M Guet1DoughFeed
+91||10.10.10.67||1669||4||10003||FIERA||M From Boiler to SF#5
+92||10.10.10.68||1670||4||10003||FIERA||M Board Striping
+93||10.10.10.69||1671||4||10003||FIERA||M Dough Conveyors
+94||10.10.10.81||1683||4||10003||FIERA||M Proofer Out
+95||10.10.10.82||1684||4||10003||FIERA||M Sorting after SF#5
+96||10.10.10.83||1685||4||10003||FIERA||M Guet1MakeUp
+97||10.10.10.84||1686||4||10003||FIERA||M Guet1 Depanner
+98||10.10.10.85||1687||4||10003||FIERA||M AP Retractor
+99||10.10.10.198||1798||4||10003||FIERA||F SILO NORTH1
+100||10.10.10.199||1799||4||10003||FIERA||F SILO NORTH2
+101||10.10.10.61||1663||4||10003||FIERA||M DOOR#2
+102||10.10.10.93||1695||4||10003||FIERA||M A-B FRONT
+103||10.10.10.62||1664||4||10003||FIERA||M C-D FRONT
+104||10.10.10.77||1679||4||10003||FIERA||M E-F FRONT
+105||10.10.10.76||1678||4||10003||FIERA||M G-H FRONT
+106||10.10.10.74||1676||4||10003||FIERA||M I-J FRONT
+107||10.10.10.75||1677||4||10003||FIERA||M K-L FRONT
+108||10.10.10.73||1675||||10003||FIERA||M M-N FRONT
+109||10.10.10.72||1674||||10003||FIERA||M O-P FRONT
+110||10.10.10.63||1665||||10003||FIERA||M Storage Freezer Front
+111||10.10.10.105||1705||4||10003||FIERA||M A-B BACK
+112||10.10.10.106||1706||4||10003||FIERA||M C-D BACK
+113||10.10.10.107||1707||4||10003||FIERA||M E-F BACK
+114||10.10.10.108||1708||4||10003||FIERA||M G-H BACK
+115||10.10.10.109||1709||4||10003||FIERA||M I-J BACK
+116||10.10.10.110||1710||4||10003||FIERA||M K-L BACK
+117||10.10.10.111||1711||4||10003||FIERA||M M-N BACK
+118||10.10.10.112||1712||4||10003||FIERA||M O-P BACK
+119||10.10.9.144||2044||4||10003||FIERA||F Driveway E1
 120||fieranorelco.dyndns.org||1610||4||10003||FIERA||N Silo #1
 121||fieranorelco.dyndns.org||1611||4||10003||FIERA||N NW Parking
 122||fieranorelco.dyndns.org||1612||4||10003||FIERA||N South Parking
@@ -235,36 +235,36 @@
 237||fierauc.dyndns.org||1638||4||10003||FIERA||U New Storage Freezer2
 238||fierauc.dyndns.org||1639||4||10003||FIERA||U New Storage Freezer2
 239||fierauc.dyndns.org||1638||4||10003||FIERA||U Line #1A
-240||fieramarmora.dyndns.org||1733||4||10003||FIERA||BD Ovens East
-241||fieramarmora.dyndns.org||1734||4||10003||FIERA||BD Pre scaling
-242||fieramarmora.dyndns.org||1735||4||10003||FIERA||F Mezz..Lunch room
-243||fieramarmora.dyndns.org||1736||4||10003||FIERA||BD Bread line
-244||fieramarmora.dyndns.org||1737||4||10003||FIERA||BD Label area
-245||fieramarmora.dyndns.org||1738||4||10003||FIERA||BD Washing1
-246||fieramarmora.dyndns.org||1739||4||10003||FIERA||BD Mixers
-247||fieramarmora.dyndns.org||1740||4||10003||FIERA||BD ABL BDL
-248||fieramarmora.dyndns.org||1741||4||10003||FIERA||M ABL Bread mixer
-249||fieramarmora.dyndns.org||1742||4||10003||FIERA||M ABL Lab
-250||fieramarmora.dyndns.org||1743||4||10003||FIERA||M ABL Scoring
-251||fieramarmora.dyndns.org||1744||4||10003||FIERA||BD Ovens2
-252||fieramarmora.dyndns.org||1745||4||10003||FIERA||F Della Bolina
-253||fieramarmora.dyndns.org||1746||4||10003||FIERA||F Slicers
-254||fieramarmora.dyndns.org||1747||4||10003||FIERA||BD Bread mixers
-255||fieramarmora.dyndns.org||1753||4||10003||FIERA||F Della Bolina2
-256||fieramarmora.dyndns.org||1754||4||10003||FIERA||F Main Floor1
-257||fieramarmora.dyndns.org||1755||4||10003||FIERA||F Main Floor2
-258||fieramarmora.dyndns.org||1756||4||10003||FIERA||F Main Floor3
-259||fieramarmora.dyndns.org||1757||4||10003||FIERA||BD Packaging3
-260||fieramarmora.dyndns.org||1758||4||10003||FIERA||BD Bread line2
-261||fieramarmora.dyndns.org||1748||4||10003||FIERA||M ABL Packaging
-262||fieramarmora.dyndns.org||1749||4||10003||FIERA||BD Cake Line
-263||fieramarmora.dyndns.org||1750||4||10003||FIERA||BD Packaging4
-264||fieramarmora.dyndns.org||1751||4||10003||FIERA||M ABL Sour System
-265||fieramarmora.dyndns.org||1752||4||10003||FIERA||M Guet1Packaging
-266||fieramarmora.dyndns.org||1759||4||10003||FIERA||F  Mezz.Box Maker
-267||fieramarmora.dyndns.org||1760||4||10003||FIERA||F Oven Loader
-268||fieramarmora.dyndns.org||1761||4||10003||FIERA||BD Mixers
-269||fieramarmora.dyndns.org||1968||4||10003||FIERA||F Lab3
+240||10.10.10.133||1733||4||10003||FIERA||BD Ovens East
+241||10.10.10.134||1734||4||10003||FIERA||BD Pre scaling
+242||10.10.10.135||1735||4||10003||FIERA||F Mezz..Lunch room
+243||10.10.10.136||1736||4||10003||FIERA||BD Bread line
+244||10.10.10.137||1737||4||10003||FIERA||BD Label area
+245||10.10.10.138||1738||4||10003||FIERA||BD Washing1
+246||10.10.10.139||1739||4||10003||FIERA||BD Mixers
+247||10.10.10.140||1740||4||10003||FIERA||BD ABL BDL
+248||10.10.10.141||1741||4||10003||FIERA||M ABL Bread mixer
+249||10.10.10.142||1742||4||10003||FIERA||M ABL Lab
+250||10.10.10.143||1743||4||10003||FIERA||M ABL Scoring
+251||10.10.10.144||1744||4||10003||FIERA||BD Ovens2
+252||10.10.10.145||1745||4||10003||FIERA||F Della Bolina
+253||10.10.10.146||1746||4||10003||FIERA||F Slicers
+254||10.10.10.147||1747||4||10003||FIERA||BD Bread mixers
+255||10.10.10.153||1753||4||10003||FIERA||F Della Bolina2
+256||10.10.10.154||1754||4||10003||FIERA||F Main Floor1
+257||10.10.10.155||1755||4||10003||FIERA||F Main Floor2
+258||10.10.10.156||1756||4||10003||FIERA||F Main Floor3
+259||10.10.10.157||1757||4||10003||FIERA||BD Packaging3
+260||10.10.10.158||1758||4||10003||FIERA||BD Bread line2
+261||10.10.10.148||1748||4||10003||FIERA||M ABL Packaging
+262||10.10.10.149||1749||4||10003||FIERA||BD Cake Line
+263||10.10.10.150||1750||4||10003||FIERA||BD Packaging4
+264||10.10.10.151||1751||4||10003||FIERA||M ABL Sour System
+265||10.10.10.152||1752||4||10003||FIERA||M Guet1Packaging
+266||10.10.10.159||1759||4||10003||FIERA||F  Mezz.Box Maker
+267||10.10.10.160||1760||4||10003||FIERA||F Oven Loader
+268||10.10.10.161||1761||4||10003||FIERA||BD Mixers
+269||10.10.9.68||1968||4||10003||FIERA||F Lab3
 270||fieranorfinch.dyndns.org||1650||4||10003||FIERA||NF Tri NW Door
 271||fieranorfinch.dyndns.org||1651||4||10003||FIERA||NF Tri Outside NE
 272||fieranorfinch.dyndns.org||1652||4||10003||FIERA||NF Tri Margarine Plant
@@ -279,103 +279,103 @@
 281||fieranorfinch.dyndns.org||1661||4||10003||FIERA||NF Tri Mcooler5
 282||fieranorfinch.dyndns.org||1662||4||10003||FIERA||NF Tri Marg Plant 4
 283||fieranorfinch.dyndns.org||1663||4||10003||FIERA||NF Tri Inc Door
-284||fieramarmora.dyndns.org||1762||4||10003||FIERA||F Freezer MR1
-285||fieramarmora.dyndns.org||1763||4||10003||FIERA||F Freezer MR2
-286||fieramarmora.dyndns.org||1764||4||10003||FIERA||F Freezer MR3
-287||fieramarmora.dyndns.org||1765||4||10003||FIERA||F Door out West ABL
-288||fieramarmora.dyndns.org||1767||4||10003||FIERA||F Driway NW1
-289||fieramarmora.dyndns.org||1768||4||10003||FIERA||F Driveway NE1
-290||fieramarmora.dyndns.org||1766||4||10003||FIERA||F Parking NE2
-291||fieramarmora.dyndns.org||1769||4||10003||FIERA||F Mezz Ice Machine
-292||fieramarmora.dyndns.org||1770||4||10003||FIERA||F Driveway NE3
-293||fieramarmora.dyndns.org||1771||4||10003||FIERA||M AP Dough Mixers
-294||fieramarmora.dyndns.org||1772||4||10003||FIERA||M AP Mixers unloading
-295||fieramarmora.dyndns.org||1773||4||10003||FIERA||F Parking South 1
-296||fieramarmora.dyndns.org||1774||4||10003||FIERA||F Parking South 2
+284||10.10.10.162||1762||4||10003||FIERA||F Freezer MR1
+285||10.10.10.163||1763||4||10003||FIERA||F Freezer MR2
+286||10.10.10.164||1764||4||10003||FIERA||F Freezer MR3
+287||10.10.10.165||1765||4||10003||FIERA||F Door out West ABL
+288||10.10.10.167||1767||4||10003||FIERA||F Driway NW1
+289||10.10.10.168||1768||4||10003||FIERA||F Driveway NE1
+290||10.10.10.166||1766||4||10003||FIERA||F Parking NE2
+291||10.10.10.169||1769||4||10003||FIERA||F Mezz Ice Machine
+292||10.10.10.170||1770||4||10003||FIERA||F Driveway NE3
+293||10.10.10.171||1771||4||10003||FIERA||M AP Dough Mixers
+294||10.10.10.172||1772||4||10003||FIERA||M AP Mixers unloading
+295||10.10.10.173||1773||4||10003||FIERA||F Parking South 1
+296||10.10.10.174||1774||4||10003||FIERA||F Parking South 2
 297||fieranorfinch.dyndns.org||1664||4||10003||FIERA||NF Outside Trailer
-298||fieramarmora.dyndns.org||1775||4||10003||FIERA||F Auto Loader2
-299||fieramarmora.dyndns.org||1776||4||10003||FIERA||M ABL Flipper
-300||fieramarmora.dyndns.org||1777||4||10003||FIERA||F Auto Loader3
-301||fieramarmora.dyndns.org||1778||4||10003||FIERA||F Palletizing1
-302||fieramarmora.dyndns.org||1779||4||10003||FIERA||F Receiving3
-303||fieramarmora.dyndns.org||1780||4||10003||FIERA||F Receiving4
-304||fieramarmora.dyndns.org||1781||4||10003||FIERA||F Driveway SE
-305||fieramarmora.dyndns.org||1782||4||10003||FIERA||F Driveway E2
-306||fieramarmora.dyndns.org||1783||4||10003||FIERA||F Water chiller
-307||fieramarmora.dyndns.org||1784||4||10003||FIERA||F Stone Oven-out
-308||fieramarmora.dyndns.org||1785||4||10003||FIERA||F Ramp to ABL1
-309||fieramarmora.dyndns.org||1786||4||10003||FIERA||F Boards unloading & Pretzels production
-310||fieramarmora.dyndns.org||1787||4||10003||FIERA||F Cronuts packing1
-311||fieramarmora.dyndns.org||1788||4||10003||FIERA||F Cronuts packing2
-312||fieramarmora.dyndns.org||1789||4||10003||FIERA||F Cronuts Conveyor to Freezer
-313||fieramarmora.dyndns.org||1790||4||10003||FIERA||F Packing Mezzanine
-314||fieramarmora.dyndns.org||1791||4||10003||FIERA||F Ramp In
-315||fieramarmora.dyndns.org||1792||4||10003||FIERA||F Product depanning
-316||fieramarmora.dyndns.org||1793||4||10003||FIERA||F Gate-Out
-317||fieramarmora.dyndns.org||1794||4||10003||FIERA||F Spiral Cooler
-.318||fieramarmora.dyndns.org||1795||4||10003||FIERA||F Reconstruction MF
-319||fieramarmora.dyndns.org||1796||4||10003||FIERA||F R&D Freezer
-320||fieramarmora.dyndns.org||1797||4||10003||FIERA||F Card Punch Shipment2
-321||fieramarmora.dyndns.org||1901||4||10003||FIERA||F Driveway NE2
-322||fieramarmora.dyndns.org||1902||4||10003||FIERA||F Roof New ABL2
-323||fieramarmora.dyndns.org||1903||4||10003||FIERA||F Roof New ABL2
-324||fieramarmora.dyndns.org||1904||4||10003||FIERA||F Driveway NE5
-325||fieramarmora.dyndns.org||1905||4||10003||FIERA||F Roof New ABL2
-.326||fieramarmora.dyndns.org||1906||4||10003||FIERA||F Roof New ABL2
-327||fieramarmora.dyndns.org||1907||4||10003||FIERA||F Roof New ABL2
-328||fieramarmora.dyndns.org||1908||4||10003||FIERA||F Roof New ABL2
-329||fieramarmora.dyndns.org||1909||4||10003||FIERA||F Driveway NE2
-330||fieramarmora.dyndns.org||1910||4||10003||FIERA||F Stairs North Roof Out
-331||fieramarmora.dyndns.org||1911||4||10003||FIERA||F Driveway NE1
-332||fieramarmora.dyndns.org||1912||4||10003||FIERA||F Driveway NW2
-333||fieramarmora.dyndns.org||1913||4||10003||FIERA||F East Tower security
-334||fieramarmora.dyndns.org||1914||4||10003||FIERA||F East Tower Entrance
-335||fieramarmora.dyndns.org||1915||4||10003||FIERA||F Mezzanine to East Tower
-336||fieramarmora.dyndns.org||1916||4||10003||FIERA||F Main Roof door out
-337||fieramarmora.dyndns.org||1917||4||10003||FIERA||F Boiler & Seeders
-338||fieramarmora.dyndns.org||1918||4||10003||FIERA||F Boards unloading
-339||fieramarmora.dyndns.org||1919||4||10003||FIERA||F Product pick-up conveyor
-340||fieramarmora.dyndns.org||1920||4||10003||FIERA||F Pretzels causting flushing
-341||fieramarmora.dyndns.org||1921||4||10003||FIERA||F Pretzels scoring
-342||fieramarmora.dyndns.org||1922||4||10003||FIERA||F Boards from UCM to AP
-343||fieramarmora.dyndns.org||1923||4||10003||FIERA||F Boards from AP to UCM
-344||fieramarmora.dyndns.org||1924||4||10003||FIERA||F Stone Oven Control Panel
-345||fieramarmora.dyndns.org||1925||4||10003||FIERA||F Dough Line
-346||fieramarmora.dyndns.org||1926||4||10003||FIERA||F Boards Lowerator
-347||fieramarmora.dyndns.org||1927||4||10003||FIERA||F Cronuts Makeup Line
-348||fieramarmora.dyndns.org||1928||4||10003||FIERA||F Mixing Department
-349||fieramarmora.dyndns.org||1929||4||10003||FIERA||F Rondo Makeup
-350||fieramarmora.dyndns.org||1930||4||10003||FIERA||F Kemper Dividers
-351||fieramarmora.dyndns.org||1931||4||10003||FIERA||F Mixing Dep.
-352||fieramarmora.dyndns.org||1932||4||10003||FIERA||F Bun makeup lines
-353||fieramarmora.dyndns.org||1933||4||10003||FIERA||F Bagel Line1
-354||fieramarmora.dyndns.org||1934||4||10003||FIERA||F Mecaflow retractor
-355||fieramarmora.dyndns.org||1701||4||10003||FIERA||F Product to Proofer
-356||fieramarmora.dyndns.org||1936||4||10003||FIERA||F Cronuts to boards
-357||fieramarmora.dyndns.org||1937||4||10003||FIERA||F Product Delivery Conveyors
-358||fieramarmora.dyndns.org||1938||4||10003||FIERA||F Cronuts Fryer-out
-359||fieramarmora.dyndns.org||1939||4||10003||FIERA||F Cronuts Fryer-in
-360||fieramarmora.dyndns.org||1940||4||10003||FIERA||F Cronuts Conveyor to Fryer1
-361||fieramarmora.dyndns.org||1942||4||10003||FIERA||F Cheese bun packung line
-362||fieramarmora.dyndns.org||1943||4||10003||FIERA||F East Security Door #1-Out
-363||fieramarmora.dyndns.org||1944||4||10003||FIERA||F South Tunnel-in from Door #2
-364||fieramarmora.dyndns.org||1945||4||10003||FIERA||F ABL2-Out to South Tunnel
-365||fieramarmora.dyndns.org||1946||4||10003||FIERA||F Baked Product to cooling
-366||fieramarmora.dyndns.org||1947||4||10003||FIERA||F West Tunnel-Out from ABL2
-367||fieramarmora.dyndns.org||1948||4||10003||FIERA||F Mixing Department 2
-368||fieramarmora.dyndns.org||1949||4||10003||FIERA||F South Tunnel-from ABL2 to BD
-369||fieramarmora.dyndns.org||1950||4||10003||FIERA||F South Tunnel-out to Door #2
-370||fieramarmora.dyndns.org||1951||4||10003||FIERA||F East Door #2-Out
-371||fieramarmora.dyndns.org||1952||4||10003||FIERA||F West Tunnel-In from North Door #1
-372||fieramarmora.dyndns.org||1953||4||10003||FIERA||F North Door #1-Out from West Tunnel
-373||fieramarmora.dyndns.org||1954||4||10003||FIERA||F East Door #2-In
-374||fieramarmora.dyndns.org||1955||4||10003||FIERA||F Ovens Out1
-375||fieramarmora.dyndns.org||1956||4||10003||FIERA||F Old Loading Dock1
-376||fieramarmora.dyndns.org||1957||4||10003||FIERA||F Old Loading Dock2
-377||fieramarmora.dyndns.org||1958||4||10003||FIERA||F Old Loading Dock3
-378||fieramarmora.dyndns.org||1959||4||10003||FIERA||F Old Loading Dock4
-379||fieramarmora.dyndns.org||1960||4||10003||FIERA||F Old Loading Dock5
-380||fieramarmora.dyndns.org||1961||4||10003||FIERA||F New Loading Dock North
+298||10.10.10.175||1775||4||10003||FIERA||F Auto Loader2
+299||10.10.10.176||1776||4||10003||FIERA||M ABL Flipper
+300||10.10.10.177||1777||4||10003||FIERA||F Auto Loader3
+301||10.10.10.178||1778||4||10003||FIERA||F Palletizing1
+302||10.10.10.179||1779||4||10003||FIERA||F Receiving3
+303||10.10.10.180||1780||4||10003||FIERA||F Receiving4
+304||10.10.10.181||1781||4||10003||FIERA||F Driveway SE
+305||10.10.10.182||1782||4||10003||FIERA||F Driveway E2
+306||10.10.10.183||1783||4||10003||FIERA||F Water chiller
+307||10.10.10.184||1784||4||10003||FIERA||F Stone Oven-out
+308||10.10.10.185||1785||4||10003||FIERA||F Ramp to ABL1
+309||10.10.10.186||1786||4||10003||FIERA||F Boards unloading & Pretzels production
+310||10.10.10.187||1787||4||10003||FIERA||F Cronuts packing1
+311||10.10.10.188||1788||4||10003||FIERA||F Cronuts packing2
+312||10.10.10.189||1789||4||10003||FIERA||F Cronuts Conveyor to Freezer
+313||10.10.10.190||1790||4||10003||FIERA||F Packing Mezzanine
+314||10.10.10.191||1791||4||10003||FIERA||F Ramp In
+315||10.10.10.192||1792||4||10003||FIERA||F Product depanning
+316||10.10.10.193||1793||4||10003||FIERA||F Gate-Out
+317||10.10.10.194||1794||4||10003||FIERA||F Spiral Cooler
+.318||10.10.10.195||1795||4||10003||FIERA||F Reconstruction MF
+319||10.10.10.196||1796||4||10003||FIERA||F R&D Freezer
+320||10.10.10.197||1797||4||10003||FIERA||F Card Punch Shipment2
+321||10.10.9.1||1901||4||10003||FIERA||F Driveway NE2
+322||10.10.9.2||1902||4||10003||FIERA||F Roof New ABL2
+323||10.10.9.3||1903||4||10003||FIERA||F Roof New ABL2
+324||10.10.9.4||1904||4||10003||FIERA||F Driveway NE5
+325||10.10.9.5||1905||4||10003||FIERA||F Roof New ABL2
+.326||10.10.9.6||1906||4||10003||FIERA||F Roof New ABL2
+327||10.10.9.7||1907||4||10003||FIERA||F Roof New ABL2
+328||10.10.9.8||1908||4||10003||FIERA||F Roof New ABL2
+329||10.10.9.9||1909||4||10003||FIERA||F Driveway NE2
+330||10.10.9.10||1910||4||10003||FIERA||F Stairs North Roof Out
+331||10.10.9.11||1911||4||10003||FIERA||F Driveway NE1
+332||10.10.9.12||1912||4||10003||FIERA||F Driveway NW2
+333||10.10.9.13||1913||4||10003||FIERA||F East Tower security
+334||10.10.9.14||1914||4||10003||FIERA||F East Tower Entrance
+335||10.10.9.15||1915||4||10003||FIERA||F Mezzanine to East Tower
+336||10.10.9.16||1916||4||10003||FIERA||F Main Roof door out
+337||10.10.9.17||1917||4||10003||FIERA||F Boiler & Seeders
+338||10.10.9.18||1918||4||10003||FIERA||F Boards unloading
+339||10.10.9.19||1919||4||10003||FIERA||F Product pick-up conveyor
+340||10.10.9.20||1920||4||10003||FIERA||F Pretzels causting flushing
+341||10.10.9.21||1921||4||10003||FIERA||F Pretzels scoring
+342||10.10.9.22||1922||4||10003||FIERA||F Boards from UCM to AP
+343||10.10.9.23||1923||4||10003||FIERA||F Boards from AP to UCM
+344||10.10.9.24||1924||4||10003||FIERA||F Stone Oven Control Panel
+345||10.10.9.25||1925||4||10003||FIERA||F Dough Line
+346||10.10.9.26||1926||4||10003||FIERA||F Boards Lowerator
+347||10.10.9.27||1927||4||10003||FIERA||F Cronuts Makeup Line
+348||10.10.9.28||1928||4||10003||FIERA||F Mixing Department
+349||10.10.9.29||1929||4||10003||FIERA||F Rondo Makeup
+350||10.10.9.30||1930||4||10003||FIERA||F Kemper Dividers
+351||10.10.9.31||1931||4||10003||FIERA||F Mixing Dep.
+352||10.10.9.32||1932||4||10003||FIERA||F Bun makeup lines
+353||10.10.9.33||1933||4||10003||FIERA||F Bagel Line1
+354||10.10.9.34||1934||4||10003||FIERA||F Mecaflow retractor
+355||10.10.9.35||1701||4||10003||FIERA||F Product to Proofer
+356||10.10.9.36||1936||4||10003||FIERA||F Cronuts to boards
+357||10.10.9.37||1937||4||10003||FIERA||F Product Delivery Conveyors
+358||10.10.9.38||1938||4||10003||FIERA||F Cronuts Fryer-out
+359||10.10.9.39||1939||4||10003||FIERA||F Cronuts Fryer-in
+360||10.10.9.40||1940||4||10003||FIERA||F Cronuts Conveyor to Fryer1
+361||10.10.9.42||1942||4||10003||FIERA||F Cheese bun packung line
+362||10.10.9.43||1943||4||10003||FIERA||F East Security Door #1-Out
+363||10.10.9.44||1944||4||10003||FIERA||F South Tunnel-in from Door #2
+364||10.10.9.45||1945||4||10003||FIERA||F ABL2-Out to South Tunnel
+365||10.10.9.46||1946||4||10003||FIERA||F Baked Product to cooling
+366||10.10.9.47||1947||4||10003||FIERA||F West Tunnel-Out from ABL2
+367||10.10.9.48||1948||4||10003||FIERA||F Mixing Department 2
+368||10.10.9.49||1949||4||10003||FIERA||F South Tunnel-from ABL2 to BD
+369||10.10.9.50||1950||4||10003||FIERA||F South Tunnel-out to Door #2
+370||10.10.9.51||1951||4||10003||FIERA||F East Door #2-Out
+371||10.10.9.52||1952||4||10003||FIERA||F West Tunnel-In from North Door #1
+372||10.10.9.53||1953||4||10003||FIERA||F North Door #1-Out from West Tunnel
+373||10.10.9.54||1954||4||10003||FIERA||F East Door #2-In
+374||10.10.9.55||1955||4||10003||FIERA||F Ovens Out1
+375||10.10.9.56||1956||4||10003||FIERA||F Old Loading Dock1
+376||10.10.9.57||1957||4||10003||FIERA||F Old Loading Dock2
+377||10.10.9.58||1958||4||10003||FIERA||F Old Loading Dock3
+378||10.10.9.59||1959||4||10003||FIERA||F Old Loading Dock4
+379||10.10.9.60||1960||4||10003||FIERA||F Old Loading Dock5
+380||10.10.9.61||1961||4||10003||FIERA||F New Loading Dock North
 381||fieranorfinch2.dyndns.org||1601||4||10003||FIERA||NF NF 114 Norfinch1
 382||fieranorfinch2.dyndns.org||1602||4||10003||FIERA||NF NF 114 Norfinch2
 383||fieranorfinch2.dyndns.org||1603||4||10003||FIERA||NF NF 114 Norfinch3
@@ -384,67 +384,67 @@
 386||fieranorfinch2.dyndns.org||1606||4||10003||FIERA||NF NF 114 Norfinch6
 387||fieranorfinch2.dyndns.org||1607||4||10003||FIERA||NF NF 114 Norfinch7
 388||fieranorelco.dyndns.org||1661||16:11:50:2000-09-07||10003||FIERA||N Bronko Line
-389||fieramarmora.dyndns.org||1962||4||10003||FIERA||F Dough Cooler
-390||fieramarmora.dyndns.org||1963||4||10003||FIERA||F Ambient Dough Cooler
-391||fieramarmora.dyndns.org||1964||4||10003||FIERA||F Double action infeed
-392||fieramarmora.dyndns.org||1965||4||10003||FIERA||F Double action outfeed
-393||fieramarmora.dyndns.org||1966||4||10003||FIERA||F Bagel Divider
-394||fieramarmora.dyndns.org||1967||4||10003||FIERA||F Buns Production
-395||fieramarmora.dyndns.org||1969||4||10003||FIERA||F Mezz.locker room area
-396||fieramarmora.dyndns.org||2045||4||10003||FIERA||F Driveway West 5
-397||fieramarmora.dyndns.org||2046||4||10003||FIERA||F New Loading Dock Out
-398||fieramarmora.dyndns.org||2047||4||10003||FIERA||F Gate to South parking
-399||fieramarmora.dyndns.org||2048||4||10003||FIERA||F Driveway NE2
-400||fieramarmora.dyndns.org||2122||4||10003||FIERA||F New LD Office
-401||fieramarmora.dyndns.org||1971||4||10003||FIERA||F New Freezer NE
-402||fieramarmora.dyndns.org||1972||4||10003||FIERA||F New Freezer Row1&2 North
-403||fieramarmora.dyndns.org||1973||4||10003||FIERA||F New Freezer Row3&4 North
-404||fieramarmora.dyndns.org||1974||4||10003||FIERA||F New Freezer Row5&6 North
-405||fieramarmora.dyndns.org||1975||4||10003||FIERA||F New Freezer Row7&8 North
-406||fieramarmora.dyndns.org||1976||4||10003||FIERA||F New Freezer Row9&10 North
-407||fieramarmora.dyndns.org||1977||4||10003||FIERA||F New Freezer NW
-408||fieramarmora.dyndns.org||1978||4||10003||FIERA||F New Freezer SE
-409||fieramarmora.dyndns.org||1979||4||10003||FIERA||F New Freezer Row1&2 South
-410||fieramarmora.dyndns.org||1980||4||10003||FIERA||F New Freezer South
-411||fieramarmora.dyndns.org||1981||4||10003||FIERA||F New Freezer Row3&4 South
-412||fieramarmora.dyndns.org||1982||4||10003||FIERA||F New Freezer Row5&6 South
-413||fieramarmora.dyndns.org||1983||4||10003||FIERA||F New Freezer South
-414||fieramarmora.dyndns.org||1984||4||10003||FIERA||F New Freezer Row7&8 South
-415||fieramarmora.dyndns.org||1985||4||10003||FIERA||F New Freezer Row9&10 South
-416||fieramarmora.dyndns.org||1986||4||10003||FIERA||F New Freezer SW
-417||fieramarmora.dyndns.org||1987||4||10003||FIERA||F New Freezer Loading Dock
-.418||fieramarmora.dyndns.org||1988||4||10003||FIERA||F New Freezer Loading Dock
-419||fieramarmora.dyndns.org||1989||4||10003||FIERA||BD Washing 3
-420||fieramarmora.dyndns.org||1990||4||10003||FIERA||F New Freezer Loading Dock
-421||fieramarmora.dyndns.org||1991||4||10003||FIERA||F ABL Box Filling Station
-422||fieramarmora.dyndns.org||1992||4||10003||FIERA||F ABL2 Product sorting
-423||fieramarmora.dyndns.org||1993||4||10003||FIERA||F DeLaBollina #6
-424||fieramarmora.dyndns.org||1994||4||10003||FIERA||F ABL2 Packaging 3
-425||fieramarmora.dyndns.org||1995||4||10003||FIERA||F Mezz.to E.Tower door
-426||fieramarmora.dyndns.org||1996||4||10003||FIERA||F Card Punch 4F-2
-427||fieramarmora.dyndns.org||1997||4||10003||FIERA||F E.Tower 3d Floor 2
-428||fieramarmora.dyndns.org||1998||4||10003||FIERA||F Card Punch 5F-2
-429||fieramarmora.dyndns.org||1999||4||10003||FIERA||F E.Tower 4th Floor 2
-430||fieramarmora.dyndns.org||2000||4||10003||FIERA||F Parking Front 1
-431||fieramarmora.dyndns.org||2001||4||10003||FIERA||F Parking Front 2
-432||fieramarmora.dyndns.org||2002||4||10003||FIERA||F Parking Front 3
-433||fieramarmora.dyndns.org||2003||4||10003||FIERA||F Parking Front 4
-434||fieramarmora.dyndns.org||2004||4||10003||FIERA||F Parking Front SW
-435||fieramarmora.dyndns.org||2005||4||10003||FIERA||F Parking SW 1
-436||fieramarmora.dyndns.org||2006||4||10003||FIERA||F Parking SW 2
-437||fieramarmora.dyndns.org||2007||4||10003||FIERA||F Parking SW 3
-438||fieramarmora.dyndns.org||2008||4||10003||FIERA||F Driveway West 1
-439||fieramarmora.dyndns.org||2009||4||10003||FIERA||F Driveway West 2
-440||fieramarmora.dyndns.org||2010||4||10003||FIERA||F Driveway West 3
-441||fieramarmora.dyndns.org||2011||4||10003||FIERA||F AP Exit West
-442||fieramarmora.dyndns.org||2012||4||10003||FIERA||F ABL2 Door East
-443||fieramarmora.dyndns.org||2013||4||10003||FIERA||F ABL2 Door North 1
-444||fieramarmora.dyndns.org||2014||4||10003||FIERA||F Door Gate 17 East
-445||fieramarmora.dyndns.org||2015||4||10003||FIERA||F Door South East
-446||fieramarmora.dyndns.org||2016||4||10003||FIERA||F Front Door South
-447||fieramarmora.dyndns.org||2017||4||10003||FIERA||F ABL2 Door North 2
-448||fieramarmora.dyndns.org||2018||4||10003||FIERA||F AP Door North
-449||fieramarmora.dyndns.org||2019||4||10003||FIERA||F Door Exit Freezer MR
+389||10.10.9.62||1962||4||10003||FIERA||F Dough Cooler
+390||10.10.9.63||1963||4||10003||FIERA||F Ambient Dough Cooler
+391||10.10.9.64||1964||4||10003||FIERA||F Double action infeed
+392||10.10.9.65||1965||4||10003||FIERA||F Double action outfeed
+393||10.10.9.66||1966||4||10003||FIERA||F Bagel Divider
+394||10.10.9.67||1967||4||10003||FIERA||F Buns Production
+395||10.10.9.69||1969||4||10003||FIERA||F Mezz.locker room area
+396||10.10.9.145||2045||4||10003||FIERA||F Driveway West 5
+397||10.10.9.146||2046||4||10003||FIERA||F New Loading Dock Out
+398||10.10.9.147||2047||4||10003||FIERA||F Gate to South parking
+399||10.10.9.148||2048||4||10003||FIERA||F Driveway NE2
+400||10.10.9.222||2122||4||10003||FIERA||F New LD Office
+401||10.10.9.71||1971||4||10003||FIERA||F New Freezer NE
+402||10.10.9.72||1972||4||10003||FIERA||F New Freezer Row1&2 North
+403||10.10.9.73||1973||4||10003||FIERA||F New Freezer Row3&4 North
+404||10.10.9.74||1974||4||10003||FIERA||F New Freezer Row5&6 North
+405||10.10.9.75||1975||4||10003||FIERA||F New Freezer Row7&8 North
+406||10.10.9.76||1976||4||10003||FIERA||F New Freezer Row9&10 North
+407||10.10.9.77||1977||4||10003||FIERA||F New Freezer NW
+408||10.10.9.78||1978||4||10003||FIERA||F New Freezer SE
+409||10.10.9.79||1979||4||10003||FIERA||F New Freezer Row1&2 South
+410||10.10.9.80||1980||4||10003||FIERA||F New Freezer South
+411||10.10.9.81||1981||4||10003||FIERA||F New Freezer Row3&4 South
+412||10.10.9.82||1982||4||10003||FIERA||F New Freezer Row5&6 South
+413||10.10.9.83||1983||4||10003||FIERA||F New Freezer South
+414||10.10.9.84||1984||4||10003||FIERA||F New Freezer Row7&8 South
+415||10.10.9.85||1985||4||10003||FIERA||F New Freezer Row9&10 South
+416||10.10.9.86||1986||4||10003||FIERA||F New Freezer SW
+417||10.10.9.87||1987||4||10003||FIERA||F New Freezer Loading Dock
+.418||10.10.9.88||1988||4||10003||FIERA||F New Freezer Loading Dock
+419||10.10.9.89||1989||4||10003||FIERA||BD Washing 3
+420||10.10.9.90||1990||4||10003||FIERA||F New Freezer Loading Dock
+421||10.10.9.91||1991||4||10003||FIERA||F ABL Box Filling Station
+422||10.10.9.92||1992||4||10003||FIERA||F ABL2 Product sorting
+423||10.10.9.93||1993||4||10003||FIERA||F DeLaBollina #6
+424||10.10.9.94||1994||4||10003||FIERA||F ABL2 Packaging 3
+425||10.10.9.95||1995||4||10003||FIERA||F Mezz.to E.Tower door
+426||10.10.9.96||1996||4||10003||FIERA||F Card Punch 4F-2
+427||10.10.9.97||1997||4||10003||FIERA||F E.Tower 3d Floor 2
+428||10.10.9.98||1998||4||10003||FIERA||F Card Punch 5F-2
+429||10.10.9.99||1999||4||10003||FIERA||F E.Tower 4th Floor 2
+430||10.10.9.100||2000||4||10003||FIERA||F Parking Front 1
+431||10.10.9.101||2001||4||10003||FIERA||F Parking Front 2
+432||10.10.9.102||2002||4||10003||FIERA||F Parking Front 3
+433||10.10.9.103||2003||4||10003||FIERA||F Parking Front 4
+434||10.10.9.104||2004||4||10003||FIERA||F Parking Front SW
+435||10.10.9.105||2005||4||10003||FIERA||F Parking SW 1
+436||10.10.9.106||2006||4||10003||FIERA||F Parking SW 2
+437||10.10.9.107||2007||4||10003||FIERA||F Parking SW 3
+438||10.10.9.108||2008||4||10003||FIERA||F Driveway West 1
+439||10.10.9.109||2009||4||10003||FIERA||F Driveway West 2
+440||10.10.9.110||2010||4||10003||FIERA||F Driveway West 3
+441||10.10.9.111||2011||4||10003||FIERA||F AP Exit West
+442||10.10.9.112||2012||4||10003||FIERA||F ABL2 Door East
+443||10.10.9.113||2013||4||10003||FIERA||F ABL2 Door North 1
+444||10.10.9.114||2014||4||10003||FIERA||F Door Gate 17 East
+445||10.10.9.115||2015||4||10003||FIERA||F Door South East
+446||10.10.9.116||2016||4||10003||FIERA||F Front Door South
+447||10.10.9.117||2017||4||10003||FIERA||F ABL2 Door North 2
+448||10.10.9.118||2018||4||10003||FIERA||F AP Door North
+449||10.10.9.119||2019||4||10003||FIERA||F Door Exit Freezer MR
 450||fierauc.dyndns.org||1641||4||10003||FIERA||U Packaging Line #1
 451||fierauc.dyndns.org||1642||4||10003||FIERA||U Garbage Door
 452||fierauc.dyndns.org||1643||4||10003||FIERA||U Lunch Room2
@@ -455,35 +455,35 @@
 457||fierauc.dyndns.org||1648||4||10003||FIERA||U LD South West
 458||fierauc.dyndns.org||1649||4||10003||FIERA||U Office East out
 459||fierauc.dyndns.org||1650||4||10003||FIERA||U Office East Entrance
-460||fieramarmora.dyndns.org||2020||4||10003||FIERA||F Card Punch Main Entrance1
-461||fieramarmora.dyndns.org||2021||4||10003||FIERA||F Card Punch BD1
-462||fieramarmora.dyndns.org||2022||4||10003||FIERA||F Card Punch Mez1
-463||fieramarmora.dyndns.org||2023||4||10003||FIERA||F Card Punch AP1
-464||fieramarmora.dyndns.org||2024||4||10003||FIERA||F Card Punch Shipment1
-465||fieramarmora.dyndns.org||2025||4||10003||FIERA||F Card Punch 5F-1
-466||fieramarmora.dyndns.org||2026||4||10003||FIERA||F Card Punch 4F-1
-467||fieramarmora.dyndns.org||2027||4||10003||FIERA||F Card Punch BD3
-468||fieramarmora.dyndns.org||2028||4||10003||FIERA||F Card Punch Mez3
-469||fieramarmora.dyndns.org||2029||4||10003||FIERA||F Card Punch Mez5
-470||fieramarmora.dyndns.org||2030||4||10003||FIERA||F Card Punch Accounting
-471||fieramarmora.dyndns.org||2031||4||10003||FIERA||F IT Office Hallway
-472||fieramarmora.dyndns.org||2032||4||10003||FIERA||F IT Server Door
-473||fieramarmora.dyndns.org||2033||4||10003||FIERA||F IT Server Room
-474||fieramarmora.dyndns.org||2034||4||10003||FIERA||F IT Storage Room
-476||fieramarmora.dyndns.org||2036||4||10003||FIERA||F New Freezer Loading Dock
-477||fieramarmora.dyndns.org||2037||4||10003||FIERA||F New Freezer Loading Dock
-478||fieramarmora.dyndns.org||2038||4||10003||FIERA||F New Freezer Loading Dock
-479||fieramarmora.dyndns.org||2039||4||10003||FIERA||F New Freezer Loading Dock
-480||fieramarmora.dyndns.org||2040||4||10003||FIERA||F New Freezer Loading Dock
-481||fieramarmora.dyndns.org||2041||4||10003||FIERA||F New Freezer Loading Dock
-482||fieramarmora.dyndns.org||2042||4||10003||FIERA||F New Freezer SE
-483||fieramarmora.dyndns.org||2043||4||10003||FIERA||F Cronuts Conveyor to Fryer2
-484||fieramarmora.dyndns.org||2051||4||10003||FIERA||F Card Punch Mez6
-485||fieramarmora.dyndns.org||2052||4||10003||FIERA||F Card Punch Mez4
-486||fieramarmora.dyndns.org||2053||4||10003||FIERA||F Card Punch AP2
-487||fieramarmora.dyndns.org||2054||4||10003||FIERA||F Card Punch Mez2
-488||fieramarmora.dyndns.org||2055||4||10003||FIERA||F Card Punch BD2
-489||fieramarmora.dyndns.org||2056||4||10003||FIERA||F Card Punch BD4
+460||10.10.9.120||2020||4||10003||FIERA||F Card Punch Main Entrance1
+461||10.10.9.121||2021||4||10003||FIERA||F Card Punch BD1
+462||10.10.9.122||2022||4||10003||FIERA||F Card Punch Mez1
+463||10.10.9.123||2023||4||10003||FIERA||F Card Punch AP1
+464||10.10.9.124||2024||4||10003||FIERA||F Card Punch Shipment1
+465||10.10.9.125||2025||4||10003||FIERA||F Card Punch 5F-1
+466||10.10.9.126||2026||4||10003||FIERA||F Card Punch 4F-1
+467||10.10.9.127||2027||4||10003||FIERA||F Card Punch BD3
+468||10.10.9.128||2028||4||10003||FIERA||F Card Punch Mez3
+469||10.10.9.129||2029||4||10003||FIERA||F Card Punch Mez5
+470||10.10.9.130||2030||4||10003||FIERA||F Card Punch Accounting
+471||10.10.9.131||2031||4||10003||FIERA||F IT Office Hallway
+472||10.10.9.132||2032||4||10003||FIERA||F IT Server Door
+473||10.10.9.133||2033||4||10003||FIERA||F IT Server Room
+474||10.10.9.134||2034||4||10003||FIERA||F IT Storage Room
+476||10.10.9.136||2036||4||10003||FIERA||F New Freezer Loading Dock
+477||10.10.9.137||2037||4||10003||FIERA||F New Freezer Loading Dock
+478||10.10.9.138||2038||4||10003||FIERA||F New Freezer Loading Dock
+479||10.10.9.139||2039||4||10003||FIERA||F New Freezer Loading Dock
+480||10.10.9.140||2040||4||10003||FIERA||F New Freezer Loading Dock
+481||10.10.9.141||2041||4||10003||FIERA||F New Freezer Loading Dock
+482||10.10.9.142||2042||4||10003||FIERA||F New Freezer SE
+483||10.10.9.143||2043||4||10003||FIERA||F Cronuts Conveyor to Fryer2
+484||10.10.9.151||2051||4||10003||FIERA||F Card Punch Mez6
+485||10.10.9.152||2052||4||10003||FIERA||F Card Punch Mez4
+486||10.10.9.153||2053||4||10003||FIERA||F Card Punch AP2
+487||10.10.9.154||2054||4||10003||FIERA||F Card Punch Mez2
+488||10.10.9.155||2055||4||10003||FIERA||F Card Punch BD2
+489||10.10.9.156||2056||4||10003||FIERA||F Card Punch BD4
 490||fieranorelco.dyndns.org||1662||4||10003||FIERA||N Server Room Inside
 491||fieranorelco.dyndns.org||1663||4||10003||FIERA||N Server Room Door
 492||fieranorfinch.dyndns.org||1665||4||10003||FIERA||NF Server Room Inside
@@ -491,9 +491,9 @@
 494||fieranorfinch.dyndns.org||1667||4||10003||FIERA||NF Margarin Reception
 495||fierauc.dyndns.org||1651||4||10003||FIERA||U Server Room Inside
 496||fierauc.dyndns.org||1652||4||10003||FIERA||U Parking NE
-497||fieramarmora.dyndns.org||2057||4||10003||FIERA||F Card Punch Mez7
-498||fieramarmora.dyndns.org||2058||4||10003||FIERA||F Card Punch Mez8
-499||fieramarmora.dyndns.org||2059||4||10003||FIERA||F Card Punch Main Entrance2
+497||10.10.9.157||2057||4||10003||FIERA||F Card Punch Mez7
+498||10.10.9.158||2058||4||10003||FIERA||F Card Punch Mez8
+499||10.10.9.159||2059||4||10003||FIERA||F Card Punch Main Entrance2
 500||fierauc.dyndns.org||1653||4||10003||FIERA||U Lab 1
 501||fierauc.dyndns.org||1654||4||10003||FIERA||U Lab 2
 502||fierauc.dyndns.org||1655||4||10003||FIERA||U Card Punch 1
@@ -511,33 +511,33 @@
 514||fieranorelco.dyndns.org||1669||4||10003||FIERA||N Card Punch3
 515||fieranorelco.dyndns.org||1670||4||10003||FIERA||N Card Punch3B
 516||fieranorelco.dyndns.org||1671||4||10003||FIERA||N Card Punch5
-517||fieramarmora.dyndns.org||2060||4||10003||FIERA||F Silo North3
-518||fieramarmora.dyndns.org||2061||4||10003||FIERA||F Silo North4
-519||fieramarmora.dyndns.org||2062||4||10003||FIERA||F Product from Freezer
-520||fieramarmora.dyndns.org||2063||4||10003||FIERA||F Boards to lines
-521||fieramarmora.dyndns.org||2064||4||10003||FIERA||F MF Storage1
-522||fieramarmora.dyndns.org||2065||4||10003||FIERA||F MF Storage2
-.523||fieramarmora.dyndns.org||2066||4||10003||FIERA||F Out Welding Shop
+517||10.10.9.160||2060||4||10003||FIERA||F Silo North3
+518||10.10.9.161||2061||4||10003||FIERA||F Silo North4
+519||10.10.9.162||2062||4||10003||FIERA||F Product from Freezer
+520||10.10.9.163||2063||4||10003||FIERA||F Boards to lines
+521||10.10.9.164||2064||4||10003||FIERA||F MF Storage1
+522||10.10.9.165||2065||4||10003||FIERA||F MF Storage2
+.523||10.10.9.166||2066||4||10003||FIERA||F Out Welding Shop
 524||fierauc.dyndns.org||1657||4||10003||FIERA||U Main Office Parking NW
-525||fieramarmora.dyndns.org||2067||4||10003||FIERA||F New Office 1
-526||fieramarmora.dyndns.org||2068||4||10003||FIERA||F New Office 2
-527||fieramarmora.dyndns.org||2069||4||10003||FIERA||F New Office 3
-528||fieramarmora.dyndns.org||2070||4||10003||FIERA||F Sales Offices 1
-529||fieramarmora.dyndns.org||2071||4||10003||FIERA||F Sales Offices 2
-530||fieramarmora.dyndns.org||2072||4||10003||FIERA||F New Freezer Loading Dock
-531||fieramarmora.dyndns.org||2073||4||10003||FIERA||F New Freezer Loading Dock
-532||fieramarmora.dyndns.org||2074||4||10003||FIERA||F New Freezer Loading Dock
-533||fieramarmora.dyndns.org||2075||4||10003||FIERA||F New Freezer Loading Dock
-534||fieramarmora.dyndns.org||2076||4||10003||FIERA||F New Freezer SW Outlet
-535||fieramarmora.dyndns.org||2077||4||10003||FIERA||F Bagel Line2
-536||fieramarmora.dyndns.org||2078||4||10003||FIERA||F NE Driway Pole 1
-537||fieramarmora.dyndns.org||2079||4||10003||FIERA||F NE Driway Pole 2
-538||fieramarmora.dyndns.org||2080||4||10003||FIERA||F Mecaflow makeup 2
-539||fieramarmora.dyndns.org||2081||4||10003||FIERA||F Bun 6 & 8 lines
-540||fieramarmora.dyndns.org||2082||4||10003||FIERA||F Mecaflow makeup 1
-541||fieramarmora.dyndns.org||2083||4||10003||FIERA||F Product merging
-542||fieramarmora.dyndns.org||2084||4||10003||FIERA||F Rondo1
-543||fieramarmora.dyndns.org||2085||4||10003||FIERA||F Mecaflow dough loading
+525||10.10.9.167||2067||4||10003||FIERA||F New Office 1
+526||10.10.9.168||2068||4||10003||FIERA||F New Office 2
+527||10.10.9.169||2069||4||10003||FIERA||F New Office 3
+528||10.10.9.170||2070||4||10003||FIERA||F Sales Offices 1
+529||10.10.9.171||2071||4||10003||FIERA||F Sales Offices 2
+530||10.10.9.172||2072||4||10003||FIERA||F New Freezer Loading Dock
+531||10.10.9.173||2073||4||10003||FIERA||F New Freezer Loading Dock
+532||10.10.9.174||2074||4||10003||FIERA||F New Freezer Loading Dock
+533||10.10.9.175||2075||4||10003||FIERA||F New Freezer Loading Dock
+534||10.10.9.176||2076||4||10003||FIERA||F New Freezer SW Outlet
+535||10.10.9.177||2077||4||10003||FIERA||F Bagel Line2
+536||10.10.9.178||2078||4||10003||FIERA||F NE Driway Pole 1
+537||10.10.9.179||2079||4||10003||FIERA||F NE Driway Pole 2
+538||10.10.9.180||2080||4||10003||FIERA||F Mecaflow makeup 2
+539||10.10.9.181||2081||4||10003||FIERA||F Bun 6 & 8 lines
+540||10.10.9.182||2082||4||10003||FIERA||F Mecaflow makeup 1
+541||10.10.9.183||2083||4||10003||FIERA||F Product merging
+542||10.10.9.184||2084||4||10003||FIERA||F Rondo1
+543||10.10.9.185||2085||4||10003||FIERA||F Mecaflow dough loading
 544||fieranorelco.dyndns.org||1672||4||10003||FIERA||N Garbage Compactor
 545||fieranorelco.dyndns.org||1673||4||10003||FIERA||N Parking NW
 546||fieranorelco.dyndns.org||1674||4||10003||FIERA||N Driveway NW
@@ -548,11 +548,11 @@
 551||fieranorelco.dyndns.org||1679||4||10003||FIERA||N Parking NE
 552||fieranorelco.dyndns.org||1680||4||10003||FIERA||N Parking East 2
 553||fieranorelco.dyndns.org||1681||4||10003||FIERA||N Parking SE
-554||fieramarmora.dyndns.org||2086||4||10003||FIERA||F Offices 1
-555||fieramarmora.dyndns.org||2087||4||10003||FIERA||F Offices 2
-556||fieramarmora.dyndns.org||2088||4||10003||FIERA||F New Outside
-557||fieramarmora.dyndns.org||2089||4||10003||FIERA||F Cronuts Makeup line
-558||fieramarmora.dyndns.org||2090||4||10003||FIERA||F Rondo/Cronuts Makeup Lines2
+554||10.10.9.186||2086||4||10003||FIERA||F Offices 1
+555||10.10.9.187||2087||4||10003||FIERA||F Offices 2
+556||10.10.9.188||2088||4||10003||FIERA||F New Outside
+557||10.10.9.189||2089||4||10003||FIERA||F Cronuts Makeup line
+558||10.10.9.190||2090||4||10003||FIERA||F Rondo/Cronuts Makeup Lines2
 559||fieranorfinch.dyndns.org||1673||4||10003||FIERA||NF Lab 3
 560||fieranorfinch.dyndns.org||1674||4||10003||FIERA||NF Lab 4
 561||fieranorfinch2.dyndns.org||1608||4||10003||FIERA||NF114 Outside 1
@@ -564,123 +564,123 @@
 567||fierauc.dyndns.org||1658||4||10003||FIERA||U Silo 1
 568||fierauc.dyndns.org||1659||4||10003||FIERA||U Silo 2
 569||fierauc.dyndns.org||1660||4||10003||FIERA||U Silo 3
-570||fieramarmora.dyndns.org||2091||4||10003||FIERA||F Stair Tower East FL1
-571||fieramarmora.dyndns.org||2092||4||10003||FIERA||F Stair Tower East FL2
-572||fieramarmora.dyndns.org||2093||4||10003||FIERA||F Stair Tower East FL3
-573||fieramarmora.dyndns.org||2094||4||10003||FIERA||F Stair Tower East FL4
-574||fieramarmora.dyndns.org||2095||4||10003||FIERA||F Stair Tower East FL5
-575||fieramarmora.dyndns.org||2096||4||10003||FIERA||F Stair Tower South FL2
-576||fieramarmora.dyndns.org||2097||4||10003||FIERA||F Stair Tower South FL3
-577||fieramarmora.dyndns.org||2098||4||10003||FIERA||F Stair Tower South FL4
-578||fieramarmora.dyndns.org||2099||4||10003||FIERA||F Stair Tower South FL5
-579||fieramarmora.dyndns.org||2100||4||10003||FIERA||F Stair North FLB
-580||fieramarmora.dyndns.org||2101||4||10003||FIERA||F Stair North FL5
-581||fieramarmora.dyndns.org||2102||4||10003||FIERA||F Stair Old Build. West FL1
-582||fieramarmora.dyndns.org||2103||4||10003||FIERA||F Stair Old Build. West FL2
-583||fieramarmora.dyndns.org||2104||4||10003||FIERA||F Stair Old Build. West FL3
-584||fieramarmora.dyndns.org||2105||4||10003||FIERA||F East Tower FL3 Corridor
-585||fieramarmora.dyndns.org||2106||4||10003||FIERA||F Mezzanine Lunch Room 2
-586||fieramarmora.dyndns.org||2107||4||10003||FIERA||F BD Lunch Room 2
-587||fieramarmora.dyndns.org||2108||4||10003||FIERA||F Main Office Reception
-588||fieramarmora.dyndns.org||2109||4||10003||FIERA||F Marmora Street
-589||fieramarmora.dyndns.org||2110||4||10003||FIERA||F Stair to offices West FLB
-590||fieramarmora.dyndns.org||2111||4||10003||FIERA||F Stair to offices West FL1
-591||fieramarmora.dyndns.org||2112||4||10003||FIERA||F Stair to offices West FL2
-592||fieramarmora.dyndns.org||2113||4||10003||FIERA||F Stair to offices West FL3
-593||fieramarmora.dyndns.org||2114||4||10003||FIERA||F Stair to offices SW FL1
-594||fieramarmora.dyndns.org||2115||4||10003||FIERA||F Stair to offices SW FL2
-595||fieramarmora.dyndns.org||2116||4||10003||FIERA||F Stair to offices SW FL3
-596||fieramarmora.dyndns.org||2117||4||10003||FIERA||F Stair to offices SW FL4
-597||fieramarmora.dyndns.org||2118||4||10003||FIERA||F LD 1 Marmora Street
-598||fieramarmora.dyndns.org||2119||4||10003||FIERA||F Tower Lunch Room Mezzanine
-599||fieramarmora.dyndns.org||2120||4||10003||FIERA||F Tower Card Punch Mezzanine
-600||fieramarmora.dyndns.org||2121||4||10003||FIERA||F UCM Blast Freezer
+570||10.10.9.191||2091||4||10003||FIERA||F Stair Tower East FL1
+571||10.10.9.192||2092||4||10003||FIERA||F Stair Tower East FL2
+572||10.10.9.193||2093||4||10003||FIERA||F Stair Tower East FL3
+573||10.10.9.194||2094||4||10003||FIERA||F Stair Tower East FL4
+574||10.10.9.195||2095||4||10003||FIERA||F Stair Tower East FL5
+575||10.10.9.196||2096||4||10003||FIERA||F Stair Tower South FL2
+576||10.10.9.197||2097||4||10003||FIERA||F Stair Tower South FL3
+577||10.10.9.198||2098||4||10003||FIERA||F Stair Tower South FL4
+578||10.10.9.199||2099||4||10003||FIERA||F Stair Tower South FL5
+579||10.10.9.200||2100||4||10003||FIERA||F Stair North FLB
+580||10.10.9.201||2101||4||10003||FIERA||F Stair North FL5
+581||10.10.9.202||2102||4||10003||FIERA||F Stair Old Build. West FL1
+582||10.10.9.203||2103||4||10003||FIERA||F Stair Old Build. West FL2
+583||10.10.9.204||2104||4||10003||FIERA||F Stair Old Build. West FL3
+584||10.10.9.205||2105||4||10003||FIERA||F East Tower FL3 Corridor
+585||10.10.9.206||2106||4||10003||FIERA||F Mezzanine Lunch Room 2
+586||10.10.9.207||2107||4||10003||FIERA||F BD Lunch Room 2
+587||10.10.9.208||2108||4||10003||FIERA||F Main Office Reception
+588||10.10.9.209||2109||4||10003||FIERA||F Marmora Street
+589||10.10.9.210||2110||4||10003||FIERA||F Stair to offices West FLB
+590||10.10.9.211||2111||4||10003||FIERA||F Stair to offices West FL1
+591||10.10.9.212||2112||4||10003||FIERA||F Stair to offices West FL2
+592||10.10.9.213||2113||4||10003||FIERA||F Stair to offices West FL3
+593||10.10.9.214||2114||4||10003||FIERA||F Stair to offices SW FL1
+594||10.10.9.215||2115||4||10003||FIERA||F Stair to offices SW FL2
+595||10.10.9.216||2116||4||10003||FIERA||F Stair to offices SW FL3
+596||10.10.9.217||2117||4||10003||FIERA||F Stair to offices SW FL4
+597||10.10.9.218||2118||4||10003||FIERA||F LD 1 Marmora Street
+598||10.10.9.219||2119||4||10003||FIERA||F Tower Lunch Room Mezzanine
+599||10.10.9.220||2120||4||10003||FIERA||F Tower Card Punch Mezzanine
+600||10.10.9.221||2121||4||10003||FIERA||F UCM Blast Freezer
 601||fieranorfinch.dyndns.org||1675||4||10003||FIERA||NF Cooler1-Door Out
 602||fieranorfinch.dyndns.org||1676||4||10003||FIERA||NF Cooler2-Door Out
 603||fieranorfinch.dyndns.org||1677||4||10003||FIERA||NF Cooler3-Door Out
-604||fieramarmora.dyndns.org||2123||4||10003||FIERA||F ABL2 Server Room
+604|| 10.10.9.223||2123||4||10003||FIERA||F ABL2 Server Room
 605||fieranorfinch.dyndns.org||1678||4||10003||FIERA||NF Entrance Margarin Plant
 606||fierauc.dyndns.org||1661||4||10003||FIERA||U Line #4 Front
 607||fierauc.dyndns.org||1662||4||10003||FIERA||U Line #3 Front
-608||fieramarmora.dyndns.org||2124||4||10003||FIERA||F Door from packaging to ASRS
-609||fieramarmora.dyndns.org||2125||4||10003||FIERA||F Mez. Lunch Room TV
-610||fieramarmora.dyndns.org||2126||4||10003||FIERA||F ASRS Lunch Room Mez. TV
-611||fieramarmora.dyndns.org||2127||4||10003||FIERA||F Eng. Dep 1
-612||fieramarmora.dyndns.org||2128||4||10003||FIERA||F Eng. Dep 1
+608||10.10.9.224||2124||4||10003||FIERA||F Door from packaging to ASRS
+609||10.10.9.225||2125||4||10003||FIERA||F Mez. Lunch Room TV
+610||10.10.9.226||2126||4||10003||FIERA||F ASRS Lunch Room Mez. TV
+611||10.10.9.227||2127||4||10003||FIERA||F Eng. Dep 1
+612||10.10.9.228||2128||4||10003||FIERA||F Eng. Dep 1
 613||fieranorfinch.dyndns.org||1679||4||10003||FIERA||NF Margarin Plant Prod 1
 614||fieranorfinch.dyndns.org||1680||4||10003||FIERA||NF Margarin Plant Prod 2
 615||fieranorfinch.dyndns.org||1681||4||10003||FIERA||NF Margarin Plant Prod 3
 616||fieranorfinch.dyndns.org||1682||4||10003||FIERA||NF Margarin Plant Prod 4
 617||fieranorfinch.dyndns.org||1683||4||10003||FIERA||NF Margarin Plant Prod 5
 618||fieranorfinch.dyndns.org||1684||4||10003||FIERA||NF Margarin Plant Prod 6
-619||fieramarmora.dyndns.org||2129||4||10003||FIERA||F Product from SF#5
-620||fieramarmora.dyndns.org||2130||4||10003||FIERA||F SF#5 2 columns Bridge
-621||fieramarmora.dyndns.org||2131||4||10003||FIERA||F UCM SF#6 product IN
-622||fieramarmora.dyndns.org||2132||4||10003||FIERA||F UCM SF#6 product Out
-623||fieramarmora.dyndns.org||2133||4||10003||FIERA||F UCM Manual Packing after SF#6
-624||fieramarmora.dyndns.org||2134||4||10003||FIERA||F UCM Boxes to Palletizing
-625||fieramarmora.dyndns.org||2135||4||10003||FIERA||F UCM SF#6
-626||fieramarmora.dyndns.org||2136||4||10003||FIERA||F UCM Packing 3
-627||fieramarmora.dyndns.org||2137||4||10003||FIERA||F Mezzanine Packing
-628||fieramarmora.dyndns.org||2138||4||10003||FIERA||F AP Packing
-629||fieramarmora.dyndns.org||2139||4||10003||FIERA||F AP De La Ballina
-630||fieramarmora.dyndns.org||2140||4||10003||FIERA||F UCM Ingredients area
-631||fieramarmora.dyndns.org||2141||4||10003||FIERA||F SF#3
-632||fieramarmora.dyndns.org||2142||4||10003||FIERA||F Pallets to Freezer
-633||fieramarmora.dyndns.org||2143||4||10003||FIERA||F West Tower Elevator FL.1
-634||fieramarmora.dyndns.org||2144||4||10003||FIERA||F West Tower Elevator FL.3
-635||fieramarmora.dyndns.org||2145||4||10003||FIERA||F West Tower Elevator FL.4
-636||fieramarmora.dyndns.org||2146||4||10003||FIERA||F ASRS SW Freezer In
-637||fieramarmora.dyndns.org||2147||4||10003||FIERA||F Product pick up
-638||fieramarmora.dyndns.org||2148||4||10003||FIERA||F Product slicing
-639||fieramarmora.dyndns.org||2149||4||10003||FIERA||F PFM Wrappers
-640||fieramarmora.dyndns.org||2151||4||10003||FIERA||BD Cookies Packing
-641||fieramarmora.dyndns.org||2152||4||10003||FIERA||BD Comas Depositor
-642||fieramarmora.dyndns.org||2153||4||10003||FIERA||F Croissant 16000 2 Lines
-643||fieramarmora.dyndns.org||2154||4||10003||FIERA||F CDBE Laminated Line
+619||10.10.9.229||2129||4||10003||FIERA||F Product from SF#5
+620||10.10.9.230||2130||4||10003||FIERA||F SF#5 2 columns Bridge
+621||10.10.9.231||2131||4||10003||FIERA||F UCM SF#6 product IN
+622||10.10.9.232||2132||4||10003||FIERA||F UCM SF#6 product Out
+623||10.10.9.233||2133||4||10003||FIERA||F UCM Manual Packing after SF#6
+624||10.10.9.234||2134||4||10003||FIERA||F UCM Boxes to Palletizing
+625||10.10.9.235||2135||4||10003||FIERA||F UCM SF#6
+626||10.10.9.236||2136||4||10003||FIERA||F UCM Packing 3
+627||10.10.9.237||2137||4||10003||FIERA||F Mezzanine Packing
+628||10.10.9.238||2138||4||10003||FIERA||F AP Packing
+629||10.10.9.239||2139||4||10003||FIERA||F AP De La Ballina
+630||10.10.9.240||2140||4||10003||FIERA||F UCM Ingredients area
+631||10.10.9.241||2141||4||10003||FIERA||F SF#3
+632||10.10.9.242||2142||4||10003||FIERA||F Pallets to Freezer
+633||10.10.9.243||2143||4||10003||FIERA||F West Tower Elevator FL.1
+634||10.10.9.244||2144||4||10003||FIERA||F West Tower Elevator FL.3
+635||10.10.9.245||2145||4||10003||FIERA||F West Tower Elevator FL.4
+636||10.10.9.246||2146||4||10003||FIERA||F ASRS SW Freezer In
+637||10.10.9.247||2147||4||10003||FIERA||F Product pick up
+638||10.10.9.248||2148||4||10003||FIERA||F Product slicing
+639||10.10.9.249||2149||4||10003||FIERA||F PFM Wrappers
+640||10.10.9.251||2151||4||10003||FIERA||BD Cookies Packing
+641||10.10.9.252||2152||4||10003||FIERA||BD Comas Depositor
+642||10.10.9.253||2153||4||10003||FIERA||F Croissant 16000 2 Lines
+643||10.10.9.254||2154||4||10003||FIERA||F CDBE Laminated Line
 644||72.143.115.58||1601||4||10003||FIERA||CL 60 Clayson Inside 1
 645||72.143.115.58||1602||4||10003||FIERA||CL 60 Clayson Inside 2
 646||72.143.115.58||1603||4||10003||FIERA||CL 60 Clayson East side to North
 647||72.143.115.58||1604||4||10003||FIERA||CL 60 Clayson North Side to West
 648||72.143.115.58||1605||4||10003||FIERA||CL 60 Clayson North Side to East
 649||72.143.115.58||1606||4||10003||FIERA||CL 60 Clayson South Side to East
-650||fieramarmora.dyndns.org||1801||4||10003||FIERA||F Old Server Room
-651||fieramarmora.dyndns.org||1802||4||10003||FIERA||BD Telephone Room
-652||fieramarmora.dyndns.org||1803||4||10003||FIERA||BD Data Room
+650||10.10.8.1||1801||4||10003||FIERA||F Old Server Room
+651||10.10.8.2||1802||4||10003||FIERA||BD Telephone Room
+652||10.10.8.3||1803||4||10003||FIERA||BD Data Room
 653||72.143.115.58||1607||4||10003||FIERA||CL 60 Clayson to North
-654||fieramarmora.dyndns.org||1804||4||10003||FIERA||F ASRS SE Gate inside
+654||10.10.8.4||1804||4||10003||FIERA||F ASRS SE Gate inside
 655||fierauc.dyndns.org||1663||4||10003||FIERA||U Mezz Product to Packaging
 656||fierauc.dyndns.org||1664||4||10003||FIERA||U Mezz 2
-657||fieramarmora.dyndns.org||1805||4||10003||FIERA||F MFC Lunch room
+657||10.10.8.5||1805||4||10003||FIERA||F MFC Lunch room
 658||fierauc.dyndns.org||1665||4||10003||FIERA||U Line4-1
 659||fierauc.dyndns.org||1666||4||10003||FIERA||U Line4-2
-660||fieramarmora.dyndns.org||1806||4||10003||FIERA||F Mezz Locker room area
-661||fieramarmora.dyndns.org||1807||4||10003||FIERA||F Mezz corridor
-662||fieramarmora.dyndns.org||1808||4||10003||FIERA||F Mezz Door to elevator
-663||fieramarmora.dyndns.org||1809||4||10003||FIERA||F Mezz Packaging
-664||fieramarmora.dyndns.org||1810||4||10003||FIERA||F Conference Hall 1
-665||fieramarmora.dyndns.org||1811||4||10003||FIERA||F Conference Hall 2
-666||fieramarmora.dyndns.org||1812||4||10003||FIERA||F Mezz coridor to Stairs
-667||fieramarmora.dyndns.org||1813||4||10003||FIERA||F Mezz Stairs to MF
-668||fieramarmora.dyndns.org||1814||4||10003||FIERA||F Ambient Spiral Cooler
-669||fieramarmora.dyndns.org||1815||4||10003||FIERA||BD Cookies Packaging
-670||fieramarmora.dyndns.org||1816||4||10003||FIERA||BD Mixing and Forming 2
-671||fieramarmora.dyndns.org||1817||4||10003||FIERA||BD Product Cooling 3
-672||fieramarmora.dyndns.org||1818||4||10003||FIERA||BD Cookies Packaging 2
-673||fieramarmora.dyndns.org||1819||4||10003||FIERA||F Conference Hall 3
-674||fieramarmora.dyndns.org||1820||4||10003||FIERA||BD Packaging Machine
+660||10.10.8.6||1806||4||10003||FIERA||F Mezz Locker room area
+661||10.10.8.7||1807||4||10003||FIERA||F Mezz corridor
+662||10.10.8.8||1808||4||10003||FIERA||F Mezz Door to elevator
+663||10.10.8.9||1809||4||10003||FIERA||F Mezz Packaging
+664||10.10.8.10||1810||4||10003||FIERA||F Conference Hall 1
+665||10.10.8.11||1811||4||10003||FIERA||F Conference Hall 2
+666||10.10.8.12||1812||4||10003||FIERA||F Mezz coridor to Stairs
+667||10.10.8.13||1813||4||10003||FIERA||F Mezz Stairs to MF
+668||10.10.8.14||1814||4||10003||FIERA||F Ambient Spiral Cooler
+669||10.10.8.15||1815||4||10003||FIERA||BD Cookies Packaging
+670||10.10.8.16||1816||4||10003||FIERA||BD Mixing and Forming 2
+671||10.10.8.17||1817||4||10003||FIERA||BD Product Cooling 3
+672||10.10.8.18||1818||4||10003||FIERA||BD Cookies Packaging 2
+673||10.10.8.19||1819||4||10003||FIERA||F Conference Hall 3
+674||10.10.8.20||1820||4||10003||FIERA||BD Packaging Machine
 675||fieranorelco.dyndns.org||1682||4||10003||FIERA||N Lunch Room TV
-676||fieramarmora.dyndns.org||1821||4||10003||FIERA||F Main floor 1
-677||fieramarmora.dyndns.org||1822||4||10003||FIERA||F Main floor 2
-678||fieramarmora.dyndns.org||1823||4||10003||FIERA||F AP Troubleshooting 1
-679||fieramarmora.dyndns.org||1824||4||10003||FIERA||F AP Troubleshooting 2
+676||10.10.8.21||1821||4||10003||FIERA||F Main floor 1
+677||10.10.8.22||1822||4||10003||FIERA||F Main floor 2
+678||10.10.8.23||1823||4||10003||FIERA||F AP Troubleshooting 1
+679||10.10.8.24||1824||4||10003||FIERA||F AP Troubleshooting 2
 680||fierauc.dyndns.org||1667||4||10003||FIERA||UC Lunch Room TV
-681||fieramarmora.dyndns.org||1825||4||10003||FIERA||F Big Oven Loading
-682||fieramarmora.dyndns.org||1826||4||10003||FIERA||F Door to Refrigeration Office
-683||fieramarmora.dyndns.org||1827||4||10003||FIERA||F Refrigeration Office Corridor
-684||fieramarmora.dyndns.org||1828||4||10003||FIERA||F Main Floor Packaging
-685||fieramarmora.dyndns.org||1829||4||10003||FIERA||F Speed Search
-
+681||10.10.8.25||1825||4||10003||FIERA||F Big Oven Loading
+682||10.10.8.26||1826||4||10003||FIERA||F Door to Refrigeration Office
+683||10.10.8.27||1827||4||10003||FIERA||F Refrigeration Office Corridor
+684||10.10.8.28||1828||4||10003||FIERA||F Main Floor Packaging
+685||10.10.8.29||1829||4||10003||FIERA||F Speed Search
+686||10.10.8.29||1830||4||10003||FIERA||F Noise Detector
 
 
 Finkel||4||29||27||90||96||97||98||74||75||76||
