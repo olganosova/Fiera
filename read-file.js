@@ -466,7 +466,7 @@
         };
 
         $scope.makeTextFile = function (text) {
-            text = text.replace(/\n/g, "\r\n");
+            //text = text.replace(/\n/g, "\r\n");
             var data = new Blob([text], {type: 'text/plain'});
 
             // If we are replacing a previously generated file we need to
