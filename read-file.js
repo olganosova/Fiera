@@ -59,7 +59,7 @@
 
             }
             if ($scope.source.length === 3) {
-
+                $scope.sourceJSON = angular.copy($scope.masterJSON);
                 $scope.missingCamOut = "";
                 $scope.missingCamSource = "";
                 $scope.joined = angular.copy($scope.masterJSON);
@@ -342,9 +342,9 @@
             lineObj.lastLines = false;
             lineObj.dns = '';
             lineObj.prop1 = '';
-            lineObj.prop2 = '';
-            lineObj.prop3 = '';
-            lineObj.prop4 = '';
+            lineObj.prop2 = '4';
+            lineObj.prop3 = '10003';
+            lineObj.prop4 = 'FIERA';
             lineObj.desc = '';
             $scope.updateIndexes(val, true);
             $scope.masterJSON.splice(val, 0, lineObj);
