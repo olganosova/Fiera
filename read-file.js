@@ -111,8 +111,12 @@
                         $scope.errorMessage += $sce.trustAsHtml("Missing Camera in " + lbl + " : " + inner2[ix].camNum + "<br/>");
                     }
                 }
-                if (!errorOnly && lineObj.camNum) {
-                    $scope.masterJSON.push(lineObj);
+
+                if (!errorOnly ) {
+
+                        $scope.masterJSON.push(lineObj);
+
+
                 }
 
             }
