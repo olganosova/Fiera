@@ -25,8 +25,9 @@
         .hl {
             background-color: #cde7f6;
         }
+
         .h-orange {
-            background-color:orange;
+            background-color: orange;
         }
 
         .hlg {
@@ -76,7 +77,44 @@
             z-index: 1234;
 
         }
-        .screen-width{min-height:600px;width:100%}
+
+        .screen-width {
+            min-height: 600px;
+            width: 100%
+        }
+
+        .button-top {
+            position: fixed;
+            top: 0;
+            left: 2%;
+            width: 250px;
+            z-index: 2000;
+            cursor: pointer;
+            border: 1px solid #c0c0c0;
+            background-color: green;
+            color: #fff;
+            padding: 10px 0;
+        }
+
+        .left-menu {
+            position: fixed;
+            top: 40px;
+            left: 2%;
+            width: 250px;
+            height: 98%;
+            z-index: 1234;
+            cursor: pointer;
+            overflow: auto;
+            border: 1px solid #c0c0c0;
+            background-color: #fff
+        }
+        .top-menu {
+            position: fixed;
+            top: 0;
+            left: 300px;;
+            z-index: 1234;
+            background-color: #fff
+        }
 
 
     </style>
@@ -84,20 +122,21 @@
 <body>
 <div class="container" id="filesTop" ng-controller="ReadFileCtrl">
 
+    <div >
+        <h1>Order to select files:</h1>
 
-    <h1>Order to select files:</h1>
+        <h3><span ng-class="source.length >= 1 ? 'hl' : '' ">Source Out</span> > <span
+                ng-class="source.length >= 2 ? 'hlg' : '' ">Source Local</span> >
+            <span ng-class="source.length >= 3 ? 'hly' : '' ">Fiera Out</span></h3>
+        <input type="file" on-read-file="loadFile($fileContent)"/>
 
-    <h3><span ng-class="source.length >= 1 ? 'hl' : '' ">Source Out</span> > <span
-            ng-class="source.length >= 2 ? 'hlg' : '' ">Source Local</span> >
-        <span ng-class="source.length >= 3 ? 'hly' : '' ">Fiera Out</span></h3>
-    <input type="file" on-read-file="loadFile($fileContent)"/>
+        <button ng-click="createFile('out')" ng-disabled="source.length<2">Preview {{stage}} OUT</button>
+        <button ng-click="createFile('local')" ng-disabled="source.length<2">Preview {{stage}} Local</button>
+        <button onclick="location.reload();">Clear</button>
 
-    <button ng-click="createFile('out')" ng-disabled="source.length<2">Preview {{stage}} OUT</button>
-    <button ng-click="createFile('local')" ng-disabled="source.length<2">Preview {{stage}} Local</button>
+        <a download="{{fileName}}.txt" id="downloadlink" style="display: none">Download {{stage}} {{fileName}}</a>
+    </div>
 
-    <a download="{{fileName}}.txt" id="downloadlink" style="display: none">Download {{stage}} {{fileName}}</a>
-
-    <button onclick="location.reload();">Clear</button>
     <div ng-if="toSave && toSave.length>0">
         <!--<div ng-repeat="line in toSave track by $index">{{line}}</div>-->
         <textarea data-ng-model="toSaveLines" class="screen-width"></textarea>
@@ -106,24 +145,26 @@
 
 
     <div>
-        <div style="position: fixed;top:0;left:2%;width:250px;z-index: 2000;cursor:pointer;border:1px solid #c0c0c0;background-color:green;color:#fff"
-        ng-click="gotoGroup('filesTop')">
+        <button class="button-top" ng-click="gotoGroup('filesTop')">
             SCROLL TO TOP
-
-        </div>
-        <div style="position: fixed;top:3%;left:2%;width:250px;height:98%;z-index: 1234;cursor:pointer;overflow:auto;border:1px solid #c0c0c0;background-color: #fff"
-             ng-if="groups.length>1">
-            <div style="padding-left:5px;"  ng-class="group.isMain ? 'h-orange' : ''" ng-repeat="group in groups track by $index"><strong><u><span
+        </button>
+        <div class="left-menu" ng-if="groups.length>1">
+            <div style="padding-left:5px;" ng-class="group.isMain ? 'h-orange' : ''"
+                 ng-repeat="group in groups track by $index"><strong><u><span
                     ng-click="gotoGroup(group.groupId)">{{group.groupName}}</span></u></strong></div>
         </div>
         <br/>
 
-        <div style="color:green;cursor:pointer" ng-show="!errorMessage && !descrMaster.length && source.length === 2"><strong>No
-            Errors</strong></div>
-        <div style="color:red;cursor:pointer" ng-show="errorMessage || descrMaster.length>0" ng-click="showErrors=!showErrors;">
+        <div style="color:green;cursor:pointer" ng-show="!errorMessage && !descrMaster.length && source.length === 2">
+            <strong>No
+                Errors</strong></div>
+        <div style="color:red;cursor:pointer" ng-show="errorMessage || descrMaster.length>0"
+             ng-click="showErrors=!showErrors;">
             <strong>Errors</strong></div>
-        <div style="color:red;"  ng-if="missingCamOut && showErrors" style="width:600px;">Missing records in Fieraout: <span ng-bind-html="missingCamOut"></span></div>
-        <div style="color:red;"  ng-if="missingCamSource && showErrors" style="width:600px;">Missing records in Source: <span ng-bind-html="missingCamSource"></span></div>
+        <div style="color:red;" ng-if="missingCamOut && showErrors" style="width:600px;">Missing records in Fieraout:
+            <span ng-bind-html="missingCamOut"></span></div>
+        <div style="color:red;" ng-if="missingCamSource && showErrors" style="width:600px;">Missing records in Source:
+            <span ng-bind-html="missingCamSource"></span></div>
         <table ng-show="(errorMessage || descrMaster.length>0) && source.length === 2 && showErrors">
             <tr>
                 <td valign="top">
@@ -147,7 +188,8 @@
                         </tr>
                         <tr ng-repeat="err in descrMaster track by $index ">
                             <td valign="top">{{err.camNum}}</td>
-                            <td  ><div class="hl">{{err.desc}}</div>
+                            <td>
+                                <div class="hl">{{err.desc}}</div>
                                 <div class="hlg">{{err.desc2}}</div>
                             </td>
                         </tr>
