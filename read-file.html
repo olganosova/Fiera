@@ -115,6 +115,9 @@
             z-index: 1234;
             background-color: #fff
         }
+        .hl-border{
+            border-bottom: 2px solid red;
+        }
 
 
     </style>
@@ -163,7 +166,7 @@
         <div style="color:red;" ng-if="missingCamSource && showErrors" style="width:600px;">Missing records in Source:
             <span ng-bind-html="missingCamSource"></span></div>
         <table ng-show="(errorMessage || descrMaster.length>0) && source.length === 2 && showErrors">
-            <tr>
+            <tr >
                 <td valign="top">
                     <table width="200px">
                         <td>Cam #</td>
@@ -206,7 +209,7 @@
         <table class="table-border" border="1px" width="100%" ng-if="isShow">
             <tr ng-repeat="line in masterJSON track by $index" ng-class="getRowColor(line);">
                 <!--<td>{{$index}}</td>-->
-                <td style="cursor:pointer;" ng-if="!line.groupTitle">
+                <td style="cursor:pointer;" ng-if="!line.groupTitle" title="{{line.group}}">
                     <div ng-if="line.groupIndex===1" ng-click="createNew($index, line, true)"><span
                             class="icon-up"></span></div>
                     <div ng-click="removeIt($index, line)"><span class="cross"></span></div>

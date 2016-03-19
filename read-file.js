@@ -87,9 +87,9 @@
                     if (!errorOnly) {
                         lineObj.desc2 = found.desc;
                         lineObj.dns2 = found.dns;
-
                         lineObj.desc3 = found.desc2;
                         lineObj.dns3 = found.dns2;
+                        //lineObj.descShort = $scope.parseDescription(found.desc);
                     }
                 }
                 else {
@@ -109,6 +109,15 @@
                             $scope.missingCamSource += inner2[ix].camNum + ",";
                         }
                         $scope.errorMessage += $sce.trustAsHtml("Missing Camera in " + lbl + " : " + inner2[ix].camNum + "<br/>");
+                    }
+                    if (!errorOnly) {  //check if comment
+                        var found = ($filter('filter')(inner1, {camNum: inner2[ix].camNum.replace(".", "")}, true))[0];
+                        if (found) {
+                            lineObj.desc2 = found.desc;
+                            lineObj.dns2 = found.dns;
+                            lineObj.desc3 = found.desc2;
+                            lineObj.dns3 = found.dns2;
+                        }
                     }
                 }
 
@@ -309,6 +318,11 @@
             }
 
             $scope.updateIndexes(val, false);
+            var topDeleted = ($filter('filter')($scope.masterJSON, {index: val}, true)[0]);
+            if(topDeleted){
+                //topDeleted.justDeleted = true;
+            }
+
         };
 
         $scope.createNew = function (val, line, up) {
@@ -527,13 +541,18 @@
 
         $scope.getRowColor = function (line) {
             var result = "";
-            if (line.isNew) {
+            var isDeleted = "";
+            if(line.justDeleted){
+                isDeleted =" hl-border";
+            }
+           else if (line.isNew) {
                 result = "row-highlighted";
             }
             else if (line.comment) {
                 result = "row-comment";
             }
-            return result;
+
+            return result + isDeleted;
         }
 
 
