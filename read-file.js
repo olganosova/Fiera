@@ -27,8 +27,8 @@
         $scope.progress = true;
 
         $scope.allCameras = [];
-        $scope.missingMaster = [];
-        $scope.descrMaster = [];
+        $scope.missingCameras = [];
+        $scope.missingComments = [];
         $scope.missingCamOut = "";
         $scope.missingCamSource = "";
         $scope.stage = "";
@@ -45,15 +45,14 @@
                 $scope.errorMessage = "";
                 $scope.sourceJSON = [];
                 $scope.masterJSON = [];
-                $scope.missingMaster = [];
-                $scope.descrMaster = [];
+
                 var inner1 = $scope.parseFile($scope.source[0]); //master
                 var inner2 = $scope.parseFile($scope.source[1]); //local
 
                 $scope.processs2Files(inner1, inner2, "out", true);
                 $scope.processs2Files(inner2, inner1, "local", false);
                 $scope.sourceJSON = angular.copy($scope.masterJSON);
-                $scope.descrMaster = angular.copy($scope.compareDesc($scope.sourceJSON));
+                $scope.missingComments = angular.copy($scope.compareDesc($scope.sourceJSON));
                 $scope.isShow = true;
                 $scope.stage = "SOURCE";
 
@@ -64,6 +63,8 @@
                 $scope.missingCamSource = "";
                 $scope.joined = angular.copy($scope.masterJSON);
                 $scope.masterJSON = [];
+                $scope.missingCameras = [];
+                $scope.missingComments = [];
                 var joined = $scope.joined;//source
                 var fieraout = $scope.parseFile($scope.source[2]); //fiera out
                 $scope.processs2Files(fieraout, joined, "fieraout", true);
@@ -93,14 +94,20 @@
                     }
                 }
                 else {
-                    if (!isNaN(inner2[ix].camNum) || inner2[ix].camNum.substring(0, 1 === ".")) {
-                        if ((lbl === "out" || lbl === "local") && inner2[ix].camNum.trim() !== "") {
+                    if (!isNaN(inner2[ix].camNum) || inner2[ix].camNum.substring(0, 1) === ".") {
+                        if ((lbl === "fieraout" || lbl === "source") && inner2[ix].camNum.trim() !== "") {
                             var mObj = {};
                             mObj.camNum = inner2[ix].camNum;
-                            mObj.missingOut = (lbl === "out") ? "N" : "Y";
-                            mObj.missingLocal = (lbl === "local") ? "N" : "Y";
+                            mObj.missingGroups = (lbl === "fieraout") ? "N" : "Y";
+                            mObj.missingOut = (lbl === "source") ? "N" : "Y";
+                            if(inner2[ix].camNum.substring(0, 1 )=== "."){
+                                $scope.missingComments.push(mObj);
+                            }
+                            else if(!isNaN(inner2[ix].camNum )){
+                                $scope.missingCameras.push(mObj);
+                            }
 
-                            $scope.missingMaster.push(mObj);
+
                         }
                         if((lbl === "fieraout") && inner2[ix].camNum.trim() !== ""){
                             $scope.missingCamOut += inner2[ix].camNum + ",";

@@ -108,6 +108,7 @@
             border: 1px solid #c0c0c0;
             background-color: #fff
         }
+
         .top-menu {
             position: fixed;
             top: 0;
@@ -115,7 +116,8 @@
             z-index: 1234;
             background-color: #fff
         }
-        .hl-border{
+
+        .hl-border {
             border-bottom: 2px solid red;
         }
 
@@ -125,7 +127,7 @@
 <body>
 <div class="container" id="filesTop" ng-controller="ReadFileCtrl">
 
-    <div >
+    <div>
         <h1>Order to select files:</h1>
 
         <h3><span ng-class="source.length >= 1 ? 'hl' : '' ">Source Out</span> > <span
@@ -141,9 +143,7 @@
     </div>
 
 
-
-
-    <div >
+    <div>
 
         <button class="button-top" ng-click="gotoGroup('filesTop')">
             SCROLL TO TOP
@@ -155,50 +155,46 @@
         </div>
         <br/>
 
-        <div style="color:green;cursor:pointer" ng-show="!errorMessage && !descrMaster.length && source.length === 2">
+        <div style="color:green;cursor:pointer"
+             ng-show="!errorMessage && !missingComments.length && source.length === 2">
             <strong>No
                 Errors</strong></div>
-        <div style="color:red;cursor:pointer" ng-show="errorMessage || descrMaster.length>0"
+        <div style="color:red;cursor:pointer" ng-show="errorMessage || missingComments.length>0"
              ng-click="showErrors=!showErrors;">
             <strong>Errors</strong></div>
         <div style="color:red;" ng-if="missingCamOut && showErrors" style="width:600px;">Missing records in Fieraout:
             <span ng-bind-html="missingCamOut"></span></div>
         <div style="color:red;" ng-if="missingCamSource && showErrors" style="width:600px;">Missing records in Source:
             <span ng-bind-html="missingCamSource"></span></div>
-        <table ng-show="(errorMessage || descrMaster.length>0) && source.length === 2 && showErrors">
-            <tr >
-                <td valign="top">
-                    <table width="200px">
-                        <td>Cam #</td>
-                        <td>Out</td>
-                        <td>Local</td>
-                        </tr>
-                        <tr ng-repeat="err in missingMaster track by $index">
-                            <td>{{err.camNum}}</td>
-                            <td>{{err.missingOut}}</td>
-                            <td>{{err.missingLocal}}</td>
-                        </tr>
-                    </table>
-                </td>
-                <td>
-                    <table>
-                        <td>Cam #</td>
-                        <td>Description</td>
+        <div ng-show="(missingComments.length>0 || missingCameras.length>0) && source.length === 3">
 
-                        </tr>
-                        <tr ng-repeat="err in descrMaster track by $index ">
-                            <td valign="top">{{err.camNum}}</td>
-                            <td>
-                                <div class="hl">{{err.desc}}</div>
-                                <div class="hlg">{{err.desc2}}</div>
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-            <tr>
+            <table ng-show="(missingCameras.length>0)" border="1">
 
-        </table>
+                <tr>
+                    <td><strong>Cameras<br/>Groups<br/>Source</strong>
+                    </td>
+                    <td ng-repeat="err in missingCameras track by $index" style="text-align:center">{{err.camNum}}
+                        <br/>
+                        {{err.missingGroups}}<br/>
+                        {{err.missingOut}}
+                    </td>
+                </tr>
+            </table>
+            <br/>
+            <table border="1">
+                <tr>
+                    <td><strong>Comments<br/>Groups<br/>Source</strong>
+                    </td>
+                    <td ng-repeat="err in missingComments track by $index" style="text-align:center">
+                        {{err.camNum}}<br/>
+                        {{err.missingGroups}}<br/>
+                        {{err.missingOut}}
+                    </td>
+                </tr>
+            </table>
+
+
+        </div>
         <div ng-if="toSave && toSave.length>0">
             <!--<div ng-repeat="line in toSave track by $index">{{line}}</div>-->
             <textarea data-ng-model="toSaveLines" class="screen-width"></textarea>
