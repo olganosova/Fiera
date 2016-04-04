@@ -90,7 +90,7 @@
                         lineObj.dns2 = found.dns;
                         lineObj.desc3 = found.desc2;
                         lineObj.dns3 = found.dns2;
-                        //lineObj.descShort = $scope.parseDescription(found.desc);
+                        lineObj.descShort = $scope.parseDescription(found.desc);
                     }
                 }
                 else {
