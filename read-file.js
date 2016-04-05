@@ -104,7 +104,12 @@
                                 $scope.missingComments.push(mObj);
                             }
                             else if(!isNaN(inner2[ix].camNum )){
-                                $scope.missingCameras.push(mObj);
+                                //check for comment
+                                var cmt = ($filter('filter')(inner1, {camNum: "." + inner2[ix].camNum}, true))[0];
+                                if (!cmt) {
+                                    $scope.missingCameras.push(mObj);
+                                }
+
                             }
 
 
