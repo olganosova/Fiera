@@ -16,6 +16,8 @@
 ;
 (function () {
   'use strict';
- angular.module('fieraApp', ['ngSanitize']);
+var app = angular.module('fieraApp', ['ngSanitize']);
+
+   
 
 }());

@@ -7,7 +7,7 @@
 (function () {
     'use strict';
 
-    function ReadFileCtrl($scope, $filter, $location, $anchorScroll, $sce) {
+    function ReadFileCtrl($scope, $filter, $location, $anchorScroll, $sce, $timeout) {
 
         $scope.textLines = [];
         $scope.sourceJSON = [];
@@ -381,6 +381,14 @@
 
                 $scope.masterJSON.splice(val, 0, lineObj);
 
+            var inputId = "id" + lineObj.index;
+            $timeout(function() {
+                var elm = document.getElementById(inputId);
+                //var elm =  angular.element(inputId);
+               elm.focus();
+            });
+
+
 
 
 
@@ -435,6 +443,16 @@
 
         };
 
+        $scope.copyCameraOnEnter = function(keyEvent, line){
+
+            if (keyEvent.which !== 13){
+                return;
+            }
+
+            $scope.copyCamera(line);
+
+        }
+
         $scope.copyCamera = function (line) {
             var isFromSource = false;
             if (!line.isNew) {
@@ -472,7 +490,7 @@
 
                 line.desc3 = found.desc2;
                 line.dns3 = found.dns2;
-                line.descShort = found.desc;
+                line.descShort =  $scope.parseDescription(found.desc);
                 line.camNumFormatted = found.camNum.replace('.', '');
             }
 

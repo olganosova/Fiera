@@ -211,9 +211,11 @@
                     <div ng-click="removeIt($index, line)"><span class="cross"></span></div>
                     <div ng-click="createNew($index+1, line, false)"><span class="icon-up"></span></div>
                 </td>
+
                 <td ng-if="line.groupTitle" id="{{line.groupId}}" colspan="8"><strong>{{line.group}}</strong></td>
-                <td ng-if="!line.groupTitle"><input type="text" class="small-input" data-ng-model="line.camNum"
-                                                    ng-blur="copyCamera(line)"
+
+                <td ng-if="!line.groupTitle"><input id="id{{line.index}}" type="text" class="small-input" data-ng-model="line.camNum"
+                                                    ng-blur="copyCamera(line)" ng-keypress="copyCameraOnEnter($event, line)"
                                                     ng-change="updateValue(line, '{{line.camNum}}')"/></td>
 
                 <td ng-if="!line.groupTitle">
