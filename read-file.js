@@ -296,6 +296,10 @@
             return val.substring(val.indexOf(" ") + 1);
         };
         $scope.removeIt = function (val, toRemove) {
+            if(!toRemove.isDeleteCandidate){
+                toRemove.isDeleteCandidate = true;
+                return;
+            }
             var isComment = toRemove.comment;
             var cumNumber = toRemove.camNum;
             var toRemoveGroupId = Number(toRemove.groupId);
@@ -330,10 +334,7 @@
             }
 
             $scope.updateIndexes(val, false);
-            var topDeleted = ($filter('filter')($scope.masterJSON, {index: val}, true)[0]);
-            if(topDeleted){
-                //topDeleted.justDeleted = true;
-            }
+
 
         };
 
@@ -571,9 +572,10 @@
 
         $scope.getRowColor = function (line) {
             var result = "";
-            var isDeleted = "";
-            if(line.justDeleted){
-                isDeleted =" hl-border";
+
+            //isDeleteCandidate
+            if(line.isDeleteCandidate){
+                result ="row-deleted";
             }
            else if (line.isNew) {
                 result = "row-highlighted";
@@ -582,7 +584,7 @@
                 result = "row-comment";
             }
 
-            return result + isDeleted;
+            return result ;
         }
 
 

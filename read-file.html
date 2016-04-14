@@ -65,6 +65,9 @@
         .row-comment {
             background-color: #c2ccd1;
         }
+        .row-deleted{
+            background-color:lightcoral;
+        }
 
         .spinner {
             position: fixed;
@@ -117,9 +120,6 @@
             background-color: #fff
         }
 
-        .hl-border {
-            border-bottom: 2px solid red;
-        }
 
 
     </style>
@@ -159,7 +159,7 @@
              ng-show="!errorMessage && !missingComments.length && source.length === 2">
             <strong>No
                 Errors</strong></div>
-        <div style="color:red;cursor:pointer" ng-show="errorMessage || missingComments.length>0"
+        <div style="color:red;cursor:pointer" ng-show="missingCameras.length>0 || missingComments.length>0"
              ng-click="showErrors=!showErrors;">
             <strong>Errors</strong></div>
         <div style="color:red;" ng-if="missingCamOut && showErrors" style="width:600px;">Missing records in Fieraout:
