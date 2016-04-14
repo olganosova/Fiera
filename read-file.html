@@ -1,128 +1,14 @@
 <!doctype html>
 <html ng-app="fieraApp">
 <head>
+    <link rel="stylesheet" href="styles.css">
     <script src="bower_components/angular/angular.js"></script>
     <script src="bower_components/angular/angular-sanitize.js"></script>
 
     <script src="app.js"></script>
     <script src="read-file.js"></script>
     <title>Fiera File Editor</title>
-    <style>
-        h1, h2, h3 {
-            color: #366097;
-        }
 
-        body {
-            font-family: Verdana;
-            font-size: 12px;
-        }
-
-        .container {
-            margin-left: 300px;
-
-        }
-
-        .hl {
-            background-color: #cde7f6;
-        }
-
-        .h-orange {
-            background-color: orange;
-        }
-
-        .hlg {
-            background-color: greenyellow;
-        }
-
-        .hly {
-            background-color: yellow;
-        }
-
-        .small-input {
-            width: 80px;
-        }
-
-        .icon-up:before {
-            font-size: 20px;
-            color: green;
-            content: "\271A";
-        }
-
-        .cross:before {
-            font-size: 20px;
-            color: red;
-            content: "\2716";
-        }
-
-        .table-border {
-            border: 1px solid darkslategray;
-        }
-
-        .row-highlighted {
-            background-color: #cde7f6;
-        }
-
-        .row-comment {
-            background-color: #c2ccd1;
-        }
-
-        .row-deleted {
-            background-color: lightcoral;
-        }
-
-        .screen-width {
-            min-height: 600px;
-            width: 100%
-        }
-
-        .button-top {
-            position: fixed;
-            top: 20px;
-            left: 2%;
-            width: 250px;
-            z-index: 2000;
-            cursor: pointer;
-            border: 1px solid #c0c0c0;
-            background-color: green;
-            color: #fff;
-            padding: 10px 0;
-        }
-
-        .left-menu {
-            position: fixed;
-            top: 60px;
-            left: 2%;
-            width: 250px;
-            height: 94%;
-            z-index: 1234;
-            cursor: pointer;
-            overflow: auto;
-            border: 1px solid #c0c0c0;
-            background-color: #fff
-        }
-
-        .button {
-            padding: 8px 15px;  border: 2px solid #366097;  font: bold 10pt Verdana;  color: #366097;
-        }
-        .button-disabled{
-            background-color:#fff !important; border-color:#cde7f6; color: #cde7f6;
-        }
-
-        button {
-            background-color:#cde7f6;
-            padding: 10px 15px;
-            font: bold 10pt Verdana;
-            color: #366097;
-            border: 2px solid #366097;
-            cursor: pointer;
-        }
-
-        input {
-            padding: 5px;
-            border: 1px solid #366097;
-        }
-
-    </style>
 </head>
 <body>
 <div class="container" id="filesTop" ng-controller="ReadFileCtrl">
