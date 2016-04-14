@@ -37,8 +37,8 @@
       <file leaf-file-name="read-file.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/read-file.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="682">
-              <caret line="238" column="104" selection-start-line="238" selection-start-column="104" selection-end-line="238" selection-end-column="104" />
+            <state relative-caret-position="383">
+              <caret line="111" column="37" selection-start-line="111" selection-start-column="37" selection-end-line="111" selection-end-column="37" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -60,8 +60,8 @@
       <file leaf-file-name="read-file.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/read-file.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9809">
-              <caret line="577" column="32" selection-start-line="577" selection-start-column="25" selection-end-line="577" selection-end-column="36" />
+            <state relative-caret-position="237">
+              <caret line="572" column="46" selection-start-line="572" selection-start-column="46" selection-end-line="572" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -251,7 +251,7 @@
       <workItem from="1460489498235" duration="727000" />
       <workItem from="1460562828088" duration="1233000" />
       <workItem from="1460638579296" duration="1176000" />
-      <workItem from="1460644819290" duration="366000" />
+      <workItem from="1460644819290" duration="3389000" />
     </task>
     <task id="LOCAL-00001" summary="first commit to git">
       <created>1457723313153</created>
@@ -372,11 +372,18 @@
       <option name="project" value="LOCAL" />
       <updated>1460639164558</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="bg-color for deleted candidate">
+      <created>1460645201684</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1460645201684</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13777000" />
+    <option name="totallyTimeSpent" value="16800000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1216" extended-state="6" />
@@ -933,16 +940,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/read-file.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9809">
-          <caret line="577" column="32" selection-start-line="577" selection-start-column="25" selection-end-line="577" selection-end-column="36" />
+        <state relative-caret-position="237">
+          <caret line="572" column="46" selection-start-line="572" selection-start-column="46" selection-end-line="572" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/read-file.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="238" column="104" selection-start-line="238" selection-start-column="104" selection-end-line="238" selection-end-column="104" />
+        <state relative-caret-position="383">
+          <caret line="111" column="37" selection-start-line="111" selection-start-column="37" selection-end-line="111" selection-end-column="37" />
           <folding>
             <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />

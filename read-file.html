@@ -65,20 +65,9 @@
         .row-comment {
             background-color: #c2ccd1;
         }
-        .row-deleted{
-            background-color:lightcoral;
-        }
 
-        .spinner {
-            position: fixed;
-            top: 30%;
-            left: 45%;
-            margin-top: -50px;
-            margin-left: -50px;
-            width: 100px;
-            height: 100px;
-            z-index: 1234;
-
+        .row-deleted {
+            background-color: lightcoral;
         }
 
         .screen-width {
@@ -112,15 +101,26 @@
             background-color: #fff
         }
 
-        .top-menu {
-            position: fixed;
-            top: 0;
-            left: 300px;;
-            z-index: 1234;
-            background-color: #fff
+        .button {
+            padding: 8px 15px;  border: 2px solid #366097;  font: bold 10pt Verdana;  color: #366097;
+        }
+        .button-disabled{
+            background-color:#fff !important; border-color:#cde7f6; color: #cde7f6;
         }
 
+        button {
+            background-color:#cde7f6;
+            padding: 10px 15px;
+            font: bold 10pt Verdana;
+            color: #366097;
+            border: 2px solid #366097;
+            cursor: pointer;
+        }
 
+        input {
+            padding: 5px;
+            border: 1px solid #366097;
+        }
 
     </style>
 </head>
@@ -133,10 +133,10 @@
         <h3><span ng-class="source.length >= 1 ? 'hl' : '' ">Source Out</span> > <span
                 ng-class="source.length >= 2 ? 'hlg' : '' ">Source Local</span> >
             <span ng-class="source.length >= 3 ? 'hly' : '' ">Fiera Out</span></h3>
-        <input type="file" on-read-file="loadFile($fileContent)"/>
+        <input type="file" on-read-file="loadFile($fileContent)" class="button"/>
 
-        <button ng-click="createFile('out')" ng-disabled="source.length<2">Preview {{stage}} OUT</button>
-        <button ng-click="createFile('local')" ng-disabled="source.length<2">Preview {{stage}} Local</button>
+        <button ng-click="createFile('out')" ng-disabled="source.length<2" ng-class="source.length<2 ? 'button-disabled' : '' ">Preview {{stage}} OUT</button>
+        <button ng-click="createFile('local')" ng-disabled="source.length<2" ng-class="source.length<2 ? 'button-disabled' : '' ">Preview {{stage}} Local</button>
         <button onclick="location.reload();">Clear</button>
 
         <a download="{{fileName}}.txt" id="downloadlink" style="display: none">Download {{stage}} {{fileName}}</a>
@@ -214,8 +214,10 @@
 
                 <td ng-if="line.groupTitle" id="{{line.groupId}}" colspan="8"><strong>{{line.group}}</strong></td>
 
-                <td ng-if="!line.groupTitle"><input id="id{{line.index}}" type="text" class="small-input" data-ng-model="line.camNum"
-                                                    ng-blur="copyCamera(line)" ng-keypress="copyCameraOnEnter($event, line)"
+                <td ng-if="!line.groupTitle"><input id="id{{line.index}}" type="text" class="small-input"
+                                                    data-ng-model="line.camNum"
+                                                    ng-blur="copyCamera(line)"
+                                                    ng-keypress="copyCameraOnEnter($event, line)"
                                                     ng-change="updateValue(line, '{{line.camNum}}')"/></td>
 
                 <td ng-if="!line.groupTitle">
@@ -242,8 +244,6 @@
                     <br/>
                     <span>{{line.desc2}}</span>
                     <span ng-if="line.desc2.trim() !== line.desc3.trim()">{{line.desc3}}<br/></span>
-
-
                 </td>
 
 
