@@ -236,11 +236,14 @@
                 </td>
 
                 <td ng-if="!line.groupTitle" style="width:300px;">
-                    <span>{{line.desc2}}</span><br/>
-                    <span ng-if="line.desc2.trim() !== line.desc3.trim()">{{line.desc3}}<br/></span>
                     <span ng-if="stage === 'GROUPS'">{{line.groupIndex}}-{{line.camNumFormatted}}</span>
                     <input ng-if="stage === 'GROUPS'" type="text" data-ng-model="line.descShort"/>
                     <input ng-if="stage === 'SOURCE'" type="text" data-ng-model="line.desc"/>
+                    <br/>
+                    <span>{{line.desc2}}</span>
+                    <span ng-if="line.desc2.trim() !== line.desc3.trim()">{{line.desc3}}<br/></span>
+
+
                 </td>
 
 
