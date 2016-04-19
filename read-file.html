@@ -19,7 +19,7 @@
         <h3><span ng-class="source.length >= 1 ? 'hl' : '' ">Source Out</span> > <span
                 ng-class="source.length >= 2 ? 'hlg' : '' ">Source Local</span> >
             <span ng-class="source.length >= 3 ? 'hly' : '' ">Fiera Out</span></h3>
-        <input type="file" on-read-file="loadFile($fileContent)" class="button"/>
+        <input type="file" on-read-file="loadFile($fileContent)" class="button" ng-disabled="source.length=== 3"/>
 
         <button ng-click="createFile('out')" ng-disabled="source.length<2" ng-class="source.length<2 ? 'button-disabled' : '' ">Preview {{stage}} OUT</button>
         <button ng-click="createFile('local')" ng-disabled="source.length<2" ng-class="source.length<2 ? 'button-disabled' : '' ">Preview {{stage}} Local</button>
@@ -48,19 +48,16 @@
         <div style="color:red;cursor:pointer" ng-show="missingCameras.length>0 || missingComments.length>0"
              ng-click="showErrors=!showErrors;">
             <strong>Errors</strong></div>
-        <div style="color:red;" ng-if="missingCamOut && showErrors" style="width:600px;">Missing records in Fieraout:
-            <span ng-bind-html="missingCamOut"></span></div>
-        <div style="color:red;" ng-if="missingCamSource && showErrors" style="width:600px;">Missing records in Source:
-            <span ng-bind-html="missingCamSource"></span></div>
-        <div ng-show="(missingComments.length>0 || missingCameras.length>0) && source.length === 3">
+
+        <div ng-show="(missingComments.length>0 || missingCameras.length>0) && source.length >= 2">
 
             <table ng-show="(missingCameras.length>0)" border="1">
 
                 <tr>
-                    <td><strong>Cameras<br/>Groups<br/>Source</strong>
+                    <td><strong>Cameras<br/>{{errTableTitles.row1}}<br/>{{errTableTitles.row2}}</strong>
                     </td>
-                    <td ng-repeat="err in missingCameras track by $index" style="text-align:center">{{err.camNum}}
-                        <br/>
+                    <td ng-repeat="err in missingCameras track by $index" style="text-align:center">
+                        {{err.camNum}}<br/>
                         {{err.missingGroups}}<br/>
                         {{err.missingOut}}
                     </td>
@@ -69,7 +66,7 @@
             <br/>
             <table border="1">
                 <tr>
-                    <td><strong>Comments<br/>Groups<br/>Source</strong>
+                    <td><strong>Comments<br/>{{errTableTitles.row1}}<br/>{{errTableTitles.row2}}</strong>
                     </td>
                     <td ng-repeat="err in missingComments track by $index" style="text-align:center">
                         {{err.camNum}}<br/>

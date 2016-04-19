@@ -32,6 +32,7 @@
         $scope.missingCamOut = "";
         $scope.missingCamSource = "";
         $scope.stage = "";
+        $scope.errTableTitles = {};
 
         var textFile = null;
 
@@ -51,8 +52,10 @@
 
                 $scope.processs2Files(inner1, inner2, "out", true);
                 $scope.processs2Files(inner2, inner1, "local", false);
+                $scope.errTableTitles.row1 = "Source Out";
+                $scope.errTableTitles.row2 = "Source Local";
                 $scope.sourceJSON = angular.copy($scope.masterJSON);
-                $scope.missingComments = angular.copy($scope.compareDesc($scope.sourceJSON));
+                //$scope.missingComments = angular.copy($scope.compareDesc($scope.sourceJSON));
                 $scope.isShow = true;
                 $scope.stage = "SOURCE";
 
@@ -65,6 +68,8 @@
                 $scope.masterJSON = [];
                 $scope.missingCameras = [];
                 $scope.missingComments = [];
+                $scope.errTableTitles.row1 = "Groups";
+                $scope.errTableTitles.row2 = "Source";
                 var joined = $scope.joined;//source
                 var fieraout = $scope.parseFile($scope.source[2]); //fiera out
                 $scope.processs2Files(fieraout, joined, "fieraout", true);
@@ -95,20 +100,18 @@
                 }
                 else {
                     if (!isNaN(inner2[ix].camNum) || inner2[ix].camNum.substring(0, 1) === ".") {
-                        if ((lbl === "fieraout" || lbl === "source") && inner2[ix].camNum.trim() !== "") {
+                        if (inner2[ix].camNum.trim() !== "") {
                             var mObj = {};
                             mObj.camNum = inner2[ix].camNum;
-                            mObj.missingGroups = (lbl === "fieraout") ? "N" : "Y";
-                            mObj.missingOut = (lbl === "source") ? "N" : "Y";
+                            mObj.missingGroups = (lbl === "fieraout" || lbl === "out") ? "N" : "Y";
+                            mObj.missingOut = (lbl === "source" || lbl === "local") ? "N" : "Y";
                             if(inner2[ix].camNum.substring(0, 1 )=== "."){
                                 $scope.missingComments.push(mObj);
                             }
                             else if(!isNaN(inner2[ix].camNum )){
-                                //check for comment
-                                var cmt = ($filter('filter')(inner1, {camNum: "." + inner2[ix].camNum}, true))[0];
-                                if (!cmt) {
+
                                     $scope.missingCameras.push(mObj);
-                                }
+
 
                             }
 
@@ -123,7 +126,7 @@
                         $scope.errorMessage += $sce.trustAsHtml("Missing Camera in " + lbl + " : " + inner2[ix].camNum + "<br/>");
                     }
                     if (!errorOnly) {  //check if comment
-                        var found = ($filter('filter')(inner1, {camNum: inner2[ix].camNum.replace(".", "")}, true))[0];
+                        var found = $scope.tryToFindMatch(lineObj, inner1); //($filter('filter')(inner1, {camNum: inner2[ix].camNum.replace(".", "")}, true))[0];
                         if (found) {
                             lineObj.desc2 = found.desc;
                             lineObj.dns2 = found.dns;
@@ -553,20 +556,19 @@
         }
 
 
-        $scope.compareDesc = function (source) {
-            var returnObj = [];
-            for (var ix = 0; ix < source.length; ix++) {
+        $scope.tryToFindMatch = function (line, source) {
 
-                var line = source[ix];
-
-                if (!line.groupTitle && line.camNum && ((line.camNum.trim() !== "") && (!isNaN(line.camNum) || line.camNum.substring(0, 1 === ".")))){
-                    if (line.desc && line.desc2 && (line.desc.trim() != line.desc2.trim())) {
-                        line.mismatch = "1";
-                        returnObj.push(line);
-                    }
-                }
+            var found = ($filter('filter')(source, {camNum: "." + line.camNum}, true))[0]; //looking for comment
+            if(found){
+                return found;
             }
-            return returnObj;
+            found = ($filter('filter')(source, {camNum: line.replace(".", "")}, true))[0];  //comment
+            if(found){
+                return found;
+            }
+
+
+            return found;
         };
 
 

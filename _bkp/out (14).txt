@@ -181,9 +181,9 @@
 183||fieranorfinch.dyndns.org||1633||4||10003||FIERA||NF Reception
 184||fieranorfinch.dyndns.org||1634||4||10003||FIERA||NF North
 185||fieranorfinch.dyndns.org||1635||4||10003||FIERA||NF South
-.186||fieranorfinch.dyndns.org||1636||4||10003||FIERA||NF Inside Sh/Re Area
-.187||fieranorfinch.dyndns.org||1637||4||10003||FIERA||NF Outside Sh/Re Area
-.188||fieranorfinch.dyndns.org||1638||4||10003||FIERA||NF Outside W Area
+186||fieranorfinch.dyndns.org||1636||4||10003||FIERA||NF Inside Sh/Re Area
+187||fieranorfinch.dyndns.org||1637||4||10003||FIERA||NF Outside Sh/Re Area
+188||fieranorfinch.dyndns.org||1638||4||10003||FIERA||NF Outside W Area
 .189||fieranorfinch.dyndns.org||1639||4||10003||FIERA||NF North Backyard
 190||fieranorfinch.dyndns.org||1640||4||10003||FIERA||NF Compactor
 191||fieranorfinch.dyndns.org||1641||4||10003||FIERA||NF Cooler1-Door1

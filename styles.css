@@ -33,20 +33,20 @@ body {
     width: 80px;
 }
 
+
 .icon-up:before {
-    font-size: 16px;
+    font-size: 20px;
     color: green;
     content: "\271A";
-    border: 1px solid green;
-    padding:0 5px;
+   border-color:green;
 }
 
 .cross:before {
-    font-size: 16px;
+    font-size: 20px;
     color: red;
     content: "\2716";
-    border: 1px solid red;
-    padding:0 5px;
+    border-color:red;
+
 }
 
 .table-border {
