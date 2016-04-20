@@ -20,6 +20,9 @@ body {
 .h-orange {
     background-color: orange;
 }
+.groups-orange {
+    background-color:#ffcc80;
+}
 
 .hlg {
     background-color: greenyellow;
@@ -32,7 +35,9 @@ body {
 .small-input {
     width: 80px;
 }
-
+ .input-wide{
+     width: 280px;
+ }
 
 .icon-up:before {
     font-size: 20px;

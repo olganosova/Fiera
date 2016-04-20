@@ -70,12 +70,13 @@
                 $scope.missingComments = [];
                 $scope.errTableTitles.row1 = "Groups";
                 $scope.errTableTitles.row2 = "Source";
+                $scope.stage = "GROUPS";
                 var joined = $scope.joined;//source
                 var fieraout = $scope.parseFile($scope.source[2]); //fiera out
                 $scope.processs2Files(fieraout, joined, "fieraout", true);
                 $scope.processs2Files(joined, fieraout, "source", false);
                 $scope.isShow = true;
-                $scope.stage = "GROUPS";
+
                 $scope.toSave = [];
             }
 
@@ -91,11 +92,7 @@
                 var found = ($filter('filter')(inner1, {camNum: inner2[ix].camNum}, true))[0];
                 if (found) {
                     if (!errorOnly) {
-                        lineObj.desc2 = found.desc;
-                        lineObj.dns2 = found.dns;
-                        lineObj.desc3 = found.desc2;
-                        lineObj.dns3 = found.dns2;
-                        lineObj.descShort = $scope.parseDescription(found.desc);
+                        $scope.copyLine(lineObj, found);
                     }
                 }
                 else {
@@ -128,21 +125,28 @@
                     if (!errorOnly) {  //check if comment
                         var found = $scope.tryToFindMatch(lineObj, inner1); //($filter('filter')(inner1, {camNum: inner2[ix].camNum.replace(".", "")}, true))[0];
                         if (found) {
-                            lineObj.desc2 = found.desc;
-                            lineObj.dns2 = found.dns;
-                            lineObj.desc3 = found.desc2;
-                            lineObj.dns3 = found.dns2;
+                            $scope.copyLine(lineObj, found);
                         }
                     }
                 }
 
                 if (!errorOnly ) {
-
                         $scope.masterJSON.push(lineObj);
-
 
                 }
 
+            }
+        };
+
+        $scope.copyLine =  function(lineObj, found){
+            lineObj.desc2 = found.desc;
+            lineObj.dns2 = found.dns;
+            lineObj.desc3 = found.desc2;
+            lineObj.dns3 = found.dns2;
+            lineObj.descShort = $scope.parseDescription(found.desc);
+            if($scope.stage === "GROUPS"){
+                lineObj.dns = found.dns;
+                lineObj.prop1 = found.prop1;
             }
         };
 
@@ -562,7 +566,7 @@
             if(found){
                 return found;
             }
-            found = ($filter('filter')(source, {camNum: line.replace(".", "")}, true))[0];  //comment
+            found = ($filter('filter')(source, {camNum: line.camNum.replace(".", "")}, true))[0];  //comment
             if(found){
                 return found;
             }

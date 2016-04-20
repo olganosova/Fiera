@@ -95,7 +95,7 @@
                     <div ng-click="createNew($index+1, line, false)"><span class="icon-up"></span></div>
                 </td>
 
-                <td ng-if="line.groupTitle" id="{{line.groupId}}" colspan="8"><strong>{{line.group}}</strong></td>
+                <td ng-if="line.groupTitle" id="{{line.groupId}}" colspan="8" class="groups-orange"><strong>{{line.group}}</strong></td>
 
                 <td ng-if="!line.groupTitle"><input id="id{{line.index}}" type="text" class="small-input"
                                                     data-ng-model="line.camNum"
@@ -122,8 +122,8 @@
 
                 <td ng-if="!line.groupTitle" style="width:300px;">
                     <span ng-if="stage === 'GROUPS'">{{line.groupIndex}}-{{line.camNumFormatted}}</span>
-                    <input ng-if="stage === 'GROUPS'" type="text" data-ng-model="line.descShort"/>
-                    <input ng-if="stage === 'SOURCE'" type="text" data-ng-model="line.desc"/>
+                    <input class="input-wide" ng-if="stage === 'GROUPS'" type="text" data-ng-model="line.descShort"/>
+                    <input class="input-wide" ng-if="stage === 'SOURCE'" type="text" data-ng-model="line.desc"/>
                     <br/>
                     <span>{{line.desc2}}</span>
                     <span ng-if="line.desc2.trim() !== line.desc3.trim()">{{line.desc3}}<br/></span>
