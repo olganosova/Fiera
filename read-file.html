@@ -120,7 +120,7 @@
                     <span ng-if="!line.isNew && stage === 'SOURCE'">{{line.dns2}}</span>
                 </td>
 
-                <td ng-if="!line.groupTitle" style="width:300px;">
+                <td ng-if="!line.groupTitle" style="width:400px;">
                     <span ng-if="stage === 'GROUPS'">{{line.groupIndex}}-{{line.camNumFormatted}}</span>
                     <input class="input-wide" ng-if="stage === 'GROUPS'" type="text" data-ng-model="line.descShort"/>
                     <input class="input-wide" ng-if="stage === 'SOURCE'" type="text" data-ng-model="line.desc"/>
