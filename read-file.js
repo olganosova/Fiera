@@ -102,22 +102,22 @@
                             mObj.camNum = inner2[ix].camNum;
                             mObj.missingGroups = (lbl === "fieraout" || lbl === "out") ? "N" : "Y";
                             mObj.missingOut = (lbl === "source" || lbl === "local") ? "N" : "Y";
-                            if(inner2[ix].camNum.substring(0, 1 )=== "."){
+                            if (inner2[ix].camNum.substring(0, 1) === ".") {
                                 $scope.missingComments.push(mObj);
                             }
-                            else if(!isNaN(inner2[ix].camNum )){
+                            else if (!isNaN(inner2[ix].camNum)) {
 
-                                    $scope.missingCameras.push(mObj);
+                                $scope.missingCameras.push(mObj);
 
 
                             }
 
 
                         }
-                        if((lbl === "fieraout") && inner2[ix].camNum.trim() !== ""){
+                        if ((lbl === "fieraout") && inner2[ix].camNum.trim() !== "") {
                             $scope.missingCamOut += inner2[ix].camNum + ",";
                         }
-                        if((lbl === "source") && inner2[ix].camNum.trim() !== ""){
+                        if ((lbl === "source") && inner2[ix].camNum.trim() !== "") {
                             $scope.missingCamSource += inner2[ix].camNum + ",";
                         }
                         $scope.errorMessage += $sce.trustAsHtml("Missing Camera in " + lbl + " : " + inner2[ix].camNum + "<br/>");
@@ -130,21 +130,21 @@
                     }
                 }
 
-                if (!errorOnly ) {
-                        $scope.masterJSON.push(lineObj);
+                if (!errorOnly) {
+                    $scope.masterJSON.push(lineObj);
 
                 }
 
             }
         };
 
-        $scope.copyLine =  function(lineObj, found){
+        $scope.copyLine = function (lineObj, found) {
             lineObj.desc2 = found.desc;
             lineObj.dns2 = found.dns;
             lineObj.desc3 = found.desc2;
             lineObj.dns3 = found.dns2;
             lineObj.descShort = $scope.parseDescription(found.desc);
-            if($scope.stage === "GROUPS"){
+            if ($scope.stage === "GROUPS") {
                 lineObj.dns = found.dns;
                 lineObj.prop1 = found.prop1;
             }
@@ -182,7 +182,12 @@
                     $scope.currentGroup = lineObj.group;
                     if ($scope.currentGroup) {
                         if ($scope.currentGroup.trim()) {
-                            $scope.groups.push({groupId: groupId, groupName: $scope.currentGroup, isMain : mainTitle});
+                            $scope.groups.push({
+                                groupId: groupId,
+                                groupName: $scope.currentGroup,
+                                isMain: mainTitle,
+                                index: ix
+                            });
 
                         }
                         lineObj.groupId = groupId;
@@ -272,15 +277,15 @@
                     }
 
                 }
-                if(lineToSave === "" || lineToSave === "\n" || lineToSave === "\r" || lineToSave === "\r\n"){
+                if (lineToSave === "" || lineToSave === "\n" || lineToSave === "\r" || lineToSave === "\r\n") {
                     continue;
                 }
                 $scope.toSave.push(lineToSave.trim());
 
             }
-           //
+            //
             $scope.toSave.push("\r\n");
-           // $scope.toSave.push("\n");
+            // $scope.toSave.push("\n");
             $scope.toSave = $scope.toSave.concat($scope.lastlines);
             $scope.toSaveLines = $scope.toSave.toString();
             $scope.toSaveLines = $scope.toSaveLines.replace(/,/g, '\r\n');
@@ -303,7 +308,7 @@
             return val.substring(val.indexOf(" ") + 1);
         };
         $scope.removeIt = function (val, toRemove) {
-            if(!toRemove.isDeleteCandidate){
+            if (!toRemove.isDeleteCandidate) {
                 toRemove.isDeleteCandidate = true;
                 return;
             }
@@ -349,7 +354,7 @@
             var newIx = up ? line.groupIndex : line.groupIndex + 1;
 
             var increment = 0;
-            if(line.isNew){
+            if (line.isNew) {
                 increment = 1;
             }
 
@@ -358,16 +363,14 @@
                 if (founds[ix].index >= line.index && up && !founds[ix].comment) {
                     founds[ix].groupIndex++;
                 }
-                if (founds[ix].index > line.index  && !up && !founds[ix].comment) {
+                if (founds[ix].index > line.index && !up && !founds[ix].comment) {
 
                     founds[ix].groupIndex++; //  founds[ix].groupIndex + increment;
-                  //  console.log( founds[ix].groupIndex);
+                    //  console.log( founds[ix].groupIndex);
                 }
             }
 
 
-
-            var test = founds;
             var lineObj = {};
 
             lineObj.index = val;
@@ -387,28 +390,25 @@
             lineObj.desc = '';
             $scope.updateIndexes(val, true);
 
-                $scope.masterJSON.splice(val, 0, lineObj);
+            $scope.masterJSON.splice(val, 0, lineObj);
 
             var inputId = "id" + lineObj.index;
-            $timeout(function() {
+            $timeout(function () {
                 var elm = document.getElementById(inputId);
                 //var elm =  angular.element(inputId);
-               elm.focus();
+                elm.focus();
             });
-
-
-
 
 
         };
 
-        $scope.updateIndexes = function(index, add){
+        $scope.updateIndexes = function (index, add) {
             for (var ix = 0; ix < $scope.masterJSON.length; ix++) {
-                if($scope.masterJSON[ix].index>=index){
-                    if(add){
+                if ($scope.masterJSON[ix].index >= index) {
+                    if (add) {
                         $scope.masterJSON[ix].index++;
                     }
-                    if(!add){
+                    if (!add) {
                         $scope.masterJSON[ix].index--;
                     }
                 }
@@ -451,9 +451,9 @@
 
         };
 
-        $scope.copyCameraOnEnter = function(keyEvent, line){
+        $scope.copyCameraOnEnter = function (keyEvent, line) {
 
-            if (keyEvent.which !== 13){
+            if (keyEvent.which !== 13) {
                 return;
             }
 
@@ -498,7 +498,7 @@
 
                 line.desc3 = found.desc2;
                 line.dns3 = found.dns2;
-                line.descShort =  $scope.parseDescription(found.desc);
+                line.descShort = $scope.parseDescription(found.desc);
                 line.camNumFormatted = found.camNum.replace('.', '');
             }
 
@@ -543,6 +543,42 @@
             return textFile;
         };
 
+        //GROUPS+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+        $scope.createNewGroup = function (val, line) {
+           
+            var lineObj = {};
+
+            lineObj.index = val;
+            lineObj.group = line.groupName;
+            lineObj.groupTitle = true;
+            lineObj.groupId = line.groupId;
+
+            lineObj.groupIndex = 0;
+
+            lineObj.isNew = true;
+            lineObj.lastLines = false;
+
+            $scope.updateIndexes(val, false);
+
+            $scope.masterJSON.splice(val, 0, lineObj);
+//
+//             var lineObjG = {groupId: groupId, groupName: 'NEW GROUP', isMain: false, index: index};
+//
+//             $scope.groups.splice(index, 0, lineObjG);
+//
+//             $scope.updateGroupIndexes(index);
+
+
+        };
+        $scope.updateGroupIndexes = function (index) {
+            for (var ix = 0; ix < $scope.groups.length; ix++) {
+                if ( $scope.groups[ix].index >= index) {
+                    $scope.groups[ix].index++;
+                }
+            }
+        }
+
         $scope.findMissingNumbers = function (allNumbers, checkArray) {
 
             var result = [];
@@ -557,17 +593,17 @@
 
             return result;
 
-        }
+        };
 
 
         $scope.tryToFindMatch = function (line, source) {
 
             var found = ($filter('filter')(source, {camNum: "." + line.camNum}, true))[0]; //looking for comment
-            if(found){
+            if (found) {
                 return found;
             }
             found = ($filter('filter')(source, {camNum: line.camNum.replace(".", "")}, true))[0];  //comment
-            if(found){
+            if (found) {
                 return found;
             }
 
@@ -580,17 +616,17 @@
             var result = "";
 
             //isDeleteCandidate
-            if(line.isDeleteCandidate){
-                result ="row-deleted";
+            if (line.isDeleteCandidate) {
+                result = "row-deleted";
             }
-           else if (line.isNew) {
+            else if (line.isNew) {
                 result = "row-highlighted";
             }
             else if (line.comment) {
                 result = "row-comment";
             }
 
-            return result ;
+            return result;
         }
 
 
