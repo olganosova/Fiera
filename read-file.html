@@ -19,7 +19,7 @@
         <h3><span ng-class="source.length >= 1 ? 'hl' : '' ">Source Out</span> > <span
                 ng-class="source.length >= 2 ? 'hlg' : '' ">Source Local</span> >
             <span ng-class="source.length >= 3 ? 'hly' : '' ">Fiera Out</span></h3>
-        <input type="file" on-read-file="loadFile($fileContent)" class="button" ng-disabled="source.length=== 3"/>
+        <input type="file" on-read-file="loadFile($fileContent)" class="button" ng-disabled="source.length=== 3" title="{{getToolTipText(source.length)}}"/>
 
         <button ng-click="createFile('out')" ng-disabled="source.length<2"
                 ng-class="source.length<2 ? 'button-disabled' : '' ">Preview {{stage}} OUT

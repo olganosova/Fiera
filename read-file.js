@@ -32,6 +32,9 @@
         $scope.missingCamOut = "";
         $scope.missingCamSource = "";
         $scope.stage = "";
+        $scope.filetoUpload = ["Sorce Out", "Source Local", 'Groups Out' ];
+            
+
         $scope.errTableTitles = {};
 
         var textFile = null;
@@ -627,6 +630,10 @@
             }
 
             return result;
+        };
+
+        $scope.getToolTipText = function(val){
+            return  $scope.filetoUpload[val];
         }
 
 
