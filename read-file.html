@@ -28,6 +28,9 @@
         <button ng-click="createFile('local')" ng-disabled="source.length<2"
                 ng-class="source.length<2 ? 'button-disabled' : '' ">Preview {{stage}} Local
         </button>
+        <button ng-click="createShortFile()" ng-disabled="source.length<2"
+                ng-class="source.length<2 ? 'button-disabled' : '' ">Preview Short Names
+        </button>
         <button onclick="location.reload();">Clear</button>
 
         <a download="{{stage+ '-' + fileName}}.txt" id="downloadlink" style="display: none">Download {{stage}} {{fileName}}</a>

@@ -545,6 +545,44 @@
 
             return textFile;
         };
+        //ONLY DESCRIPTIONS
+        $scope.createShortFile = function () {
+
+            $scope.toSave = [];
+            $scope.toSaveLines = "";
+            for (var ix = 0; ix < $scope.masterJSON.length; ix++) {
+                var lineToSave = "";
+
+
+                var lineObj = $scope.masterJSON[ix];
+                if (lineObj.groupTitle) {
+                    lineToSave += lineObj.group;
+                }
+                else {
+                 //   lineToSave += lineObj.camNum + "||";
+
+                    lineToSave += lineObj.groupIndex + "-" + lineObj.camNumFormatted + " " + lineObj.descShort;
+
+
+                }
+                if (lineToSave === "" || lineToSave === "\n" || lineToSave === "\r" || lineToSave === "\r\n") {
+                    continue;
+                }
+                $scope.toSave.push(lineToSave.trim());
+
+            }
+            //
+            $scope.toSave.push("\r\n");
+
+            $scope.toSaveLines = $scope.toSave.toString();
+            $scope.toSaveLines = $scope.toSaveLines.replace(/,/g, '\r\n');
+
+            $scope.fileName = 'NamesOnly';
+
+            var link = document.getElementById('downloadlink');
+            link.href = $scope.makeTextFile($scope.toSaveLines);
+            link.style.display = 'block';
+        };
 
         //GROUPS+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
