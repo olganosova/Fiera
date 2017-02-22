@@ -1,6 +1,8 @@
 <!doctype html>
 <html ng-app="fieraApp">
 <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
     <script src="bower_components/angular/angular.js"></script>
     <!--<script src="bower_components/angular/bootstrap-filestyle.min.js"></script>-->
@@ -13,138 +15,151 @@
 </head>
 <body>
 <div class="container" id="filesTop" ng-controller="ReadFileCtrl">
+    <div >
 
-    <div>
-        <h1>Order to select files:</h1>
+        <div>
+            <h2 class="margin-top">Order to select files:</h2>
 
-        <h3><span ng-class="source.length >= 1 ? 'hl' : '' ">Source Out</span> > <span
-                ng-class="source.length >= 2 ? 'hlg' : '' ">Source Local</span> >
-            <span ng-class="source.length >= 3 ? 'hly' : '' ">Fiera Out</span></h3>
-        <input type="file"  on-read-file="loadFile($fileContent)" ng-disabled="source.length=== 3" title="{{getToolTipText(source.length)}}"/>
+            <h5 class="workflow"><span ng-class="source.length >= 1 ? 'hl' : '' ">Source Out</span> > <span
+                    ng-class="source.length >= 2 ? 'hlg' : '' ">Source Local</span> >
+                <span ng-class="source.length >= 3 ? 'hly' : '' ">Fiera Out</span></h5>
+            <input type="file" on-read-file="loadFile($fileContent)" ng-disabled="source.length=== 3"
+                   title="{{getToolTipText(source.length)}}"/>
 
-        <button ng-click="createFile('out')" ng-disabled="source.length<2"
-                ng-class="source.length<2 ? 'button-disabled' : '' ">Preview {{stage}} OUT
-        </button>
-        <button ng-click="createFile('local')" ng-disabled="source.length<2"
-                ng-class="source.length<2 ? 'button-disabled' : '' ">Preview {{stage}} Local
-        </button>
-        <button ng-click="createShortFile()" ng-disabled="source.length<2"
-                ng-class="source.length<2 ? 'button-disabled' : '' ">Preview Short Names
-        </button>
-        <button onclick="location.reload();">Clear</button>
+            <button ng-click="createFile(masterJSON, 'out', stage)" ng-disabled="source.length<2"
+                    class="btn btn-primary">Download {{stage}} OUT
+            </button>
+            <button ng-click="createFile(masterJSON, 'local', stage)" ng-disabled="source.length<2"
+                    class="btn btn-primary">Download {{stage}} Local
+            </button>
+            <button ng-click="createShortFile()" ng-disabled="source.length<2"
+                    class="btn btn-primary">Preview Short Names
+            </button>
+            <button class="btn btn-info" onclick="location.reload();">Clear</button>
 
-        <a download="{{stage+ '-' + fileName}}.txt" id="downloadlink" style="display: none">Download {{stage}} {{fileName}}</a>
-    </div>
+            <a  id="downloadlink" style="display: none">Download {{stage}}
+                {{fileName}}</a>
+        </div>
+
+        <div class="alert alert-warning margin-top" role="alert" ng-if="descriptionChanged">
+            <strong>Attention! You made changes to camera's description. Don't forget to download source files!</strong><br/><br/>
+            <button class="btn btn-primary" ng-click="createFile(sourceJSON, 'out', 'SOURCE')" >Download Source OUT
+            </button>
+            <button class="btn btn-primary" ng-click="createFile(sourceJSON, 'local', 'SOURCE')">Download Source Local
+            </button>
+
+        </div>
 
 
-    <div>
+        <div>
 
-        <button class="button-top" ng-click="gotoGroup('filesTop')">
-            SCROLL TO TOP
-        </button>
-        <div class="left-menu" ng-if="groups.length>1">
-            <div style="padding-left:5px;" ng-class="group.isMain ? 'h-orange' : ''"
-                 ng-repeat="group in groups track by $index"><strong><u><span
-                    ng-click="gotoGroup(group.groupId)">{{group.groupName}}</span></u></strong>
+            <button class="btn btn-success button-top" ng-click="gotoGroup('filesTop')">
+                SCROLL TO TOP
+            </button>
+            <div class="left-menu" ng-if="groups.length>1">
+                <div style="padding-left:5px;" ng-class="group.isMain ? 'h-orange' : ''"
+                     ng-repeat="group in groups track by $index"><strong><u><span
+                        ng-click="gotoGroup(group.groupId)">{{group.groupName}}</span></u></strong>
+
+                </div>
+            </div>
+            <br/>
+
+            <div style="color:green;cursor:pointer"
+                 ng-show="!errorMessage && !missingComments.length && source.length === 2">
+                <strong>No
+                    Errors</strong></div>
+            <div style="color:red;cursor:pointer" ng-show="missingCameras.length>0 || missingComments.length>0"
+                 ng-click="showErrors=!showErrors;">
+                <strong>Errors</strong></div>
+
+            <div ng-show="(missingComments.length>0 || missingCameras.length>0) && source.length >= 2">
+
+                <table ng-show="(missingCameras.length>0)" border="1">
+
+                    <tr>
+                        <td><strong>Cameras<br/>{{errTableTitles.row1}}<br/>{{errTableTitles.row2}}</strong>
+                        </td>
+                        <td ng-repeat="err in missingCameras track by $index" style="text-align:center">
+                            {{err.camNum}}<br/>
+                            {{err.missingGroups}}<br/>
+                            {{err.missingOut}}
+                        </td>
+                    </tr>
+                </table>
+                <br/>
+                <table border="1">
+                    <tr>
+                        <td><strong>Comments<br/>{{errTableTitles.row1}}<br/>{{errTableTitles.row2}}</strong>
+                        </td>
+                        <td ng-repeat="err in missingComments track by $index" style="text-align:center">
+                            {{err.camNum}}<br/>
+                            {{err.missingGroups}}<br/>
+                            {{err.missingOut}}
+                        </td>
+                    </tr>
+                </table>
+
 
             </div>
-        </div>
-        <br/>
+            <!--<div ng-if="toSave && toSave.length>0">-->
 
-        <div style="color:green;cursor:pointer"
-             ng-show="!errorMessage && !missingComments.length && source.length === 2">
-            <strong>No
-                Errors</strong></div>
-        <div style="color:red;cursor:pointer" ng-show="missingCameras.length>0 || missingComments.length>0"
-             ng-click="showErrors=!showErrors;">
-            <strong>Errors</strong></div>
+                <!--<textarea data-ng-model="toSaveLines" class="screen-width"></textarea>-->
 
-        <div ng-show="(missingComments.length>0 || missingCameras.length>0) && source.length >= 2">
+            <!--</div>-->
 
-            <table ng-show="(missingCameras.length>0)" border="1">
-
-                <tr>
-                    <td><strong>Cameras<br/>{{errTableTitles.row1}}<br/>{{errTableTitles.row2}}</strong>
+            <!--<pre>{{ content }}</pre>-->
+            <table class="table-border" border="1px" width="100%" ng-if="isShow">
+                <tr ng-repeat="line in masterJSON track by $index" ng-class="getRowColor(line);">
+                    <!--<td>{{$index}}</td>-->
+                    <td style="cursor:pointer;" ng-if="!line.groupTitle" title="{{line.group}}">
+                        <div ng-if="line.groupIndex===1" ng-click="createNew($index, line, true)"><span
+                                class="icon-up"></span></div>
+                        <div ng-click="removeIt($index, line)"><span class="cross"></span></div>
+                        <div ng-click="createNew($index+1, line, false)"><span class="icon-up"></span></div>
                     </td>
-                    <td ng-repeat="err in missingCameras track by $index" style="text-align:center">
-                        {{err.camNum}}<br/>
-                        {{err.missingGroups}}<br/>
-                        {{err.missingOut}}
+
+                    <td ng-if="line.groupTitle" id="{{line.groupId}}" colspan="8" class="groups-orange"><strong>{{line.group}}</strong>
+                        <span ng-click="createNewGroup($index, line)" class="arrow" ng-if="false"></span>
                     </td>
+
+                    <td ng-if="!line.groupTitle"><input id="id{{line.index}}" type="text" class="small-input"
+                                                        data-ng-model="line.camNum"
+                                                        ng-blur="copyCamera(line)"
+                                                        ng-keypress="copyCameraOnEnter($event, line)"
+                                                        ng-change="updateValue(line, '{{line.camNum}}')"/></td>
+
+                    <td ng-if="!line.groupTitle">
+                        <input ng-if="line.isNew" type="text" data-ng-model="line.dns"/>
+                        <span ng-if="!line.isNew">{{line.dns}}</span>
+                    </td>
+                    <td ng-if="!line.groupTitle">
+                        <input ng-if="line.isNew" type="text" class="small-input" data-ng-model="line.prop1"/>
+                        <span ng-if="!line.isNew">{{line.prop1}}</span>
+                    </td>
+
+                    <td ng-if="!line.groupTitle">
+                        <input ng-if="line.isNew && stage === 'GROUPS'" type="text" data-ng-model="line.dns3"/>
+                        <span ng-if="!line.isNew && stage === 'GROUPS'">{{line.dns3}}</span>
+
+                        <input ng-if="line.isNew && stage === 'SOURCE'" type="text" data-ng-model="line.dns2"/>
+                        <span ng-if="!line.isNew && stage === 'SOURCE'">{{line.dns2}}</span>
+                    </td>
+
+                    <td ng-if="!line.groupTitle" style="width:400px;">
+                        <span ng-if="stage === 'GROUPS'">{{line.groupIndex}}-{{line.camNumFormatted}}</span>
+                        <input class="input-wide" ng-if="stage === 'GROUPS'" type="text" data-ng-model="line.descShort"
+                               ng-change="updateDesc(line)" ng-model-options="{updateOn: 'blur'}"/>
+                        <input class="input-wide" ng-if="stage === 'SOURCE'" type="text" data-ng-model="line.desc"/>
+                        <br/>
+                        <span>{{line.desc2}}</span>
+                        <span ng-if="line.desc2.trim() !== line.desc3.trim()">{{line.desc3}}<br/></span>
+                    </td>
+
+
                 </tr>
             </table>
-            <br/>
-            <table border="1">
-                <tr>
-                    <td><strong>Comments<br/>{{errTableTitles.row1}}<br/>{{errTableTitles.row2}}</strong>
-                    </td>
-                    <td ng-repeat="err in missingComments track by $index" style="text-align:center">
-                        {{err.camNum}}<br/>
-                        {{err.missingGroups}}<br/>
-                        {{err.missingOut}}
-                    </td>
-                </tr>
-            </table>
-
-
         </div>
-        <div ng-if="toSave && toSave.length>0">
-            <!--<div ng-repeat="line in toSave track by $index">{{line}}</div>-->
-            <textarea data-ng-model="toSaveLines" class="screen-width"></textarea>
-
-        </div>
-
-        <!--<pre>{{ content }}</pre>-->
-        <table class="table-border" border="1px" width="100%" ng-if="isShow">
-            <tr ng-repeat="line in masterJSON track by $index" ng-class="getRowColor(line);">
-                <!--<td>{{$index}}</td>-->
-                <td style="cursor:pointer;" ng-if="!line.groupTitle" title="{{line.group}}">
-                    <div ng-if="line.groupIndex===1" ng-click="createNew($index, line, true)"><span
-                            class="icon-up"></span></div>
-                    <div ng-click="removeIt($index, line)"><span class="cross"></span></div>
-                    <div ng-click="createNew($index+1, line, false)"><span class="icon-up"></span></div>
-                </td>
-
-                <td ng-if="line.groupTitle" id="{{line.groupId}}" colspan="8" class="groups-orange"><strong>{{line.group}}</strong>
-                    <span ng-click="createNewGroup($index, line)" class="arrow" ng-if="false"></span>
-                </td>
-
-                <td ng-if="!line.groupTitle"><input id="id{{line.index}}" type="text" class="small-input"
-                                                    data-ng-model="line.camNum"
-                                                    ng-blur="copyCamera(line)"
-                                                    ng-keypress="copyCameraOnEnter($event, line)"
-                                                    ng-change="updateValue(line, '{{line.camNum}}')"/></td>
-
-                <td ng-if="!line.groupTitle">
-                    <input ng-if="line.isNew" type="text" data-ng-model="line.dns"/>
-                    <span ng-if="!line.isNew">{{line.dns}}</span>
-                </td>
-                <td ng-if="!line.groupTitle">
-                    <input ng-if="line.isNew" type="text" class="small-input" data-ng-model="line.prop1"/>
-                    <span ng-if="!line.isNew">{{line.prop1}}</span>
-                </td>
-
-                <td ng-if="!line.groupTitle">
-                    <input ng-if="line.isNew && stage === 'GROUPS'" type="text" data-ng-model="line.dns3"/>
-                    <span ng-if="!line.isNew && stage === 'GROUPS'">{{line.dns3}}</span>
-
-                    <input ng-if="line.isNew && stage === 'SOURCE'" type="text" data-ng-model="line.dns2"/>
-                    <span ng-if="!line.isNew && stage === 'SOURCE'">{{line.dns2}}</span>
-                </td>
-
-                <td ng-if="!line.groupTitle" style="width:400px;">
-                    <span ng-if="stage === 'GROUPS'">{{line.groupIndex}}-{{line.camNumFormatted}}</span>
-                    <input class="input-wide" ng-if="stage === 'GROUPS'" type="text" data-ng-model="line.descShort"/>
-                    <input class="input-wide" ng-if="stage === 'SOURCE'" type="text" data-ng-model="line.desc"/>
-                    <br/>
-                    <span>{{line.desc2}}</span>
-                    <span ng-if="line.desc2.trim() !== line.desc3.trim()">{{line.desc3}}<br/></span>
-                </td>
-
-
-            </tr>
-        </table>
-
     </div>
 </div>
 </body>

@@ -33,6 +33,7 @@
         $scope.missingCamSource = "";
         $scope.stage = "";
         $scope.filetoUpload = ["Sorce Out", "Source Local", 'Groups Out' ];
+        $scope.descriptionChanged = false;
             
 
         $scope.errTableTitles = {};
@@ -244,15 +245,15 @@
             return processed;
         };
 
-        $scope.createFile = function (val) {
+        $scope.createFile = function (master, val, stage) {
 
             $scope.toSave = [];
             $scope.toSaveLines = "";
-            for (var ix = 0; ix < $scope.masterJSON.length; ix++) {
+            for (var ix = 0; ix < master.length; ix++) {
                 var lineToSave = "";
 
 
-                var lineObj = $scope.masterJSON[ix];
+                var lineObj = master[ix];
                 if (lineObj.groupTitle) {
                     lineToSave += lineObj.group;
                 }
@@ -261,10 +262,10 @@
                     if (val === "out") {
                         lineToSave += lineObj.dns + "||";
                     }
-                    if (val === "local" && $scope.stage === 'GROUPS') {
+                    if (val === "local" && stage === 'GROUPS') {
                         lineToSave += lineObj.dns3 + "||";
                     }
-                    if (val === "local" && $scope.stage === 'SOURCE') {
+                    if (val === "local" && stage === 'SOURCE') {
                         lineToSave += lineObj.dns2 + "||";
                     }
                     lineToSave += lineObj.prop1 + "||";
@@ -272,10 +273,10 @@
                     lineToSave += lineObj.prop3 + "||";
                     lineToSave += lineObj.prop4 + "||";
 
-                    if ($scope.stage === 'GROUPS') {
+                    if (stage === 'GROUPS') {
                         lineToSave += lineObj.groupIndex + "-" + lineObj.camNumFormatted + " " + lineObj.descShort;
                     }
-                    if ($scope.stage === 'SOURCE') {
+                    if (stage === 'SOURCE') {
                         lineToSave += lineObj.desc;
                     }
 
@@ -297,7 +298,30 @@
 
             var link = document.getElementById('downloadlink');
             link.href = $scope.makeTextFile($scope.toSaveLines);
-            link.style.display = 'block';
+            link.download = stage + "-" + val + ".txt";
+
+            $timeout(function () {
+                link.click();
+            });
+           // link.style.display = 'block';
+        };
+
+        $scope.updateDesc =  function(line){
+            $scope.descriptionChanged = true;
+            var newDesc = line.descShort;
+            //master
+            var found = ($filter('filter')($scope.masterJSON, {camNum: line.camNum}, true));
+            for(var ix=0; ix<found.length; ix++){
+                found[ix].descShort = newDesc;
+            }
+            // //source
+            var foundSource = ($filter('filter')($scope.sourceJSON, {camNum: line.camNum}, true));
+            for(var ix=0; ix<foundSource.length; ix++){
+                foundSource[ix].descShort = newDesc;
+                var lastIx = foundSource[ix].desc.indexOf(" ");
+                foundSource[ix].desc = foundSource[ix].desc.substring(0, lastIx) + " " + newDesc;
+            }
+
         };
 
         $scope.parseDescription = function (val) {
@@ -310,6 +334,7 @@
             }
             return val.substring(val.indexOf(" ") + 1);
         };
+
         $scope.removeIt = function (val, toRemove) {
             if (!toRemove.isDeleteCandidate) {
                 toRemove.isDeleteCandidate = true;
@@ -581,7 +606,12 @@
 
             var link = document.getElementById('downloadlink');
             link.href = $scope.makeTextFile($scope.toSaveLines);
-            link.style.display = 'block';
+
+            link.download = $scope.fileName + ".txt";
+
+            $timeout(function () {
+                link.click();
+            });
         };
 
         //GROUPS+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

@@ -7,14 +7,24 @@ body {
     font-family: Verdana;
     font-size: 12px;
 }
+.margin-top{
+    margin-top: 10px;
+}
 
 .container {
     margin-left: 300px;
 
 }
+.workflow{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
 
 .hl {
     background-color: #cde7f6;
+    border-radius: 15px;
+    padding: 10px;
 }
 
 .h-orange {
@@ -26,10 +36,14 @@ body {
 
 .hlg {
     background-color: greenyellow;
+    border-radius: 15px;
+    padding: 10px
 }
 
 .hly {
     background-color: yellow;
+    border-radius: 15px;
+    padding: 10px
 }
 
 .small-input {
@@ -90,9 +104,9 @@ body {
     width: 250px;
     z-index: 2000;
     cursor: pointer;
-    border: 1px solid #c0c0c0;
-    background-color: green;
-    color: #fff;
+    /*border: 1px solid #c0c0c0;*/
+    /*background-color: green;*/
+    /*color: #fff;*/
     padding: 10px 0;
 }
 
@@ -116,14 +130,14 @@ body {
     background-color:#fff !important; border-color:#cde7f6; color: #cde7f6;
 }
 
-button {
-    background-color:#cde7f6;
-    padding: 10px 15px;
-    font: bold 10pt Verdana;
-    color: #366097;
-    border: 2px solid #366097;
-    cursor: pointer;
-}
+/*button {*/
+    /*background-color:#cde7f6;*/
+    /*padding: 10px 15px;*/
+    /*font: bold 10pt Verdana;*/
+    /*color: #366097;*/
+    /*border: 2px solid #366097;*/
+    /*cursor: pointer;*/
+/*}*/
 
 input {
     padding: 5px;
