@@ -27,24 +27,11 @@ body {
     padding: 10px;
 }
 
-.h-orange {
-    background-color: orange;
-}
+
 .groups-orange {
     background-color:#ffcc80;
 }
 
-.hlg {
-    background-color: greenyellow;
-    border-radius: 15px;
-    padding: 10px
-}
-
-.hly {
-    background-color: yellow;
-    border-radius: 15px;
-    padding: 10px
-}
 
 .small-input {
     width: 80px;

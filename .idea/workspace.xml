@@ -2,75 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90a1bbc5-a14c-48e8-bbb4-8dd038332c6d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/_allFiera_node_modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/invoices/10June2016.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/invoices/11Dec2015.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/invoices/11Mar2016.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/invoices/11Nov2016.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/invoices/12Aug2016.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/invoices/12Feb2016.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/invoices/13Jan2017.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/invoices/13Nov2015.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/invoices/14Oct2016.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/invoices/15Apr2016.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/invoices/15Jan2015.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/invoices/15July2016.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/invoices/16Dec2016.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/invoices/17June2016.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/invoices/18Dec2015.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/invoices/18Mar2016.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/invoices/18Nov2016.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/invoices/19Aug2016.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/invoices/19Feb2016..docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/invoices/1Apr2016.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/invoices/1July2016.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/invoices/20Jan2017.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/invoices/20May2016.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/invoices/20Nov2015.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/invoices/21Oct2016.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/invoices/22Apr2016.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/invoices/22July2016.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/invoices/23Dec2016.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/invoices/23Sept016.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/invoices/24June2016.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/invoices/25Dec2015.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/invoices/25Mar2016.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/invoices/25Nov2016.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/invoices/26Feb2016.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/invoices/27May2016.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/invoices/27Nov2015.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/invoices/28Oct2016.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/invoices/29Apr2016.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/invoices/29Jan2015.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/invoices/29July2016.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/invoices/2Dec2016.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/invoices/30Sept016.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/invoices/3June2016.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/invoices/4Dec2015.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/invoices/4Mar2016.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/invoices/4Nov2016.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/invoices/5Aug2016.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/invoices/5Feb2016.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/invoices/6Jan2017.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/invoices/6May2016.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/invoices/7Oct2016.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/invoices/8Apr2016.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/invoices/8July2016.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/invoices/9Dec2016.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/invoices/Jan3_2016.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/invoices/Jan8_2016.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/invoices/Jan8_2016_.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source-files/GROUPS-out (2).txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source-files/GROUPS.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source-files/SourceLocal.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source-files/SourceOut.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source-files/local.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source-files/out.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/_allFiera.iml" afterPath="$PROJECT_DIR$/.idea/_allFiera.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read-file.html" afterPath="$PROJECT_DIR$/read-file.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read-file.js" afterPath="$PROJECT_DIR$/read-file.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles.css" afterPath="$PROJECT_DIR$/styles.css" />
     </list>
     <ignored path="_allFiera.iws" />
@@ -104,8 +37,8 @@
       <file leaf-file-name="read-file.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/read-file.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="47" column="94" selection-start-line="47" selection-start-column="94" selection-end-line="47" selection-end-column="94" />
+            <state relative-caret-position="458">
+              <caret line="35" column="52" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -144,8 +77,8 @@
       <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+            <state relative-caret-position="305">
+              <caret line="30" column="5" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -154,7 +87,7 @@
       <file leaf-file-name="read-file.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/read-file.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
+            <state relative-caret-position="-7132">
               <caret line="267" column="57" selection-start-line="267" selection-start-column="53" selection-end-line="267" selection-end-column="61" />
               <folding />
             </state>
@@ -179,8 +112,8 @@
       <list>
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/styles.css" />
         <option value="$PROJECT_DIR$/read-file.js" />
+        <option value="$PROJECT_DIR$/styles.css" />
         <option value="$PROJECT_DIR$/read-file.html" />
       </list>
     </option>
@@ -402,7 +335,7 @@
       <workItem from="1466520333200" duration="658000" />
       <workItem from="1467647722459" duration="10000" />
       <workItem from="1487345744541" duration="4756000" />
-      <workItem from="1487710474587" duration="7868000" />
+      <workItem from="1487710474587" duration="8366000" />
     </task>
     <task id="LOCAL-00001" summary="first commit to git">
       <created>1457723313153</created>
@@ -579,11 +512,25 @@
       <option name="project" value="LOCAL" />
       <updated>1463684947890</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="sync descriptions">
+      <created>1487781884585</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1487781884585</updated>
+    </task>
+    <task id="LOCAL-00027" summary="sync descriptions">
+      <created>1487781925519</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1487781925519</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51577000" />
+    <option name="totallyTimeSpent" value="52075000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2" y="2" width="1919" height="1158" extended-state="0" />
@@ -644,7 +591,8 @@
     <MESSAGE value="bg-color for deleted candidate" />
     <MESSAGE value="file name to download" />
     <MESSAGE value="toolip for upload button" />
-    <option name="LAST_COMMIT_MESSAGE" value="toolip for upload button" />
+    <MESSAGE value="sync descriptions" />
+    <option name="LAST_COMMIT_MESSAGE" value="sync descriptions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1109,14 +1057,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spinner.gif" />
     <entry file="file://$PROJECT_DIR$/out_new.txt" />
     <entry file="file://$PROJECT_DIR$/server.js">
@@ -1149,26 +1089,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles.css">
+    <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+        <state relative-caret-position="119">
+          <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/read-file.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
+        <state relative-caret-position="-7132">
           <caret line="267" column="57" selection-start-line="267" selection-start-column="53" selection-end-line="267" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/read-file.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="47" column="94" selection-start-line="47" selection-start-column="94" selection-end-line="47" selection-end-column="94" />
+        <state relative-caret-position="458">
+          <caret line="35" column="52" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
           <folding>
             <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />

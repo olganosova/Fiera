@@ -21,8 +21,8 @@
             <h2 class="margin-top">Order to select files:</h2>
 
             <h5 class="workflow"><span ng-class="source.length >= 1 ? 'hl' : '' ">Source Out</span> > <span
-                    ng-class="source.length >= 2 ? 'hlg' : '' ">Source Local</span> >
-                <span ng-class="source.length >= 3 ? 'hly' : '' ">Fiera Out</span></h5>
+                    ng-class="source.length >= 2 ? 'hl' : '' ">Source Local</span> >
+                <span ng-class="source.length >= 3 ? 'hl' : '' ">Fiera Out</span></h5>
             <input type="file" on-read-file="loadFile($fileContent)" ng-disabled="source.length=== 3"
                    title="{{getToolTipText(source.length)}}"/>
 
@@ -33,7 +33,7 @@
                     class="btn btn-primary">Download {{stage}} Local
             </button>
             <button ng-click="createShortFile()" ng-disabled="source.length<2"
-                    class="btn btn-primary">Preview Short Names
+                    class="btn btn-primary">Download Short Names
             </button>
             <button class="btn btn-info" onclick="location.reload();">Clear</button>
 
@@ -57,7 +57,7 @@
                 SCROLL TO TOP
             </button>
             <div class="left-menu" ng-if="groups.length>1">
-                <div style="padding-left:5px;" ng-class="group.isMain ? 'h-orange' : ''"
+                <div style="padding-left:5px;" ng-class="group.isMain ? 'groups-orange' : ''"
                      ng-repeat="group in groups track by $index"><strong><u><span
                         ng-click="gotoGroup(group.groupId)">{{group.groupName}}</span></u></strong>
 
