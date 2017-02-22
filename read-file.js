@@ -544,6 +544,15 @@
             }
             if (newval.substring(0, 1) !== "." && oldVal.substring(0, 1) === ".") {
                 $scope.handleComment(line, true);
+                if($scope.stage === 'GROUPS'){ //uncomment source
+                    var foundSource = ($filter('filter')($scope.sourceJSON, {camNum: oldVal}, true))[0];
+                    if(foundSource){
+                        $scope.descriptionChanged = true;
+                        foundSource.camNum = newval;
+                    }
+
+                }
+
             }
         };
 

@@ -4,7 +4,7 @@
     <list default="true" id="90a1bbc5-a14c-48e8-bbb4-8dd038332c6d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read-file.html" afterPath="$PROJECT_DIR$/read-file.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles.css" afterPath="$PROJECT_DIR$/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/read-file.js" afterPath="$PROJECT_DIR$/read-file.js" />
     </list>
     <ignored path="_allFiera.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="read-file.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="read-file.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/read-file.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
-              <caret line="35" column="52" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
+            <state relative-caret-position="254">
+              <caret line="44" column="89" selection-start-line="44" selection-start-column="89" selection-end-line="44" selection-end-column="89" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -84,11 +84,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="read-file.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="read-file.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/read-file.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7132">
-              <caret line="267" column="57" selection-start-line="267" selection-start-column="53" selection-end-line="267" selection-end-column="61" />
+            <state relative-caret-position="467">
+              <caret line="549" column="56" selection-start-line="549" selection-start-column="56" selection-end-line="549" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -112,8 +112,8 @@
       <list>
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/read-file.js" />
         <option value="$PROJECT_DIR$/styles.css" />
+        <option value="$PROJECT_DIR$/read-file.js" />
         <option value="$PROJECT_DIR$/read-file.html" />
       </list>
     </option>
@@ -335,7 +335,7 @@
       <workItem from="1466520333200" duration="658000" />
       <workItem from="1467647722459" duration="10000" />
       <workItem from="1487345744541" duration="4756000" />
-      <workItem from="1487710474587" duration="8366000" />
+      <workItem from="1487710474587" duration="10279000" />
     </task>
     <task id="LOCAL-00001" summary="first commit to git">
       <created>1457723313153</created>
@@ -526,11 +526,18 @@
       <option name="project" value="LOCAL" />
       <updated>1487781925519</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="sync descriptions 2">
+      <created>1487782375211</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1487782375211</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52075000" />
+    <option name="totallyTimeSpent" value="53988000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2" y="2" width="1919" height="1158" extended-state="0" />
@@ -592,7 +599,8 @@
     <MESSAGE value="file name to download" />
     <MESSAGE value="toolip for upload button" />
     <MESSAGE value="sync descriptions" />
-    <option name="LAST_COMMIT_MESSAGE" value="sync descriptions" />
+    <MESSAGE value="sync descriptions 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="sync descriptions 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1097,14 +1105,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/read-file.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7132">
-          <caret line="267" column="57" selection-start-line="267" selection-start-column="53" selection-end-line="267" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="305">
@@ -1115,8 +1115,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/read-file.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="35" column="52" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
+        <state relative-caret-position="254">
+          <caret line="44" column="89" selection-start-line="44" selection-start-column="89" selection-end-line="44" selection-end-column="89" />
           <folding>
             <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1128,6 +1128,14 @@
             <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#6;n#tr#0;n#table#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/read-file.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="549" column="56" selection-start-line="549" selection-start-column="56" selection-end-line="549" selection-end-column="56" />
+          <folding />
         </state>
       </provider>
     </entry>
