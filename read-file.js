@@ -181,6 +181,8 @@
                 lineObj.groupIndex = 0; //index cam in group
 
                 if (lines.length === 1) {
+
+
                     if (nextLine && nextLine.split('||').length === 1) {
                         mainTitle = true;
                     }
@@ -237,7 +239,7 @@
                 if (lines.length === 0 || lines[0].trim() === "" || lines[0] === "\r" || lines[0] === "\n") {  //empty line
                     isData = false;
                 }
-                if (!lineObj.lastLines) {
+                if (!lineObj.lastLines && isData) {
                     processed.push(lineObj);
                 }
                 else {
@@ -292,7 +294,7 @@
 
             }
             //
-            $scope.toSave.push("\r\n");
+            //$scope.toSave.push("\r\n");
             // $scope.toSave.push("\n");
             $scope.toSave = $scope.toSave.concat($scope.lastlines);
             $scope.toSaveLines = $scope.toSave.toString();
@@ -701,6 +703,10 @@
         $scope.updateGroupsMenu =  function(){
             $scope.groupsExtracted = ($filter('filter')($scope.masterJSON, {groupTitle: true}, true));
         };
+        $scope.addLastGroup =  function(){
+            var lastGroup = {index: $scope.masterJSON[$scope.masterJSON.length-1].index+1, groupId: $scope.groupsExtracted[$scope.groupsExtracted.length-1].groupId + 1};
+            $scope.createNewGroup(lastGroup);
+        }
 
         $scope.findMissingNumbers = function (allNumbers, checkArray) {
 
