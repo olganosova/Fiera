@@ -14,7 +14,7 @@
 
 </head>
 <body>
-<div class="container" id="filesTop" ng-controller="ReadFileCtrl">
+<div class="container-fiera" id="filesTop" ng-controller="ReadFileCtrl">
     <div >
 
         <div>
@@ -56,10 +56,17 @@
             <button class="btn btn-success button-top" ng-click="gotoGroup('filesTop')">
                 SCROLL TO TOP
             </button>
-            <div class="left-menu" ng-if="groups.length>1">
+            <!--<div class="left-menu" ng-if="groups.length>1">-->
+                <!--<div style="padding-left:5px;" ng-class="group.isMain ? 'groups-orange' : ''"-->
+                     <!--ng-repeat="group in groups track by $index"><strong><u><span-->
+                        <!--ng-click="gotoGroup(group.groupId)">{{ group.groupName}}</span></u></strong>-->
+
+                <!--</div>-->
+            <!--</div>-->
+            <div class="left-menu" ng-if="groupsExtracted.length>1">
                 <div style="padding-left:5px;" ng-class="group.isMain ? 'groups-orange' : ''"
-                     ng-repeat="group in groups track by $index"><strong><u><span
-                        ng-click="gotoGroup(group.groupId)">{{group.groupName}}</span></u></strong>
+                     ng-repeat="group in groupsExtracted track by $index"><strong><u><span
+                        ng-click="gotoGroup(group.groupId)">{{ group.group}}</span></u></strong>
 
                 </div>
             </div>
@@ -119,8 +126,14 @@
                         <div ng-click="createNew($index+1, line, false)"><span class="icon-up"></span></div>
                     </td>
 
-                    <td ng-if="line.groupTitle" id="{{line.groupId}}" colspan="8" class="groups-orange"><strong>{{line.group}}</strong>
-                        <span ng-click="createNewGroup($index, line)" class="arrow" ng-if="false"></span>
+                    <td style="cursor:pointer;" ng-if="line.groupTitle" title="{{line.group}}">
+                        <div ng-click="createNewGroup(line)"><span class="icon-up"></span></div>
+                        <div ng-click="removeGroup(line)"><span class="cross"></span></div>
+                    </td>
+
+
+                    <td ng-if="line.groupTitle" id="{{line.groupId}}" colspan="8" class="groups-orange">
+                        <input type="text" class="input-wide" data-ng-model="line.group" ng-change="updateGroupsMenu()" ng-model-options="{updateOn: 'blur'}"/>
                     </td>
 
                     <td ng-if="!line.groupTitle"><input id="id{{line.index}}" type="text" class="small-input"
@@ -146,14 +159,14 @@
                         <span ng-if="!line.isNew && stage === 'SOURCE'">{{line.dns2}}</span>
                     </td>
 
-                    <td ng-if="!line.groupTitle" style="width:400px;">
+                    <td ng-if="!line.groupTitle" style="width:450px;">
                         <span ng-if="stage === 'GROUPS'">{{line.groupIndex}}-{{line.camNumFormatted}}</span>
                         <input class="input-wide" ng-if="stage === 'GROUPS'" type="text" data-ng-model="line.descShort"
                                ng-change="updateDesc(line)" ng-model-options="{updateOn: 'blur'}"/>
                         <input class="input-wide" ng-if="stage === 'SOURCE'" type="text" data-ng-model="line.desc"/>
                         <br/>
-                        <span>{{line.desc2}}</span>
-                        <span ng-if="line.desc2.trim() !== line.desc3.trim()">{{line.desc3}}<br/></span>
+                        <!--<span>{{line.desc2}}</span>-->
+                        <!--<span ng-if="line.desc2.trim() !== line.desc3.trim()">{{line.desc3}}<br/></span>-->
                     </td>
 
 

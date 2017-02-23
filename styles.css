@@ -11,8 +11,9 @@ body {
     margin-top: 10px;
 }
 
-.container {
+.container-fiera {
     margin-left: 300px;
+    max-width: 1150px;
 
 }
 .workflow{
@@ -37,18 +38,20 @@ body {
     width: 80px;
 }
  .input-wide{
-     width: 330px;
+     min-width: 200px;
  }
 
 .icon-up:before {
-    font-size: 20px;
+    font-size: 15px;
+    font-weight:bold;
     color: green;
     content: "\271A";
    border-color:green;
 }
 
 .cross:before {
-    font-size: 20px;
+    font-size: 15px;
+    font-weight:bold;
     color: red;
     content: "\2716";
     border-color:red;

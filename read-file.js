@@ -15,6 +15,7 @@
 
         $scope.currentGroup = "";
         $scope.groups = [];
+        $scope.groupsExtracted = [];
 
         $scope.source = [];
         $scope.joined = [];
@@ -32,9 +33,9 @@
         $scope.missingCamOut = "";
         $scope.missingCamSource = "";
         $scope.stage = "";
-        $scope.filetoUpload = ["Sorce Out", "Source Local", 'Groups Out' ];
+        $scope.filetoUpload = ["Sorce Out", "Source Local", 'Groups Out'];
         $scope.descriptionChanged = false;
-            
+
 
         $scope.errTableTitles = {};
 
@@ -80,6 +81,8 @@
                 $scope.processs2Files(fieraout, joined, "fieraout", true);
                 $scope.processs2Files(joined, fieraout, "source", false);
                 $scope.isShow = true;
+
+                $scope.groupsExtracted = ($filter('filter')($scope.masterJSON, {groupTitle: true}, true))
 
                 $scope.toSave = [];
             }
@@ -195,6 +198,7 @@
 
                         }
                         lineObj.groupId = groupId;
+                        lineObj.isMain = mainTitle;
                         groupId++;
 
                     }
@@ -303,20 +307,20 @@
             $timeout(function () {
                 link.click();
             });
-           // link.style.display = 'block';
+            // link.style.display = 'block';
         };
 
-        $scope.updateDesc =  function(line){
+        $scope.updateDesc = function (line) {
             $scope.descriptionChanged = true;
             var newDesc = line.descShort;
             //master
             var found = ($filter('filter')($scope.masterJSON, {camNum: line.camNum}, true));
-            for(var ix=0; ix<found.length; ix++){
+            for (var ix = 0; ix < found.length; ix++) {
                 found[ix].descShort = newDesc;
             }
             // //source
             var foundSource = ($filter('filter')($scope.sourceJSON, {camNum: line.camNum}, true));
-            for(var ix=0; ix<foundSource.length; ix++){
+            for (var ix = 0; ix < foundSource.length; ix++) {
                 foundSource[ix].descShort = newDesc;
                 var lastIx = foundSource[ix].desc.indexOf(" ");
                 foundSource[ix].desc = foundSource[ix].desc.substring(0, lastIx) + " " + newDesc;
@@ -544,9 +548,9 @@
             }
             if (newval.substring(0, 1) !== "." && oldVal.substring(0, 1) === ".") {
                 $scope.handleComment(line, true);
-                if($scope.stage === 'GROUPS'){ //uncomment source
+                if ($scope.stage === 'GROUPS') { //uncomment source
                     var foundSource = ($filter('filter')($scope.sourceJSON, {camNum: oldVal}, true))[0];
-                    if(foundSource){
+                    if (foundSource) {
                         $scope.descriptionChanged = true;
                         foundSource.camNum = newval;
                     }
@@ -593,7 +597,7 @@
                     lineToSave += lineObj.group;
                 }
                 else {
-                 //   lineToSave += lineObj.camNum + "||";
+                    //   lineToSave += lineObj.camNum + "||";
 
                     lineToSave += lineObj.groupIndex + "-" + lineObj.camNumFormatted + " " + lineObj.descShort;
 
@@ -625,39 +629,78 @@
 
         //GROUPS+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-        $scope.createNewGroup = function (val, line) {
-           
-            var lineObj = {};
+        $scope.createNewGroup = function (line) {
 
-            lineObj.index = val;
-            lineObj.group = line.groupName;
+            var lineObj = {};
+            var val = line.index;
+            var groupId = line.groupId;
+
+
+            lineObj.group = "NEW GROUP";
             lineObj.groupTitle = true;
-            lineObj.groupId = line.groupId;
+
 
             lineObj.groupIndex = 0;
 
             lineObj.isNew = true;
             lineObj.lastLines = false;
 
-            $scope.updateIndexes(val, false);
+            $scope.updateIndexes(val, true);
+            $scope.updateGroupIndexes(groupId, true);
+            lineObj.index = val;
+            lineObj.groupId = groupId;
 
             $scope.masterJSON.splice(val, 0, lineObj);
-//
-//             var lineObjG = {groupId: groupId, groupName: 'NEW GROUP', isMain: false, index: index};
-//
-//             $scope.groups.splice(index, 0, lineObjG);
-//
-//             $scope.updateGroupIndexes(index);
+            $scope.createNew(lineObj.index + 1, lineObj, false);
+            $scope.updateGroupsMenu();
 
 
         };
-        $scope.updateGroupIndexes = function (index) {
-            for (var ix = 0; ix < $scope.groups.length; ix++) {
-                if ( $scope.groups[ix].index >= index) {
-                    $scope.groups[ix].index++;
+        $scope.removeGroup = function (line) {
+            var isOk = confirm("Are you sure you want to delete this group along with all cameras?"); //jshint ignore: line
+            if (!isOk) {
+                return;
+            }
+            var val = line.index;
+            var groupId = line.groupId;
+
+            var founds = ($filter('filter')($scope.masterJSON, {groupId: line.groupId}, true));
+            var camCount = founds.length;
+
+            $scope.masterJSON.splice(val, camCount);
+
+
+            for (var ix = 0; ix < $scope.masterJSON.length; ix++) {
+                if ($scope.masterJSON[ix].index >= val) {
+                    $scope.masterJSON[ix].index -= val;
+                }
+                if ($scope.masterJSON[ix].groupId >= groupId){
+                    $scope.masterJSON[ix].groupId--;
                 }
             }
+            $scope.updateGroupIndexes(groupId, false);
+            $scope.updateGroupsMenu();
+
+        };
+        $scope.updateGroupIndexes = function (index, add) {
+
+            for (var ix = 0; ix < $scope.masterJSON.length; ix++) {
+                if ($scope.masterJSON[ix].groupId >= index) {
+                    if (add) {
+                        $scope.masterJSON[ix].groupId++;
+                    }
+                    if (!add) {
+                        $scope.masterJSON[ix].groupId--;
+                    }
+                }
+            }
+
+
         }
+
+        $scope.updateGroupsMenu =  function(){
+            $scope.groupsExtracted = ($filter('filter')($scope.masterJSON, {groupTitle: true}, true));
+        };
 
         $scope.findMissingNumbers = function (allNumbers, checkArray) {
 
@@ -709,8 +752,8 @@
             return result;
         };
 
-        $scope.getToolTipText = function(val){
-            return  $scope.filetoUpload[val];
+        $scope.getToolTipText = function (val) {
+            return $scope.filetoUpload[val];
         }
 
 
