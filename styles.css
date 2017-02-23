@@ -120,18 +120,23 @@ body {
     background-color:#fff !important; border-color:#cde7f6; color: #cde7f6;
 }
 
-/*button {*/
-    /*background-color:#cde7f6;*/
-    /*padding: 10px 15px;*/
-    /*font: bold 10pt Verdana;*/
-    /*color: #366097;*/
-    /*border: 2px solid #366097;*/
-    /*cursor: pointer;*/
-/*}*/
-
+.glyphicon-plus-sign{
+    color:#5cb85c !important
+}
+.glyphicon{
+    font-size: 15pt;
+}
+.glyphicon-remove-sign{
+    color: red !important;
+}
 input {
     padding: 5px;
     border: 1px solid #366097;
+
+}
+input[type=file] {
+    display: inline !important;
+
 }
 .last-grou-button{
     background-color: #ffcc80;

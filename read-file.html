@@ -1,8 +1,11 @@
 <!doctype html>
 <html ng-app="fieraApp">
 <head>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
-          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"-->
+   <!--integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
     <link rel="stylesheet" href="styles.css">
     <script src="bower_components/angular/angular.js"></script>
     <!--<script src="bower_components/angular/bootstrap-filestyle.min.js"></script>-->
@@ -14,15 +17,17 @@
 
 </head>
 <body>
+
 <div class="container-fiera" id="filesTop" ng-controller="ReadFileCtrl">
     <div >
 
         <div>
             <h2 class="margin-top">Order to select files:</h2>
 
-            <h5 class="workflow"><span ng-class="source.length >= 1 ? 'hl' : '' ">Source Out</span> > <span
+
+            <h4 class="workflow"><span ng-class="source.length >= 1 ? 'hl' : '' ">Source Out</span> > <span
                     ng-class="source.length >= 2 ? 'hl' : '' ">Source Local</span> >
-                <span ng-class="source.length >= 3 ? 'hl' : '' ">Fiera Out</span></h5>
+                <span ng-class="source.length >= 3 ? 'hl' : '' ">Fiera Out</span></h4>
             <input type="file" on-read-file="loadFile($fileContent)" ng-disabled="source.length=== 3"
                    title="{{getToolTipText(source.length)}}"/>
 
@@ -109,26 +114,22 @@
 
 
             </div>
-            <!--<div ng-if="toSave && toSave.length>0">-->
 
-                <!--<textarea data-ng-model="toSaveLines" class="screen-width"></textarea>-->
-
-            <!--</div>-->
-
-            <!--<pre>{{ content }}</pre>-->
             <table class="table-border" border="1px" width="100%" ng-if="isShow">
                 <tr ng-repeat="line in masterJSON track by $index" ng-class="getRowColor(line);">
                     <!--<td>{{$index}}</td>-->
                     <td style="cursor:pointer;" ng-if="!line.groupTitle" title="{{line.group}}">
                         <div ng-if="line.groupIndex===1" ng-click="createNew($index, line, true)"><span
-                                class="icon-up"></span></div>
-                        <div ng-click="removeIt($index, line)"><span class="cross"></span></div>
-                        <div ng-click="createNew($index+1, line, false)"><span class="icon-up"></span></div>
+                                class="glyphicon glyphicon-plus-sign"></span></div>
+                        <div ng-click="removeIt($index, line)"><span class="glyphicon glyphicon-remove-sign"></span></div>
+                        <div ng-click="createNew($index+1, line, false)">
+                            <span class="glyphicon glyphicon-plus-sign"></span>
+                        </div>
                     </td>
 
                     <td style="cursor:pointer;" ng-if="line.groupTitle" title="{{line.group}}">
-                        <div ng-click="createNewGroup(line)"><span class="icon-up"></span></div>
-                        <div ng-click="removeGroup(line)"><span class="cross"></span></div>
+                        <div ng-click="createNewGroup(line)"><span class="glyphicon glyphicon-plus-sign"></span></div>
+                        <div ng-click="removeGroup(line)"><span class="glyphicon glyphicon-remove-sign"></span></div>
                     </td>
 
 
