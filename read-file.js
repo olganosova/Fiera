@@ -674,7 +674,7 @@
 
             for (var ix = 0; ix < $scope.masterJSON.length; ix++) {
                 if ($scope.masterJSON[ix].index >= val) {
-                    $scope.masterJSON[ix].index -= val;
+                    $scope.masterJSON[ix].index -= camCount;
                 }
                 if ($scope.masterJSON[ix].groupId >= groupId){
                     $scope.masterJSON[ix].groupId--;
