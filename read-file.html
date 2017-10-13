@@ -143,7 +143,7 @@
                                                         ng-keypress="copyCameraOnEnter($event, line)"
                                                         ng-change="updateValue(line, '{{line.camNum}}')"/></td>
 
-                    <td ng-if="!line.groupTitle">
+                    <td ng-if="!line.groupTitle" ng-click="line.isDup = false">
                         <input ng-if="line.isNew" type="text" data-ng-model="line.dns"/>
                         <span ng-if="!line.isNew">{{line.dns}}</span>
                     </td>

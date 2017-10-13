@@ -1,0 +1,1006 @@
+2||10.10.10.102||1702||4||10003||FIERA|| MF SF #4 In
+3||10.10.10.103||1703||4||10003||FIERA|| MF Product to Spiral Cooler
+4||10.10.10.98:1700/video/mjpeg/stream2||||4||10003||FIERA|| MF SF #2
+5||10.10.10.95||1697||4||10003||FIERA|| MF Dough Slabs Loading
+6||10.10.10.96||1698||4||10003||FIERA|| MF Dough Mixers
+7||10.10.10.97||1699||4||10003||FIERA|| MF Laminated Line
+8||10.10.10.36||1610||4||10003||FIERA|| MS Silo South
+9||10.10.10.37||1611||4||10003||FIERA|| MS Gate #18
+10||10.10.10.38||1612||4||10003||FIERA|| AP Mech Room
+11||10.10.10.39||1613||4||10003||FIERA|| MS Main Entance
+12||10.10.10.25||1614||4||10003||FIERA|| MS Gate #20 Out
+13||10.10.10.40||1615||4||10003||FIERA|| MS Silo SW
+14||10.10.10.11||1616||4||10003||FIERA|| MF Doors to Freezer
+15||10.10.10.35||1617||4||10003||FIERA|| MF Bread to SF #1
+16||10.10.10.14||1618||4||10003||FIERA|| MF Small Oven Out
+17||10.10.10.51||1619||4||10003||FIERA|| MF Muffin Line
+18||10.10.10.23||1620||4||10003||FIERA|| MEZ Product to SF #4
+19||10.10.10.13||1621||4||10003||FIERA|| MF Bagel Line 1
+20||10.10.10.12||1622||4||10003||FIERA|| MF Receiving 1
+21||10.10.10.34||1623||4||10003||FIERA|| MF Product to Proofer & SF
+22||10.10.10.16||1624||4||10003||FIERA|| MF Small Oven In
+23||10.10.10.28||1625||4||10003||FIERA|| MF Receiving 2
+24||10.10.10.41||1652||4||10003||FIERA|| MF Make Up Lines
+25||10.10.10.22:1627/video/mjpeg/stream2||||4||10003||FIERA|| BD Buns slicing & Depanning 1
+26||10.10.10.29||1628||4||10003||FIERA|| BD Packaging 4
+27||10.10.10.17||1629||4||10003||FIERA|| BD Oil Oven
+28||10.10.10.21||1630||4||10003||FIERA|| BD Packaging 1
+29||10.10.10.20||1631||4||10003||FIERA|| BD Mixing and Forming
+30||10.10.10.32||1632||4||10003||FIERA|| BD Canoll #1
+31||10.10.10.19||1633||4||10003||FIERA|| BD Bread Line
+32||10.10.10.18||1634||4||10003||FIERA|| BD Oddy Line
+33||10.10.10.27:1635/video/mjpeg/stream2||||4||10003||FIERA|| BD Waste Compactor
+34||10.10.10.31||1636||4||10003||FIERA|| BD Gate #17
+35||10.10.10.26||1637||4||10003||FIERA|| BD BD Lunch Room
+36||10.10.10.15||1638||4||10003||FIERA|| MEZ SF #4 Out
+37||10.10.10.24||1639||4||10003||FIERA|| MEZ Packing After SF #2
+38||10.10.10.33||1640||4||10003||FIERA|| MEZ Packing After SF #3
+39||10.10.10.42:1641/video/mjpeg/stream2||||4||10003||FIERA|| BD Door #18
+40||10.10.9.41||1941||4||10003||FIERA|| MEZ Packaging After SF #1
+41||10.10.10.79||1681||||10003||FIERA|| MS Silo East
+42||10.10.10.43:1644/video/mjpeg/stream2||||4||10003||FIERA|| MF Elevator
+43||10.10.10.44||1645||4||10003||FIERA|| BD Retractors
+44||10.10.10.45||1646||4||10003||FIERA|| BD Dry Mix
+45||10.10.10.46||1647||4||10003||FIERA|| BD Ovens 1
+46||10.10.10.47||1648||4||10003||FIERA|| MF Bagel Mixers
+47||10.10.10.48||1649||4||10003||FIERA|| MF Boards Unloading
+48||10.10.10.49||1650||4||10003||FIERA|| MEZ Croissant Production
+49||10.10.10.50:1651/video/mjpeg/stream2||||4||10003||FIERA|| MEZ Packing Mez
+51||10.10.10.80||1682||4||10003||FIERA|| MF Wrapping
+52||10.10.10.52||1654||4||10003||FIERA|| MF LD #2 South
+53||10.10.10.54||1655||4||10003||FIERA|| MF Palletizing
+54||10.10.10.53||1656||4||10003||FIERA|| MF LD #2 North 1
+55||10.10.10.57||1657||4||10003||FIERA|| MS Outside Eq. Storage
+56||10.10.10.55||1658||4||10003||FIERA|| MS LD #1 Out
+57||10.10.10.56||1659||4||10003||FIERA|| MS Driveway North 2
+58||10.10.10.59||1660||4||10003||FIERA|| MS Driveway North 1
+59||10.10.10.58||1661||4||10003||FIERA|| BD Washing 2
+60||10.10.10.64||1666||4||10003||FIERA|| MF Front Exit SW
+61||10.10.10.65||1667||4||10003||FIERA|| MS Driveway West 4
+62||10.10.10.86||1688||4||10003||FIERA|| MEZ Croissant 30000 Line
+63||10.10.10.94||1696||4||10003||FIERA|| MS PTZ LD #2 Area
+64||10.10.10.91||1693||4||10003||FIERA|| AP SF #5  Product In
+65||10.10.10.92:1694/video/mjpeg/stream2||||4||10003||FIERA|| MF Entrance Door
+66||10.10.10.70||1672||4||10003||FIERA|| MF Lab 1
+67||10.10.10.71||1673||4||10003||FIERA|| MF Lab 2
+68||10.10.10.87||1689||4||10003||FIERA|| MS Shipping Door 1
+69||10.10.10.88||1690||4||10003||FIERA|| MS AP Door 1
+70||10.10.10.89||1691||4||10003||FIERA|| MS Shipping Door 2
+71||10.10.10.90||1692||4||10003||FIERA|| MS AP Door Out  NW
+72||10.10.10.113||1713||4||10003||FIERA|| MF LD #2 Charger
+73||10.10.10.114||1714||4||10003||FIERA|| MF LD #2 North 2
+74||10.10.10.115||1715||4||10003||FIERA|| BD Conveyor 1
+75||10.10.10.116:1716/video/mjpeg/stream2||||4||10003||FIERA|| BD Product loading tp Proofer
+76||10.10.10.117||1717||4||10003||FIERA|| BD Conveyor 3
+77||10.10.10.118||1718||4||10003||FIERA|| MF Production Area
+78||10.10.10.119||1719||4||10003||FIERA|| BD Welding Shop Gate
+79||10.10.10.128:1728/video/mjpeg/stream2||||4||10003||FIERA|| BD Elevator from MF
+80||10.10.10.121||1721||4||10003||FIERA|| BD Warehouse 2
+81||10.10.10.122||1722||4||10003||FIERA|| BD Warehouse 3
+82||10.10.10.123:1723/video/mjpeg/stream2||||4||10003||FIERA|| AP Box Filling Station
+83||10.10.10.124||1724||4||10003||FIERA|| BD Cooler
+84||10.10.10.125||1725||4||10003||FIERA|| BD STF #2 Entrance
+85||10.10.10.126||1726||4||10003||FIERA|| BD STF #2
+86||10.10.10.129||1729||4||10003||FIERA|| BD Mech Meint Room
+87||10.10.10.130||1730||4||10003||FIERA|| BD Mixers Bread
+88||10.10.10.131||1731||4||10003||FIERA|| BD Welding Shop
+89||10.10.10.132:1732/video/mjpeg/stream2||||4||10003||FIERA|| MF SF #1
+90||10.10.10.66:1668/video/mjpeg/stream2||||4||10003||FIERA|| AP Dough Elevator
+91||10.10.10.67||1669||4||10003||FIERA|| AP From Boiler to SF #5
+92||10.10.10.68||1670||4||10003||FIERA|| AP Board Striping
+93||10.10.10.69||1671||4||10003||FIERA|| AP Dough Dep.
+94||10.10.10.81||1683||4||10003||FIERA|| AP Proofer Out
+95||10.10.10.82||1684||4||10003||FIERA|| AP Sorting After SF#5
+96||10.10.10.83||1685||4||10003||FIERA|| AP Rondo Doge Line
+97||10.10.10.84||1686||4||10003||FIERA|| AP Gouet 1 Depanner
+98||10.10.10.85||1687||4||10003||FIERA|| AP Retractor
+99||10.10.10.198||1798||4||10003||FIERA|| MS Silo North 1
+100||10.10.10.199||1799||4||10003||FIERA|| MS Silo North 2
+101||10.10.10.61||1663||4||10003||FIERA|| MFC Door #2
+102||10.10.10.93||1695||4||10003||FIERA|| MFC A-B FRONT
+103||10.10.10.62||1664||4||10003||FIERA|| MFC C-D FRONT
+104||10.10.10.77||1679||4||10003||FIERA|| MFC E-F FRONT
+105||10.10.10.76||1678||4||10003||FIERA|| MFC G-H FRONT
+106||10.10.10.74||1676||4||10003||FIERA|| MFC I-J FRONT
+107||10.10.10.75||1677||4||10003||FIERA|| MFC K-L FRONT
+108||10.10.10.73||1675||4||10003||FIERA|| MFC M-N FRONT
+109||10.10.10.72||1674||4||10003||FIERA|| MFC M-P FRONT
+110||10.10.10.63||1665||4||10003||FIERA|| MFC Front
+111||10.10.10.105||1705||4||10003||FIERA|| MFC A-B BACK
+112||10.10.10.106||1706||4||10003||FIERA|| MFC C-D BACK
+113||10.10.10.107||1707||4||10003||FIERA|| MFC E-F BACK
+114||10.10.10.108||1708||4||10003||FIERA|| MFC G-H BACK
+115||10.10.10.109||1709||4||10003||FIERA|| MFC I-J BACK
+116||10.10.10.110||1710||4||10003||FIERA|| MFC K-L BACK
+117||10.10.10.111||1711||4||10003||FIERA|| MFC M-N BACK
+118||10.10.10.112||1712||4||10003||FIERA|| MFC O-P BACK
+119||10.10.9.144||2044||4||10003||FIERA|| MS Driveway E 1
+120||fieranorelco.dyndns.org||1610||4||10003||FIERA|| NOR Silo #1
+121||fieranorelco.dyndns.org||1611||4||10003||FIERA|| NOR Parking NW
+122||fieranorelco.dyndns.org||1612||4||10003||FIERA|| NOR Parking South
+123||fieranorelco.dyndns.org||1613||4||10003||FIERA|| NOR Shipping Entrance
+124||fieranorelco.dyndns.org||1614||4||10003||FIERA|| NOR Loading Dock
+125||fieranorelco.dyndns.org||||4||10003||FIERA|| NOR Freezer Entrance
+126||fieranorelco.dyndns.org||1616||4||10003||FIERA|| NOR Electrical Boxes
+127||fieranorelco.dyndns.org||1617||4||10003||FIERA|| NOR Main Entrance
+128||fieranorelco.dyndns.org||1618||4||10003||FIERA|| NOR Warehouse 1
+129||fieranorelco.dyndns.org||1633||4||10003||FIERA|| NOR Spanish Line
+130||fieranorelco.dyndns.org||1620||4||10003||FIERA|| NOR Lines End
+131||fieranorelco.dyndns.org||1621||4||10003||FIERA|| NOR Line Pinching
+132||fieranorelco.dyndns.org||1622||4||10003||FIERA|| NOR Spiral #2 In
+133||fieranorelco.dyndns.org||1623||4||10003||FIERA|| NOR Spiral #1 In
+134||fieranorelco.dyndns.org||1624||4||10003||FIERA|| NOR Twist Danish
+135||fieranorelco.dyndns.org||1625||4||10003||FIERA|| NOR Box Former
+136||fieranorelco.dyndns.org||1626||4||10003||FIERA|| NOR SP#1 Out 5B
+137||fieranorelco.dyndns.org||1627||4||10003||FIERA|| NOR SP#1 FTO
+138||fieranorelco.dyndns.org||1628||4||10003||FIERA|| NOR East Parking East 2
+139||fieranorelco.dyndns.org||1629||4||10003||FIERA|| NOR Parking NE
+140||fieranorelco.dyndns.org||1630||4||10003||FIERA|| NOR Mixing Area
+141||fieranorelco.dyndns.org||1631||4||10003||FIERA|| NOR Lunch Room 1
+142||fieranorelco.dyndns.org||1632||4||10003||FIERA|| NOR Parking East 1
+143||fieranorelco.dyndns.org||1634||4||10003||FIERA|| NOR Parking East 3
+144||fieranorelco.dyndns.org||1635||4||10003||FIERA|| NOR Main Entrance Door
+145||fieranorelco.dyndns.org||1637||4||10003||FIERA|| NOR Silo Truck Load 1
+146||fieranorelco.dyndns.org||1636||4||10003||FIERA|| NOR Silo Truck Load 2
+147||fieranorelco.dyndns.org||1638||4||10003||FIERA|| NOR Production 1
+148||fieranorelco.dyndns.org||1639||4||10003||FIERA|| NOR Production 2
+149||fieranorelco.dyndns.org||1640||4||10003||FIERA|| NOR Warehouse 2
+150||fieranorelco.dyndns.org||1641||4||10003||FIERA|| NOR Filling Room
+151||fieranorelco.dyndns.org||1642||4||10003||FIERA|| NOR Ice Room
+152||fieranorelco.dyndns.org||1643||4||10003||FIERA|| NOR Dough Feed
+.153||fieranorelco.dyndns.org||1644||4||10003||FIERA|| NOR Mezzanine
+154||fieranorelco.dyndns.org||1645||4||10003||FIERA|| NOR Lab 1
+155||fieranorelco.dyndns.org||1646||4||10003||FIERA|| NOR Freezer 1
+156||fieranorelco.dyndns.org||1647||4||10003||FIERA|| NOR Freezer 2
+157||fieranorelco.dyndns.org||1648||4||10003||FIERA|| NOR Freezer 3
+158||fieranorelco.dyndns.org||1658||4||10003||FIERA|| NOR Card Punch 1B
+159||fieranorelco.dyndns.org||1659||4||10003||FIERA|| NOR Card Punch 2B
+160||fieranorelco.dyndns.org||1660||4||10003||FIERA|| NOR Shipping Area
+161||fieranorfinch.dyndns.org||1611||4||10003||FIERA|| CMS Garbage Compactor
+162||fieranorfinch.dyndns.org||1612||4||10003||FIERA|| CMS Loading Dock Door #1
+163||fieranorfinch.dyndns.org||1613||4||10003||FIERA|| CMS Loading Dock Door #2&3
+164||fieranorfinch.dyndns.org||1622||4||10003||FIERA|| CMS Ingredients Room
+165||fieranorfinch.dyndns.org||1618||4||10003||FIERA|| CMS Cooler #2
+166||fieranorfinch.dyndns.org||1621||4||10003||FIERA|| CMS Cooler #1
+167||fieranorfinch.dyndns.org||1619||4||10003||FIERA|| CMS Production East Area
+168||fieranorfinch.dyndns.org||1620||4||10003||FIERA|| CMS Production West Area
+169||fieranorfinch.dyndns.org||1624||4||10003||FIERA|| CMS Dessert Plant
+170||fieranorfinch.dyndns.org||1625||4||10003||FIERA|| CMS Lab #1
+171||fieranorfinch.dyndns.org||1623||4||10003||FIERA|| CMS Main Entrance Inside
+172||fieranorfinch.dyndns.org||1614||4||10003||FIERA|| CMS N.Kettle Platform
+173||fieranorfinch.dyndns.org||1615||4||10003||FIERA|| CMS Old Dry WH 2-2
+174||fieranorfinch.dyndns.org:1626/video/mjpeg/stream2||||4||10003||FIERA|| CMS Main Entrance Outside
+175||fieranorfinch.dyndns.org||1627||4||10003||FIERA|| CMS Parking SE 1
+176||fieranorfinch.dyndns.org||1629||4||10003||FIERA|| CMS Parking SE 2
+177||fieranorfinch.dyndns.org||1617||4||10003||FIERA|| CMS Loading Dock Out 2
+178||fieranorfinch.dyndns.org||1616||4||10003||FIERA|| CMS Driveway NE 2
+179||fieranorfinch.dyndns.org||1628||4||10003||FIERA|| CMS New Cold Storage 1
+180||fieranorfinch.dyndns.org||1630||4||10003||FIERA|| CMS Driveway South 1
+181||fieranorfinch.dyndns.org||1631||4||10003||FIERA|| CMS Norfinch to South
+182||fieranorfinch.dyndns.org||1632||4||10003||FIERA|| CMS Parking NW 3
+183||fieranorfinch.dyndns.org||1633||4||10003||FIERA|| CMS Reception
+184||fieranorfinch.dyndns.org||1634||4||10003||FIERA|| CMS Storage Freezer 1
+185||fieranorfinch.dyndns.org||1635||4||10003||FIERA|| CMS Storage Freezer 2
+186||fieranorfinch.dyndns.org||1636||4||10003||FIERA|| CMS Driveway NE Entrance
+187||fieranorfinch.dyndns.org||1637||4||10003||FIERA|| MP Packing Machine 1
+188||fieranorfinch.dyndns.org||1638||4||10003||FIERA|| CMS New Warehouse 1
+189||fieranorfinch.dyndns.org||1639||4||10003||FIERA|| CMS Old Dry WH 3-2
+190||fieranorfinch.dyndns.org||1640||4||10003||FIERA|| CMS Entrance to New LD
+191||fieranorfinch.dyndns.org||1641||4||10003||FIERA|| CMS Cooler #3-1
+192||fieranorfinch.dyndns.org||1642||4||10003||FIERA|| CMS Cooler #4-1
+193||fieranorfinch.dyndns.org||1643||4||10003||FIERA|| CMS Cooler #5-1
+194||fieranorfinch.dyndns.org||1644||4||10003||FIERA|| CMS Corridor to New LD
+195||fieranorfinch.dyndns.org||1645||4||10003||FIERA|| CMS Old Dry WH 4-2
+196||fieranorfinch.dyndns.org||1646||4||10003||FIERA|| CMS Cooler #3-2
+197||fieranorfinch.dyndns.org||1647||4||10003||FIERA|| CMS Cooler #5-2
+198||fieranorfinch.dyndns.org||1648||4||10003||FIERA|| CMS New LD6
+199||fieranorfinch.dyndns.org||1649||4||10003||FIERA|| MP Old Dry WH 3-1
+200||fierauc.dyndns.org||1601||4||10003||FIERA|| UC Main Entrance
+201||fierauc.dyndns.org||1602||4||10003||FIERA|| UC Line #4
+202||fierauc.dyndns.org||1603||4||10003||FIERA|| UC Loading Dock
+203||fierauc.dyndns.org||1604||4||10003||FIERA|| UC  Parking West 1
+204||fierauc.dyndns.org||1605||4||10003||FIERA|| UC East Driveway
+205||fierauc.dyndns.org||1606||4||10003||FIERA|| UC Garbage Compactor
+206||fierauc.dyndns.org||1608||4||10003||FIERA|| UC Metal detector Line #3
+207||fierauc.dyndns.org||1609||4||10003||FIERA|| UC Line #1 Freezer
+208||fierauc.dyndns.org||1607||4||10003||FIERA|| UC Mez Fritsch Line 1
+209||fierauc.dyndns.org||1610||4||10003||FIERA|| UC Mixing Area 1
+210||fierauc.dyndns.org||1611||4||10003||FIERA|| UC Line #2
+211||fierauc.dyndns.org||1612||4||10003||FIERA|| UC Mezzanine New Line
+212||fierauc.dyndns.org||1613||4||10003||FIERA|| UC Parking West 2
+213||fierauc.dyndns.org||1614||4||10003||FIERA|| UC East Driveway
+214||fierauc.dyndns.org||1615||4||10003||FIERA|| UC Line #1
+215||fierauc.dyndns.org||1616||4||10003||FIERA|| UC Office Entrance
+216||fierauc.dyndns.org||1617||4||10003||FIERA|| UC Line #4 Packaging
+217||fierauc.dyndns.org||1618||4||10003||FIERA|| UC Palletizing
+218||fierauc.dyndns.org||1619||4||10003||FIERA|| UC St. Freezer Door
+219||fierauc.dyndns.org||1620||4||10003||FIERA|| UC Garbage Room
+220||fierauc.dyndns.org||1621||4||10003||FIERA|| UC Warehouse
+221||fierauc.dyndns.org||1622||4||10003||FIERA|| UC Line #4
+222||fierauc.dyndns.org||1623||4||10003||FIERA|| UC Line #1 West
+223||fierauc.dyndns.org||1624||4||10003||FIERA|| UC Lunch room
+224||fierauc.dyndns.org:1625/video/mjpeg/stream2||||4||10003||FIERA|| UC Construction 1
+225||fierauc.dyndns.org||1626||4||10003||FIERA|| UC North Lawn
+226||fierauc.dyndns.org||1627||4||10003||FIERA|| UC Transformer
+227||fierauc.dyndns.org||1628||4||10003||FIERA|| UC Compressor Room
+228||fierauc.dyndns.org||1629||4||10003||FIERA|| UC Loading Dock
+229||fierauc.dyndns.org||1630||4||10003||FIERA|| UC Line #1 East
+230||fierauc.dyndns.org||1631||4||10003||FIERA|| UC Card Punch 3
+231||fierauc.dyndns.org:1632/video/mjpeg/stream2||||4||10003||FIERA|| UC Construction 2
+232||fierauc.dyndns.org||1633||4||10003||FIERA|| UC Storage Freezer 1
+233||fierauc.dyndns.org||1634||4||10003||FIERA|| UC Storage Freezer 2
+234||fierauc.dyndns.org||1635||4||10003||FIERA|| UC Storage Freezer 3
+235||fierauc.dyndns.org||1636||4||10003||FIERA|| UC Storage Freezer 4
+236||fierauc.dyndns.org||1637||4||10003||FIERA|| UC Parking South 1
+237||fierauc.dyndns.org||1638||4||10003||FIERA|| UC Parking South 2
+238||fierauc.dyndns.org:1639/video/mjpeg/stream2||||4||10003||FIERA|| UC Entrance West
+239||fierauc.dyndns.org||1640||4||10003||FIERA|| UC Line #1A
+240||10.10.10.133||1733||4||10003||FIERA|| BD Ovens East
+241||10.10.10.134||1734||4||10003||FIERA|| BD Pre Scaling
+242||10.10.10.135||1735||4||10003||FIERA|| MEZ Lunch Room
+243||10.10.10.136||1736||4||10003||FIERA|| BD Bread Line
+244||10.10.10.137||1737||4||10003||FIERA|| BD Packaging 5
+245||10.10.10.138||1738||4||10003||FIERA|| BD Washing 1
+246||10.10.10.139:1739/video/mjpeg/stream2||||4||10003||FIERA|| BD Mixing Area
+247||10.10.10.140||1740||4||10003||FIERA|| BD to AP Corridor
+248||10.10.10.141:1741/video/mjpeg/stream2||||4||10003||FIERA|| AP Dough Department
+249||10.10.10.142||1742||4||10003||FIERA|| AP Lab
+250||10.10.10.143||1743||4||10003||FIERA|| AP Sorting & Packing
+251||10.10.10.144||1744||4||10003||FIERA|| BD Ovens 2
+252||10.10.10.145||1745||4||10003||FIERA|| MEZ De La Ballina 1
+253||10.10.10.146:1746/video/mjpeg/stream2||||4||10003||FIERA|| MEZ Slicers
+254||10.10.10.147||1747||4||10003||FIERA|| BD Dough Department 2
+255||10.10.10.153||1753||4||10003||FIERA|| MEZ De La Ballina 2
+256||10.10.10.154||1754||4||10003||FIERA|| MF LD1 to LD2 Corridor
+257||10.10.10.155:1755/video/mjpeg/stream2||||4||10003||FIERA|| MF Muffins Pre-deposit
+258||10.10.10.156||1756||4||10003||FIERA|| MF Palletizing 1
+259||10.10.10.157||1757||4||10003||FIERA|| BD Pretzel
+260||10.10.10.158||1758||4||10003||FIERA|| BD Bread line #2
+261||10.10.10.148||1748||4||10003||FIERA|| AP Packaging
+262||10.10.10.149||1749||4||10003||FIERA|| BD Cake Line
+263||10.10.10.150||1750||4||10003||FIERA|| BD Packaging 4
+264||10.10.10.151:1751/video/mjpeg/stream2||||4||10003||FIERA|| AP Mixers & Sour System
+265||10.10.10.152||1752||4||10003||FIERA|| AP Corridor to Packaging
+266||10.10.10.159||1759||4||10003||FIERA|| MEZ Box Maker
+267||10.10.10.160||1760||4||10003||FIERA|| MF Big Oven Autoloader
+268||10.10.10.161:1761/video/mjpeg/stream2||||4||10003||FIERA|| BD Mixers
+269||10.10.9.68||1968||4||10003||FIERA|| MF Lab 3
+270||fieranorfinch.dyndns.org||1650||4||10003||FIERA|| MP Emergency Exit NE
+271||fieranorfinch.dyndns.org||1651||4||10003||FIERA|| MP Driveway NW
+272||fieranorfinch.dyndns.org||1652||4||10003||FIERA|| MP Old Dry WH 2-1
+273||fieranorfinch.dyndns.org||1653||4||10003||FIERA|| MP Oil In 1
+274||fieranorfinch.dyndns.org||1654||4||10003||FIERA|| MP Oil In 2
+275||fieranorfinch.dyndns.org||1655||4||10003||FIERA|| MP Mezzanine 1
+276||fieranorfinch.dyndns.org||1656||4||10003||FIERA|| MP Packing Machine 2
+277||fieranorfinch.dyndns.org||1657||4||10003||FIERA|| CMS Drum Room
+278||fieranorfinch.dyndns.org||1658||4||10003||FIERA|| MP Tempering Room 1
+279||fieranorfinch.dyndns.org||1659||4||10003||FIERA|| MP Tempering Room 2
+280||fieranorfinch.dyndns.org||1660||4||10003||FIERA|| CMS Old Dry WH 1-1
+281||fieranorfinch.dyndns.org||1661||4||10003||FIERA|| CMS Cooler #4-2
+282||fieranorfinch.dyndns.org||1662||4||10003||FIERA|| CMS Old Dry WH 4-1
+283||fieranorfinch.dyndns.org||1663||4||10003||FIERA|| CMS Warehouse Door
+284||10.10.10.162||1762||4||10003||FIERA|| MFC Freezer MR 1
+285||10.10.10.163||1763||4||10003||FIERA|| MFC Freezer MR 2
+286||10.10.10.164||1764||4||10003||FIERA|| MFC Freezer MR 3
+287||10.10.10.165||1765||4||10003||FIERA|| MS Door Out West AP
+288||10.10.10.167||1767||4||10003||FIERA|| MS Driveway NW 1
+289||10.10.10.168||1768||4||10003||FIERA|| MS Driveway NE 1
+290||10.10.10.166||1766||4||10003||FIERA|| MS Outside Stairs to Roof West
+291||10.10.10.169||1769||4||10003||FIERA|| MEZ Ice Machine
+292||10.10.10.170||1770||4||10003||FIERA|| MS Driveway NE 3
+293||10.10.10.171||1771||4||10003||FIERA|| AP Dough Mixers
+294||10.10.10.172||1772||4||10003||FIERA|| AP Mixers Unloading
+295||10.10.10.173||1773||4||10003||FIERA|| MS Parking South 1
+296||10.10.10.174||1774||4||10003||FIERA|| MS Parking South 2
+297||fieranorfinch.dyndns.org||1664||4||10003||FIERA|| CMS Parking West
+298||10.10.10.175||1775||4||10003||FIERA|| MF Auto Loader 2
+299||10.10.10.176||1776||4||10003||FIERA|| AP Flipper
+300||10.10.10.177||1777||4||10003||FIERA|| MF Boiler & Seeders
+301||10.10.10.178||1778||4||10003||FIERA|| MF Palletizing 1
+302||10.10.10.179||1779||4||10003||FIERA|| MF Receiving 3
+303||10.10.10.180||1780||4||10003||FIERA|| MF Receiving 4
+304||10.10.10.181||1781||4||10003||FIERA|| MS Driveway SE 1
+305||10.10.10.182||1782||4||10003||FIERA|| MS Driveway SE 2
+306||10.10.10.183||1783||4||10003||FIERA|| AP Water Chiller
+307||10.10.10.184||1784||4||10003||FIERA|| UCM Stone Oven Out
+308||10.10.10.185||1785||4||10003||FIERA|| UCM Ramp to AP
+309||10.10.10.186||1786||4||10003||FIERA|| UCM Boards Unloading & Pretzels Production
+310||10.10.10.187:1787/video/mjpeg/stream2||||4||10003||FIERA|| UCM Boards Lowerator
+311||10.10.10.188||1788||4||10003||FIERA|| UCM Cronuts Packing 2
+312||10.10.10.189||1789||4||10003||FIERA|| UCM Boxes to Palletizing
+313||10.10.10.190||1790||4||10003||FIERA|| UCM Packaging Mezzanine
+314||10.10.10.191||1791||4||10003||FIERA|| UCM Ramp In
+315||10.10.10.192||1792||4||10003||FIERA|| UCM Product Depanning
+316||10.10.10.193||1793||4||10003||FIERA|| UCM Gate #20
+317||10.10.10.194||1794||4||10003||FIERA|| MF Spiral Cooler
+318||10.10.10.195||1795||4||10003||FIERA|| MF Bagels to Oven
+319||10.10.10.196||1796||4||10003||FIERA|| MF Gouet 6 Reciprocator
+320||10.10.10.197:1797/video/mjpeg/stream2||||4||10003||FIERA|| MFC Card Punch Shipment 2
+321||10.10.9.1||1901||4||10003||FIERA|| MS Driveway NE 2
+322||10.10.9.2||1902||4||10003||FIERA|| MS Roof Main Building 1
+323||10.10.9.3||1903||4||10003||FIERA|| MS Roof Main Building 2
+324||10.10.9.4||1904||4||10003||FIERA|| MS Driveway NE 5
+325||10.10.9.5||1905||4||10003||FIERA|| MS Roof ASRS SE
+326||10.10.9.6||1906||4||10003||FIERA|| MEZ Electr Panels
+327||10.10.9.7:1907/mjpg/video.mjpg?||||4||10003||FIERA|| MS Roof Storage Freezer
+328||10.10.9.8||1908||4||10003||FIERA|| MS Roof ASRS NE
+329||10.10.9.9||1909||4||10003||FIERA|| MS Driveway NE 7
+330||10.10.9.10||1910||4||10003||FIERA|| MS Stairs Out to ASRS Roof N
+331||10.10.9.11||1911||4||10003||FIERA|| MS Driveway NE 1
+332||10.10.9.12||1912||4||10003||FIERA|| MS Driveway NW 2
+333||10.10.9.13||1913||4||10003||FIERA|| MS East Tower Security
+334||10.10.9.14||1914||4||10003||FIERA|| MS East Tower Entrance
+335||10.10.9.15||1915||4||10003||FIERA|| MS Mezzanine to East Tower
+336||10.10.9.16||1916||4||10003||FIERA|| MS Door Out to Main Roof
+337||10.10.9.17||1917||4||10003||FIERA|| UCM Boiler & Seeders
+338||10.10.9.18||1918||4||10003||FIERA|| UCM Boiler Bypass Conveyor
+339||10.10.9.19||1919||4||10003||FIERA|| UCM Product Pick-up Conveyor
+340||10.10.9.20||1920||4||10003||FIERA|| UCM Pretzels Causting Flushing
+341||10.10.9.21||1921||4||10003||FIERA|| UCM Pretzels Scoring
+342||10.10.9.22||1922||4||10003||FIERA|| UCM Boards from UCM to AP
+343||10.10.9.23||1923||4||10003||FIERA|| UCM Boards from AP to UCM
+344||10.10.9.24||1924||4||10003||FIERA|| UCM Stone Oven Control Panel
+345||10.10.9.25||1925||4||10003||FIERA|| UCM Dough Line
+346||10.10.9.26:1926/video/mjpeg/stream2||||4||10003||FIERA|| UCM Boards Unloading
+347||10.10.9.27||1927||4||10003||FIERA|| UCM Cronuts Makeup Line
+348||10.10.9.28||1928||4||10003||FIERA|| UCM Mixing Department
+349||10.10.9.29||1929||4||10003||FIERA|| UCM Rheon Line 2
+350||10.10.9.30||1930||4||10003||FIERA|| UCM Kemper Dividers
+351||10.10.9.31||1931||4||10003||FIERA|| UCM Mixing Dep.
+352||10.10.9.32||1932||4||10003||FIERA|| UCM Gouet 5-2
+353||10.10.9.33||1933||4||10003||FIERA|| UCM Gouet 5-3
+354||10.10.9.34||1934||4||10003||FIERA|| UCM Mecaflow Retractor
+355||10.10.9.35||1701||4||10003||FIERA|| UCM Product to Proofer
+356||10.10.9.36||1936||4||10003||FIERA|| UCM Cronuts to Boards
+357||10.10.9.37||1937||4||10003||FIERA|| UCM Product Delivery Conveyors
+358||10.10.9.38||1938||4||10003||FIERA|| UCM Cronuts Fryer Out
+359||10.10.9.39||1939||4||10003||FIERA|| UCM Cronuts Fryer In
+360||10.10.9.40||1940||4||10003||FIERA|| UCM Cronuts Conveyor to Fryer 1
+361||10.10.9.42||1942||4||10003||FIERA|| MEZ Cheese Bun Packing Line
+362||10.10.9.43||1943||4||10003||FIERA|| UCM Door to  East Security Post
+363||10.10.9.44||1944||4||10003||FIERA|| UCM South Tunnel-in from Door #2
+364||10.10.9.45||1945||4||10003||FIERA|| UCM Door to South Tunnel
+365||10.10.9.46||1946||4||10003||FIERA|| UCM Door to AP & West Tunnel
+366||10.10.9.47||1947||4||10003||FIERA|| UCM West Tunnel-Out from UCM
+367||10.10.9.48:1948/video/mjpeg/stream2||||4||10003||FIERA|| UCM Mixing Department 2
+368||10.10.9.49||1949||4||10003||FIERA|| UCM South Tunnel from UCM to BD
+369||10.10.9.50||1950||4||10003||FIERA|| UCM South Tunnel to Door #2  Out
+370||10.10.9.51||1951||4||10003||FIERA|| UCM East Door #2 Out
+371||10.10.9.52||1952||4||10003||FIERA|| UCM West Tunnel In from Door #1
+372||10.10.9.53||1953||4||10003||FIERA|| UCM North Door #1 Out from West Tunnel
+373||10.10.9.54||1954||4||10003||FIERA|| MS East Door #2 In
+374||10.10.9.55||1955||4||10003||FIERA|| MF Big Ovens Out
+375||10.10.9.56||1956||4||10003||FIERA|| MF Old Loading Dock 1
+376||10.10.9.57||1957||4||10003||FIERA|| MF Old Loading Dock 2
+377||10.10.9.58||1958||4||10003||FIERA|| MF Old Loading Dock 3
+378||10.10.9.59||1959||4||10003||FIERA|| MF Old Loading Dock 4
+379||10.10.9.60||1960||4||10003||FIERA|| MF Old Loading Dock 5
+380||10.10.9.61||1961||4||10003||FIERA|| CLW Driveway South
+.381||fieranorfinch2.dyndns.org||1601||4||10003||FIERA|| NFW Inside 1
+.382||fieranorfinch2.dyndns.org||1602||4||10003||FIERA|| NFW Inside 2
+.383||fieranorfinch2.dyndns.org||1603||4||10003||FIERA|| NFW Inside 3
+.384||fieranorfinch2.dyndns.org||1604||4||10003||FIERA|| NFW Inside 4
+.385||fieranorfinch2.dyndns.org||1605||4||10003||FIERA|| NFW Inside 5
+.386||fieranorfinch2.dyndns.org||1606||4||10003||FIERA|| NFW Inside 6
+.387||fieranorfinch2.dyndns.org||1607||4||10003||FIERA|| NFW Inside 7
+388||fieranorelco.dyndns.org||1661||4||10003||FIERA|| NOR Bronko Line
+389||10.10.9.62||1962||4||10003||FIERA|| UCM Dough Cooler
+390||10.10.9.63||1963||4||10003||FIERA|| UCM Ambient Dough Cooler
+391||10.10.9.64||1964||4||10003||FIERA|| UCM Double Action Infeeder
+392||10.10.9.65||1965||4||10003||FIERA|| UCM Double Action Outfeeder
+393||10.10.9.66||1966||4||10003||FIERA|| UCM Gouet 5-4
+394||10.10.9.67||1967||4||10003||FIERA|| UCM Gouet 5-1
+395||10.10.9.69||1969||4||10003||FIERA|| MEZ Locker Room Area 1
+396||10.10.9.145||2045||4||10003||FIERA|| MS Driveway West 5
+397||10.10.9.146||2046||4||10003||FIERA|| ASRS Loading Dock Out 1
+398||10.10.9.147||2047||4||10003||FIERA|| MS Gate to South Parking
+399||10.10.9.148||2048||4||10003||FIERA|| ASRS Loading Dock Out 2
+400||10.10.9.222||2122||4||10003||FIERA|| ASRS Shipping Office
+401||10.10.9.71||1971||4||10003||FIERA|| ASRS NE
+402||10.10.9.72||1972||4||10003||FIERA|| ASRS Row 1&2 North
+403||10.10.9.73||1973||4||10003||FIERA|| ASRS Row 3&4 North
+404||10.10.9.74||1974||4||10003||FIERA|| ASRS Row 5&6 North
+405||10.10.9.75||1975||4||10003||FIERA|| ASRS Row 7&8 North
+406||10.10.9.76||1976||4||10003||FIERA|| ASRS Row 9&10 North
+407||10.10.9.77||1977||4||10003||FIERA|| ASRS NW
+408||10.10.9.78||1978||4||10003||FIERA|| ASRS SE 1
+409||10.10.9.79||1979||4||10003||FIERA|| ASRS Row1&2 South
+410||10.10.9.80||1980||4||10003||FIERA|| ASRS SE 2
+411||10.10.9.81||1981||4||10003||FIERA|| ASRS Row 3&4 South
+412||10.10.9.82||1982||4||10003||FIERA|| ASRS Row 5&6 South
+413||10.10.9.83||1983||4||10003||FIERA|| ASRS SW 1
+414||10.10.9.84||1984||4||10003||FIERA|| ASRS Row 7&8 South
+415||10.10.9.85||1985||4||10003||FIERA|| ASRS Row 9&10 South
+416||10.10.9.86||1986||4||10003||FIERA|| ASRS SW 2
+417||10.10.9.87||1987||4||10003||FIERA|| ASRS Loading Dock 1
+418||10.10.9.88||1988||4||10003||FIERA|| MF Boards to Unloading
+419||10.10.9.89||1989||4||10003||FIERA|| BD Washing 3
+420||10.10.9.90||1990||4||10003||FIERA|| MEZ Packaging From SF#3
+421||10.10.9.91||1991||4||10003||FIERA|| ASRS Control Panels
+422||10.10.9.92||1992||4||10003||FIERA|| UCM Product Sorting
+423||10.10.9.93||1993||4||10003||FIERA|| UCM De La Ballina #6
+424||10.10.9.94||1994||4||10003||FIERA|| UCM Packaging 3
+425||10.10.9.95||1995||4||10003||FIERA|| MEZ Door from Mezz.to E.Tower
+426||10.10.9.96||1996||4||10003||FIERA|| MS Card Punch East Tower FL3-2
+427||10.10.9.97||1997||4||10003||FIERA|| MS Door East Tower FL3
+428||10.10.9.98||1998||4||10003||FIERA|| MS Punch Card East Tower FL4-2
+429||10.10.9.99||1999||4||10003||FIERA|| MS Offices East Tower FL4
+430||10.10.9.100||2000||4||10003||FIERA|| MS Parking Front 1
+431||10.10.9.101||2001||4||10003||FIERA|| MS Parking Front 2
+432||10.10.9.102||2002||4||10003||FIERA|| MS Parking Front 3
+433||10.10.9.103||2003||4||10003||FIERA|| MS Parking Front 4
+434||10.10.9.104||2004||4||10003||FIERA|| MS HWY 401 to West
+435||10.10.9.105||2005||4||10003||FIERA|| MS Parking SW 2
+436||10.10.9.106||2006||4||10003||FIERA|| MS Parking SW 3
+437||10.10.9.107||2007||4||10003||FIERA|| MS Parking SW 4
+438||10.10.9.108||2008||4||10003||FIERA|| MS Driveway West 1
+439||10.10.9.109||2009||4||10003||FIERA|| MS Driveway West 2
+440||10.10.9.110||2010||4||10003||FIERA|| MS Driveway West 3
+441||10.10.9.111||2011||4||10003||FIERA|| AP Exit Door West
+442||10.10.9.112||2012||4||10003||FIERA|| UCM Stair Passage to Door East
+443||10.10.9.113||2013||4||10003||FIERA|| UCM Door Out  North 1
+444||10.10.9.114||2014||4||10003||FIERA|| BD Door Out Gate #17 East
+445||10.10.9.115||2015||4||10003||FIERA|| BD Door South East
+446||10.10.9.116||2016||4||10003||FIERA|| BD Front Door South
+447||10.10.9.117||2017||4||10003||FIERA|| UCM Door North 2
+448||10.10.9.118:2018/video/mjpeg/stream2||||4||10003||FIERA|| AP Door Out North
+449||10.10.9.119||2019||4||10003||FIERA|| MFC Door Out St.Freezer MR
+450||fierauc.dyndns.org||1641||4||10003||FIERA|| UC Packaging Line #1
+451||fierauc.dyndns.org||1642||4||10003||FIERA|| UC Garbage Door
+452||fierauc.dyndns.org||1643||4||10003||FIERA|| UC Lunch Room 2
+453||fierauc.dyndns.org||1644||4||10003||FIERA|| UC Mezzanine Packaging
+454||fierauc.dyndns.org||1645||4||10003||FIERA|| UC LD Security
+455||fierauc.dyndns.org||1646||4||10003||FIERA|| UC Production NW
+456||fierauc.dyndns.org||1647||4||10003||FIERA|| UC Main Transformer
+457||fierauc.dyndns.org||1648||4||10003||FIERA|| UC LD South West
+458||fierauc.dyndns.org||1649||4||10003||FIERA|| UC Office East out
+459||fierauc.dyndns.org||1650||4||10003||FIERA|| UC Office East Entrance
+460||10.10.9.120||2020||4||10003||FIERA|| MF Card Punch Main Entrance 1
+461||10.10.9.121||2021||4||10003||FIERA|| BD Card Punch 1
+462||10.10.9.122||2022||4||10003||FIERA|| MEZ Card Punch 1
+463||10.10.9.123||2023||4||10003||FIERA|| AP Card Punch 1
+464||10.10.9.124||2024||4||10003||FIERA|| MFC Card Punch Shipment 1
+465||10.10.9.125||2025||4||10003||FIERA|| MS Punch Card East Tower FL4-1
+466||10.10.9.126||2026||4||10003||FIERA|| MS Card Punch East Tower FL3-1
+467||10.10.9.127||2027||4||10003||FIERA|| BD Card Punch 3
+468||10.10.9.128||2028||4||10003||FIERA|| MEZ Card Punch 3
+469||10.10.9.129||2029||4||10003||FIERA|| MEZ Card Punch 5
+470||10.10.9.130||2030||4||10003||FIERA|| MS Card Punch Accounting
+471||10.10.9.131||2031||4||10003||FIERA|| MS MS IT Office Hallway
+472||10.10.9.132||2032||4||10003||FIERA|| MS MS IT Server Door
+473||10.10.9.133||2033||4||10003||FIERA|| MS MS IT Server Room
+474||10.10.9.134||2034||4||10003||FIERA|| MS MS IT Storage Room
+475||10.10.9.135||2035||4||10003||FIERA|| MF LD#2 SW
+476||10.10.9.136||2036||4||10003||FIERA|| ASRS Loading Dock 2
+477||10.10.9.137||2037||4||10003||FIERA|| ASRS Loading Dock 3
+478||10.10.9.138||2038||4||10003||FIERA|| ASRS Loading Dock 1
+479||10.10.9.139||2039||4||10003||FIERA|| ASRS Loading Dock 4
+480||10.10.9.140||2040||4||10003||FIERA|| ASRS Loading Dock 5
+481||10.10.9.141||2041||4||10003||FIERA|| ASRS Loading Dock 6
+482||10.10.9.142||2042||4||10003||FIERA|| ASRS South
+483||10.10.9.143||2043||4||10003||FIERA|| UCM Cronuts Conveyor to Fryer 2
+484||10.10.9.151||2051||4||10003||FIERA|| MEZ Card Punch 6
+485||10.10.9.152||2052||4||10003||FIERA|| MEZ Card Punch 4
+486||10.10.9.153||2053||4||10003||FIERA|| AP Card Punch 2
+487||10.10.9.154||2054||4||10003||FIERA|| MF Harness
+488||10.10.9.155||2055||4||10003||FIERA|| BD Card Punch 2
+489||10.10.9.156||2056||4||10003||FIERA|| BD Card Punch 4
+490||fieranorelco.dyndns.org||1662||4||10003||FIERA|| NOR NOR Server Room Inside
+491||fieranorelco.dyndns.org||1663||4||10003||FIERA|| NOR NOR Server Room Door
+492||fieranorfinch.dyndns.org||1665||4||10003||FIERA|| CMS CMS Server Room Door In
+493||fieranorfinch.dyndns.org||1666||4||10003||FIERA|| CMS CMS Server Room Door Out
+494||fieranorfinch.dyndns.org:1667/video/mjpeg/stream2||||4||10003||FIERA|| MP Reception
+495||fierauc.dyndns.org||1651||4||10003||FIERA|| UC UC Server Room Inside
+496||fierauc.dyndns.org||1652||4||10003||FIERA|| UC Parking NE
+497||10.10.9.157||2057||4||10003||FIERA|| MEZ Card Punch Offices 1
+498||10.10.9.158||2058||4||10003||FIERA|| MEZ Card Punch Offices 2
+499||10.10.9.159||2059||4||10003||FIERA|| MF Card Punch Main Entrance 2
+500||fierauc.dyndns.org||1653||4||10003||FIERA|| UC Lab 1
+501||fierauc.dyndns.org||1654||4||10003||FIERA|| UC Lab 2
+502||fierauc.dyndns.org||1655||4||10003||FIERA|| UC Card Punch 1
+503||fierauc.dyndns.org||1656||4||10003||FIERA|| UC Card Punch 2
+504||fieranorfinch.dyndns.org||1668||4||10003||FIERA|| CMS Lab 2
+505||fieranorfinch.dyndns.org||1669||4||10003||FIERA|| CMS Card Punch 2B
+506||fieranorfinch.dyndns.org||1670||4||10003||FIERA|| CMS Card Punch 2
+507||fieranorfinch.dyndns.org||1671||4||10003||FIERA|| CMS Card Punch 1B
+508||fieranorfinch.dyndns.org||1672||4||10003||FIERA|| CMS Card Punch 1
+509||fieranorelco.dyndns.org||1664||4||10003||FIERA|| NOR Lab 2
+510||fieranorelco.dyndns.org||1665||4||10003||FIERA|| NOR Card Punch 4
+511||fieranorelco.dyndns.org||1666||4||10003||FIERA|| NOR Card Punch 4B
+512||fieranorelco.dyndns.org||1667||4||10003||FIERA|| NOR Card Punch 1
+513||fieranorelco.dyndns.org||1668||4||10003||FIERA|| NOR Card Punch 2
+514||fieranorelco.dyndns.org||1669||4||10003||FIERA|| NOR  Card Punch 3
+515||fieranorelco.dyndns.org||1670||4||10003||FIERA|| NOR  Card Punch 3B
+516||fieranorelco.dyndns.org||1671||4||10003||FIERA|| NOR  Card Punch 5
+517||10.10.9.160||2060||4||10003||FIERA|| MS Silo North 3
+518||10.10.9.161:2061/video/mjpeg/stream2||||4||10003||FIERA|| MS Silo North 4
+519||10.10.9.162||2062||4||10003||FIERA|| UCM Product from Freezer
+520||10.10.9.163||2063||4||10003||FIERA|| UCM Boards to Lines
+521||10.10.9.164||2064||4||10003||FIERA|| UCM Stairs to West Tunnel Out
+522||10.10.9.165||2065||4||10003||FIERA|| MF Door to Cooler
+523||10.10.9.166||2066||4||10003||FIERA|| MF Gouet6 Retarder
+524||fierauc.dyndns.org||1657||4||10003||FIERA|| UC Construction 3
+525||10.10.9.167||2067||4||10003||FIERA|| MEZ New Offices 1
+526||10.10.9.168||2068||4||10003||FIERA|| MEZ New Offices 2
+527||10.10.9.169||2069||4||10003||FIERA|| MEZ New Offices 3
+528||10.10.9.170||2070||4||10003||FIERA|| MEZ Sales Offices 1
+529||10.10.9.171||2071||4||10003||FIERA|| MEZ Sales Offices 2
+530||10.10.9.172||2072||4||10003||FIERA|| ASRS Loading Dock 7
+531||10.10.9.173||2073||4||10003||FIERA|| ASRS Loading Dock 8
+532||10.10.9.174||2074||4||10003||FIERA|| ASRS  Loading Dock 9
+533||10.10.9.175||2075||4||10003||FIERA|| ASRS Loading Dock 10
+534||10.10.9.176||2076||4||10003||FIERA|| ASRS  SW Outlet
+535||10.10.9.177||2077||4||10003||FIERA|| UCM Gouet 5-5
+536||10.10.9.178||2078||4||10003||FIERA|| CLW Driveway North
+537||10.10.9.179||2079||4||10003||FIERA|| ASRS Loading Dock South
+538||10.10.9.180||2080||4||10003||FIERA|| UCM Mecaflow Makeup 2
+539||10.10.9.181||2081||4||10003||FIERA|| UCM Bun 6&8 Lines
+540||10.10.9.182||2082||4||10003||FIERA|| UCM Mecaflow Makeup 1
+541||10.10.9.183||2083||4||10003||FIERA|| UCM Product Merging
+542||10.10.9.184||2084||4||10003||FIERA|| UCM Rheon Line 1
+543||10.10.9.185||2085||4||10003||FIERA|| UCM Mecaflow Dough Loading
+544||fieranorelco.dyndns.org||1672||4||10003||FIERA|| NOR Garbage Compactor
+545||fieranorelco.dyndns.org||1673||4||10003||FIERA|| NOR Parking NW 1
+546||fieranorelco.dyndns.org||1674||4||10003||FIERA|| NOR Driveway NW
+547||fieranorelco.dyndns.org||1675||4||10003||FIERA|| NOR Driveway to LD
+548||fieranorelco.dyndns.org||1676||4||10003||FIERA|| NOR Parking NW 2
+549||fieranorelco.dyndns.org||1677||4||10003||FIERA|| NOR Parking NW 3
+550||fieranorelco.dyndns.org||1678||4||10003||FIERA|| NOR Parking North
+551||fieranorelco.dyndns.org||1679||4||10003||FIERA|| NOR Parking NE
+552||fieranorelco.dyndns.org:1680/video/mjpeg/stream2||||4||10003||FIERA|| NOR Parking East 2
+553||fieranorelco.dyndns.org||1681||4||10003||FIERA|| NOR Parking SE
+554||10.10.9.186||2086||4||10003||FIERA|| MEZ Offices 1
+555||10.10.9.187||2087||4||10003||FIERA|| MEZ Offices 2
+556||10.10.9.188||2088||4||10003||FIERA|| MS Parking South
+557||10.10.9.189||2089||4||10003||FIERA|| UCM Rheon and Cronuts Lines 1
+558||10.10.9.190||2090||4||10003||FIERA|| UCM Rheon and Cronuts Lines 2
+559||fieranorfinch.dyndns.org||1673||4||10003||FIERA|| MP Lab #1
+560||fieranorfinch.dyndns.org||1674||4||10003||FIERA|| MP Lab #2
+.561||fieranorfinch2.dyndns.org||1608||4||10003||FIERA|| NFW Outside 1
+.562||fieranorfinch2.dyndns.org||1609||4||10003||FIERA|| NFW Outside 2
+.563||fieranorfinch2.dyndns.org||1610||4||10003||FIERA|| NFW Outside 3
+.564||fieranorfinch2.dyndns.org||1611||4||10003||FIERA|| NFW Outside 4
+.565||fieranorfinch2.dyndns.org||1612||4||10003||FIERA|| NFW Outside 5
+.566||fieranorfinch2.dyndns.org||1613||4||10003||FIERA|| NFW Outside 6
+567||fierauc.dyndns.org||1658||4||10003||FIERA|| UC Silo 1
+568||fierauc.dyndns.org||1659||4||10003||FIERA|| UC Silo 2
+569||fierauc.dyndns.org||1660||4||10003||FIERA|| UC Silo 3
+570||10.10.9.191||2091||4||10003||FIERA|| MS Stair Tower East FL1
+571||10.10.9.192||2092||4||10003||FIERA|| MS Stair Tower East FL2
+572||10.10.9.193||2093||4||10003||FIERA|| MS Stair Tower East FL3
+573||10.10.9.194||2094||4||10003||FIERA|| MS Stair Tower East FL4
+574||10.10.9.195||2095||4||10003||FIERA|| MS Stair Tower East FL5
+575||10.10.9.196||2096||4||10003||FIERA|| MS Stair Tower South FL2
+576||10.10.9.197||2097||4||10003||FIERA|| MS Stair Tower South FL3
+577||10.10.9.198||2098||4||10003||FIERA|| MS Stair Tower South FL4
+578||10.10.9.199||2099||4||10003||FIERA|| MS Stair Tower South FL5
+579||10.10.9.200||2100||4||10003||FIERA|| MS Stair North FLB
+580||10.10.9.201||2101||4||10003||FIERA|| MS Stair North FL5
+581||10.10.9.202||2102||4||10003||FIERA|| MS Stair Old Build. West FL1
+582||10.10.9.203||2103||4||10003||FIERA|| MS Stair Old Build. West FL2
+583||10.10.9.204||2104||4||10003||FIERA|| MS Stair Old Build. West FL3
+584||10.10.9.205||2105||4||10003||FIERA|| MS East Tower FL3 Corridor
+585||10.10.9.206||2106||4||10003||FIERA|| MEZ MEZ Lunch Room 2
+586||10.10.9.207||2107||4||10003||FIERA|| BD BD Lunch Room 2
+587||10.10.9.208||2108||4||10003||FIERA|| MEZ Main Office Reception
+588||10.10.9.209||2109||4||10003||FIERA|| MS Marmora Street to North
+589||10.10.9.210||2110||4||10003||FIERA|| MS Stairs to Offices West FLB
+590||10.10.9.211||2111||4||10003||FIERA|| MS Stairs to Offices West FL1
+591||10.10.9.212||2112||4||10003||FIERA|| MS Stairs to Offices West FL2
+592||10.10.9.213||2113||4||10003||FIERA|| MS Stairs to Offices West FL3
+593||10.10.9.214||2114||4||10003||FIERA|| MS Stairs to Offices SW FL1
+594||10.10.9.215||2115||4||10003||FIERA|| MS Stairs to Offices SW FL2
+595||10.10.9.216||2116||4||10003||FIERA|| MS Stairs to Offices SW FL3
+596||10.10.9.217||2117||4||10003||FIERA|| MS Stairs to Offices SW FL4
+597||10.10.9.218||2118||4||10003||FIERA|| MS LD 1 Marmora Street
+598||10.10.9.219||2119||4||10003||FIERA|| MS MS Tower Lunch Room Mez.
+599||10.10.9.220||2120||4||10003||FIERA|| MS Card Punch East Tower FL2-1.
+600||10.10.9.221||2121||4||10003||FIERA|| UCM Blast Freezer
+601||fieranorfinch.dyndns.org||1675||4||10003||FIERA|| CMS Cooler #3 Door
+602||fieranorfinch.dyndns.org||1676||4||10003||FIERA|| CMS Cooler #4 Door
+603||fieranorfinch.dyndns.org||1677||4||10003||FIERA|| CMS Cooler #5 Door
+604|| 10.10.9.223||2123||4||10003||FIERA|| ASRS ASRS Data Room
+605||fieranorfinch.dyndns.org||1678||4||10003||FIERA|| MP CMS Data Room
+606||fierauc.dyndns.org||1661||4||10003||FIERA|| UC Line #4 Front
+607||fierauc.dyndns.org||1662||4||10003||FIERA|| UC Line #3 Front
+608||10.10.9.224||2124||4||10003||FIERA|| MF Garbage Compactor 2
+609||10.10.9.225||2125||4||10003||FIERA|| MEZ MEZ Lunch Room TV
+610||10.10.9.226||2126||4||10003||FIERA|| ASRS ASRS Lunch Room Mez. TV
+611||10.10.9.227||2127||4||10003||FIERA|| MS Eng. Dep 1
+612||10.10.9.228||2128||4||10003||FIERA|| MS Eng. Dep 2
+613||fieranorfinch.dyndns.org||1679||4||10003||FIERA|| MP New LD 1
+614||fieranorfinch.dyndns.org||1680||4||10003||FIERA|| MP Tempering Room 3
+615||fieranorfinch.dyndns.org||1681||4||10003||FIERA|| MP Mezzanine 2
+616||fieranorfinch.dyndns.org||1682||4||10003||FIERA|| CMS New Freezer Back 1
+617||fieranorfinch.dyndns.org||1683||4||10003||FIERA|| MP New LD Outside
+618||fieranorfinch.dyndns.org||1684||4||10003||FIERA|| CMS Driveway South
+619||10.10.9.229||2129||4||10003||FIERA|| AP Product from SF#5
+620||10.10.9.230||2130||4||10003||FIERA|| AP SF#5 2 Columns Bridge
+621||10.10.9.231||2131||4||10003||FIERA|| UCM SF#6 product IN
+622||10.10.9.232||2132||4||10003||FIERA|| UCM  Product From SF#6
+623||10.10.9.233||2133||4||10003||FIERA|| UCM Manual Packing After SF#6
+624||10.10.9.234:2134/video/mjpeg/stream2||||4||10003||FIERA|| UCM Packaging Mez. 2
+625||10.10.9.235||2135||4||10003||FIERA|| UCM SF#6 Inside Bridge
+626||10.10.9.236||2136||4||10003||FIERA|| UCM Product Sorting
+627||10.10.9.237||2137||4||10003||FIERA|| MEZ Bagels Baggers
+628||10.10.9.238:2138/video/mjpeg/stream2||||4||10003||FIERA|| AP Product to De La Ballina #1 & #2
+629||10.10.9.239||2139||4||10003||FIERA|| AP Product to De La Ballina
+630||10.10.9.240||2140||4||10003||FIERA|| BD Packaging Area
+631||10.10.9.241:2141/video/mjpeg/stream2||||4||10003||FIERA|| MF SF #3
+632||10.10.9.242||2142||4||10003||FIERA|| MF Corridor NE
+633||10.10.9.243||2143||4||10003||FIERA|| MS West Tower Elevator FL1
+634||10.10.9.244||2144||4||10003||FIERA|| MS West Tower Elevator FL2
+635||10.10.9.245||2145||4||10003||FIERA|| MS West Tower Elevator FL3
+636||10.10.9.246||2146||4||10003||FIERA|| ASRS SW Freezer In
+637||10.10.9.247||2147||4||10003||FIERA|| UCM Product Pick Up
+638||10.10.9.248||2148||4||10003||FIERA|| UCM Product Slicing
+639||10.10.9.249||2149||4||10003||FIERA|| AP PFM Wrappers
+640||10.10.9.251||2151||4||10003||FIERA|| BD Cookies Packing
+641||10.10.9.252:2152/video/mjpeg/stream2||||4||10003||FIERA|| BD Cookies Production 1
+642||10.10.9.253||2153||4||10003||FIERA|| MEZ Croissant 16000 2 Lines
+643||10.10.9.254||2154||4||10003||FIERA|| MEZ CDBE Laminated Line
+644||72.143.115.58||1601||4||10003||FIERA|| CLW Inside 1
+645||72.143.115.58||1602||4||10003||FIERA|| CLW Inside 2
+646||72.143.115.58||1603||4||10003||FIERA|| CLW East Side to South
+647||72.143.115.58||1604||4||10003||FIERA|| CLW South Side to West
+648||72.143.115.58||1605||4||10003||FIERA|| CLW South Side to East
+649||72.143.115.58||1606||4||10003||FIERA|| CLW North Side to East
+650||10.10.8.1||1801||4||10003||FIERA|| MEZ MEZ Old Server Room
+651||10.10.8.2||1802||4||10003||FIERA|| BD BD Telephone Room
+652||10.10.8.3||1803||4||10003||FIERA|| BD BD Data Room
+653||72.143.115.58||1607||4||10003||FIERA|| CLW East Side to North
+654||10.10.8.4||1804||4||10003||FIERA|| ASRS SE to Gate Inside
+655||fierauc.dyndns.org:1663/video/mjpeg/stream2||||4||10003||FIERA|| UC Mez Fritsch Line 6
+656||fierauc.dyndns.org:1664/video/mjpeg/stream2||||4||10003||FIERA|| UC Mez Fritsch Line
+657||10.10.8.5||1805||4||10003||FIERA|| MFC MFC Lunch Room
+658||fierauc.dyndns.org||1665||4||10003||FIERA|| UC Line 4-1
+659||fierauc.dyndns.org:1666/video/mjpeg/stream2||||4||10003||FIERA|| UC Mez Fritsch Line
+660||10.10.8.6||1806||4||10003||FIERA|| MEZ Locker Room Area 2
+661||10.10.8.7||1807||4||10003||FIERA|| MEZ Corridor
+662||10.10.8.8||1808||4||10003||FIERA|| MEZ Elevator Area
+663||10.10.8.9||1809||4||10003||FIERA|| MEZ Packaging Area
+664||10.10.8.10||1810||4||10003||FIERA|| MS MS Conference Hall 1
+665||10.10.8.11||1811||4||10003||FIERA|| MS MS Conference Hall 2
+666||10.10.8.12||1812||4||10003||FIERA|| MEZ Corridor to Stairs
+667||10.10.8.13||1813||4||10003||FIERA|| MEZ Stairs to Main Floor
+668||10.10.8.14||1814||4||10003||FIERA|| UCM Ambient Spiral Cooler
+669||10.10.8.15||1815||4||10003||FIERA|| BD Cookies Packaging 6
+670||10.10.8.16||1816||4||10003||FIERA|| BD Mixing and Forming 2
+671||10.10.8.17||1817||4||10003||FIERA|| BD Product Cooling 3
+672||10.10.8.18||1818||4||10003||FIERA|| BD Cookies Packaging 3
+673||10.10.8.19||1819||4||10003||FIERA|| MS MS Conference Hall TV
+674||10.10.8.20||1820||4||10003||FIERA|| BD Packaging Machine
+675||fieranorelco.dyndns.org||1682||4||10003||FIERA|| NOR NOR Lunch Room TV
+676||10.10.8.21||1821||4||10003||FIERA|| MF Big Oven Security 1
+677||10.10.8.22||1822||4||10003||FIERA|| MF Big Oven Security 2
+678||10.10.8.23:1823/video/mjpeg/stream2||||4||10003||FIERA|| AP Gouet 2 Proofer Inside
+679||10.10.8.24||1824||4||10003||FIERA|| AP Troubleshooting 2
+680||fierauc.dyndns.org||1667||4||10003||FIERA|| UC UC Lunch Room TV
+681||10.10.8.25:1825/video/mjpeg/stream2||||4||10003||FIERA|| BD Label Area 1
+682||10.10.8.26||1826||4||10003||FIERA|| MS Door to Refrigeration Office
+683||10.10.8.27||1827||4||10003||FIERA|| MS Refrigeration Office Corridor
+684||10.10.8.28||1828||4||10003||FIERA|| MF Repack Area
+685||10.10.8.29:1829/video/mjpeg/stream2||||4||10003||FIERA|| MF LD#2 SE
+686||10.10.8.30:1830/video/mjpeg/stream2||||4||10003||FIERA|| MS West Side Cooling System 1
+687||10.10.8.31:1831/video/mjpeg/stream2||||4||10003||FIERA|| MS West Side Cooling System 2
+688||10.10.8.32||1832||4||10003||FIERA|| MEZ Card Punch 2
+689||fierauc.dyndns.org:1668/video/mjpeg/stream2||||4||10003||FIERA|| UC Mixing Area 2
+690||10.10.8.33||1833||4||10003||FIERA|| MF Bagel Line 2
+691||10.10.8.34||1834||4||10003||FIERA|| MF Garbage Compactor
+692||10.10.8.35||1835||4||10003||FIERA|| MFC Lunch Room Entrance
+693||10.10.8.36||1836||4||10003||FIERA|| MEZ Lunch Room 3
+694||fieranorfinch.dyndns.org||1685||4||10003||FIERA|| MP Cold Tanks 1
+695||fieranorfinch.dyndns.org||1686||4||10003||FIERA|| MP Cold Tanks 2
+696||10.10.8.37||1837||4||10003||FIERA|| MF Gouet6 Proofer Out
+697||10.10.8.38||1838||4||10003||FIERA|| MF Gouet6 Proofer
+698||10.10.8.39:1839/video/mjpeg/stream2||||4||10003||FIERA|| MF Gouet6 Reciprocator
+699||10.10.8.40||1840||4||10003||FIERA|| MS Roof Main Building
+700||10.10.8.41||1841||4||10003||FIERA|| MF Small Oven Autoloader
+701||241snider.dyndns.org||1601||4||10003||FIERA|| SNI 241 Snidercroft West 1
+702||241snider.dyndns.org||1602||4||10003||FIERA|| SNI 241 Snidercroft West 2
+703||241snider.dyndns.org||1603||4||10003||FIERA|| SNI 241 Snidercroft West 3
+704||241snider.dyndns.org||1604||4||10003||FIERA|| SNI 241 Snidercroft West 4
+705||241snider.dyndns.org||1605||4||10003||FIERA|| SNI 241 Snidercroft South 1
+706||241snider.dyndns.org||1606||4||10003||FIERA|| SNI 241 Snidercroft South 2
+707||241snider.dyndns.org||1607||4||10003||FIERA|| SNI 241 Snidercroft LD 1
+708||241snider.dyndns.org||1608||4||10003||FIERA|| SNI 241 Snidercroft Inside 1
+709||241snider.dyndns.org||1609||4||10003||FIERA|| SNI 241 Snidercroft Inside 2
+710||241snider.dyndns.org||1610||4||10003||FIERA|| SNI 241 Snidercroft Inside 3
+711||241snider.dyndns.org||1611||4||10003||FIERA|| SNI 241 Snidercroft Inside 4
+712||241snider.dyndns.org||1612||4||10003||FIERA|| SNI 241 Snidercroft LD 2
+713||241snider.dyndns.org||1613||4||10003||FIERA|| SNI 241 Snidercroft Front East
+714||241snider.dyndns.org||1614||4||10003||FIERA|| SNI 241 Snidercroft Inside 5
+715||241snider.dyndns.org||1615||4||10003||FIERA|| SNI 241 Snidercroft Inside 6
+716||fieranorelco.dyndns.org||1683||4||10003||FIERA|| NOR SR #3 Enter
+717||fieranorelco.dyndns.org||1684||4||10003||FIERA|| NOR SR #3 Exit
+718||fieranorelco.dyndns.org||1685||4||10003||FIERA|| NOR Packaging from SF #3
+719||fieranorelco.dyndns.org||1686||4||10003||FIERA|| NOR Exit from SF #3
+720||fieranorelco.dyndns.org||1687||4||10003||FIERA|| NOR Enter to SF #3
+721||fieranorfinch.dyndns.org||1687||4||10003||FIERA|| MP Hot Tanks 1
+722||fieranorfinch.dyndns.org||1688||4||10003||FIERA|| MP Hot Tanks 2
+723||fieranorfinch.dyndns.org||1689||4||10003||FIERA|| MP Hot Tanks 3
+724||fieranorfinch.dyndns.org||1690||4||10003||FIERA|| MP Hot Tanks 4
+725||10.10.8.42||1842||4||10003||FIERA|| MF Entrance to SF #1
+726||10.10.8.43||1843||4||10003||FIERA|| MEZ De La Ballina 3
+727||10.10.8.44||1844||4||10003||FIERA|| MEZ Croissant 16000 Line  1
+728||10.10.8.45||1845||4||10003||FIERA|| MEZ Croissant 16000 Line  2
+729||10.10.8.46||1846||4||10003||FIERA|| MF Pre-Deposit Muffin
+730||10.10.8.47||1847||4||10003||FIERA|| MF Entrance to SF #2
+731||10.10.8.48:1848/video/mjpeg/stream2||||4||10003||FIERA|| MF Entrance to SF #3
+732||10.10.8.49||1849||4||10003||FIERA|| MF Washing area
+733||10.10.8.50||1850||4||10003||FIERA|| MF Turnover Lines
+734||10.10.8.51:1851/video/mjpeg/stream2||||4||10003||FIERA|| MF Make UP Lines 3
+735||10.10.8.52||1852||4||10003||FIERA|| MEZ Croissant Production Area
+736||10.10.8.53||1853||4||10003||FIERA|| MF Overhead Conveyor Area
+737||10.10.8.54:1854/video/mjpeg/stream2||||4||10003||FIERA|| BD AED Box
+738||10.10.8.55||1855||4||10003||FIERA|| MF AED Box
+739||10.10.8.56||1856||4||10003||FIERA|| MEZ Corridor
+740||10.10.8.57||1857||4||10003||FIERA|| MF Dough Mixers 2
+741||10.10.8.58||1858||4||10003||FIERA|| MEZ Packaging After SF #1
+742||10.10.8.59||1859||4||10003||FIERA|| MEZ Box to Packing
+743||fieranorelco.dyndns.org||1688||4||10003||FIERA|| NOR MEZ Box Erector
+744||fieranorelco.dyndns.org||1689||4||10003||FIERA|| NOR Production Area
+745||10.10.8.60||1860||4||10003||FIERA|| UCM SF#6 Inside
+746||fieranorfinch.dyndns.org||1691||4||10003||FIERA|| CMS New LD 4
+747||fieranorfinch.dyndns.org||1692||4||10003||FIERA|| CMS New LD 6
+748||fieranorfinch.dyndns.org||1693||4||10003||FIERA|| CMS New Freezer Front 1
+749||fieranorfinch.dyndns.org||1694||4||10003||FIERA|| CMS New Cold Storage 3
+750||fieranorfinch.dyndns.org||1695||4||10003||FIERA|| CMS New LD 2
+751||fieranorfinch.dyndns.org||1696||4||10003||FIERA|| CMS New LD 3
+752||fieranorfinch.dyndns.org||1697||4||10003||FIERA|| CMS New LD 5
+753||fieranorfinch.dyndns.org||1698||4||10003||FIERA|| CMS Packaging Scale
+754||fieranorfinch.dyndns.org||1699||4||10003||FIERA|| CMS LD Stairs 1
+755||fieranorfinch.dyndns.org||1700||4||10003||FIERA|| CMS LD Stairs 2
+756||fieranorfinch.dyndns.org||1701||4||10003||FIERA|| CMS LD Stairs 3
+757||fieranorfinch.dyndns.org||1702||4||10003||FIERA|| CMS LD Stairs 4
+758||fieranorfinch.dyndns.org||1703||4||10003||FIERA|| CMS New LD Entrance
+759||fieranorfinch.dyndns.org||1704||4||10003||FIERA|| CMS New LD Emergency Exit
+760||fieranorfinch.dyndns.org||1705||4||10003||FIERA|| MP Cold Tanks 3
+761||fieranorfinch.dyndns.org||1706||4||10003||FIERA|| CMS New LD 7
+762||fieranorfinch.dyndns.org||1707||4||10003||FIERA|| CMS New LD 8
+763||fieranorfinch.dyndns.org||1708||4||10003||FIERA|| CMS New Cold Storage 2
+764||fieranorfinch.dyndns.org||1709||4||10003||FIERA|| CMS Exit Door SE
+765||fieranorfinch.dyndns.org||1710||4||10003||FIERA|| CMS New Warehouse 2
+766||fieranorfinch.dyndns.org||1711||4||10003||FIERA|| CMS New Freezer Front 2
+767||10.10.8.61:1861/video/mjpeg/stream2||||4||10003||FIERA|| Mez Product from SF#3
+768||10.10.8.62:1862/video/mjpeg/stream2||||4||10003||FIERA|| Mez Packing after SF#2
+769||10.10.8.63:1863/video/mjpeg/stream2||||4||10003||FIERA|| Mez Bagels Baggers 2
+770||10.10.8.64:1864/video/mjpeg/stream2||||4||10003||FIERA|| Mez Box Formers West
+771||10.10.8.65:1865/video/mjpeg/stream2||||4||10003||FIERA|| MF Make Up Lines Conveyor
+772||10.10.8.66:1866/video/mjpeg/stream2||||4||10003||FIERA|| MF Palletizing and Wrapping
+773||10.10.8.67:1867/video/mjpeg/stream2||||4||10003||FIERA|| MEZ Dough Cooler Door
+774||10.10.8.68:1868/video/mjpeg/stream2||||4||10003||FIERA|| BD Product cooling & Depanning 2
+775||10.10.8.69:1869/video/mjpeg/stream2||||4||10003||FIERA|| BD Warehouse 1
+776||10.10.8.70:1870/video/mjpeg/stream2||||4||10003||FIERA|| BD Warehouse 2
+777||10.10.8.71:1871/video/mjpeg/stream2||||4||10003||FIERA|| BD Unused Equipment Starage
+778||10.10.8.72:1872/video/mjpeg/stream2||||4||10003||FIERA|| BD Bread Line Area
+779||10.10.8.73:1873/video/mjpeg/stream2||||4||10003||FIERA|| BD Door to Main floor & Maintenance
+780||10.10.8.74:1874/video/mjpeg/stream2||||4||10003||FIERA|| BD cleaning Area
+781||10.10.8.75||1875||4||10003||FIERA|| BD Corridor to Inside Silos
+782||10.10.8.76||1876||4||10003||FIERA|| BD Lockers
+783||10.10.8.77:1877/video/mjpeg/stream2||||4||10003||FIERA|| BD Rondo Line & Door to Silos
+784||10.10.8.78:1878/video/mjpeg/stream2||||4||10003||FIERA|| BD Inside Silos
+785||10.10.8.79||1879||4||10003||FIERA|| BD Doors to Spiral Proofer and Cooler
+786||10.10.8.80||1880||4||10003||FIERA|| BD Lab and Offices
+787||10.10.8.81||1881||4||10003||FIERA|| BD BD Ovens & Door to Stairs
+788||10.10.8.82:1882/video/mjpeg/stream2||||4||10003||FIERA|| AP Ramp
+789||10.10.8.83:1883/video/mjpeg/stream2||||4||10003||FIERA|| AP Board to UCM & Mixing area
+790||fierauc.dyndns.org||1669||4||10003||FIERA|| UC Proofer #1 In
+791||fierauc.dyndns.org||1670||4||10003||FIERA|| UC Proofer #1 Out
+792||fierauc.dyndns.org||1671||4||10003||FIERA|| UC Mez Fritsch Line 2 
+793||10.10.8.84||1884||4||10003||FIERA|| MS Security East Tower
+794||10.10.8.85:1885/video/mjpeg/stream2||||4||10003||FIERA|| AP Ingredient Area
+795||10.10.8.86:1886/video/mjpeg/stream2||||4||10003||FIERA|| AP SE Corner
+796||10.10.8.87:1887/video/mjpeg/stream2||||4||10003||FIERA|| AP Gouet 1 Bread Production
+797||10.10.8.88:1888/video/mjpeg/stream2||||4||10003||FIERA|| UCM Box Formers
+798||10.10.8.89||1889||4||10003||FIERA|| AP Elevator and Stairs SW
+799||10.10.8.90:1890/video/mjpeg/stream2||||4||10003||FIERA|| AP Elevator Door from LD#2 MF
+800||10.10.8.91:1891/video/mjpeg/stream2||||4||10003||FIERA|| AP Box Formers Area
+801||fierauc.dyndns.org||1672||4||10003||FIERA|| UC SF#2 Out
+802||10.10.8.92:1892/video/mjpeg/stream2||||4||10003||FIERA|| MEZ Production Area
+803||10.10.8.93:1893/video/mjpeg/stream2||||4||10003||FIERA|| UCM South East Corner
+804||10.10.8.94||1894||4||10003||FIERA|| MS Stairs to AP
+805||10.10.8.95||1895||4||10003||FIERA|| MS Stairs to Offices West
+806||10.10.8.96||1896||4||10003||FIERA|| MS Stairs East Tower South FL7
+807||10.10.8.97:1897/video/mjpeg/stream2||||4||10003||FIERA|| ASRS North Side Exit Door
+808||fieranorelco.dyndns.org:1690/video/mjpeg/stream2||||4||10003||FIERA|| NOR Product Sorting 1
+809||fieranorelco.dyndns.org:1691/video/mjpeg/stream2||||4||10003||FIERA|| NOR Product Sorting 2
+810||fierauc.dyndns.org:1673/video/mjpeg/stream2||||4||10003||FIERA|| UC SF#1 IN
+811||fierauc.dyndns.org:1674/video/mjpeg/stream2||||4||10003||FIERA|| UC SF#1 OUT
+812||fieranorelco.dyndns.org:1692/video/mjpeg/stream2||||4||10003||FIERA|| NOR Corridor to Front Exit
+813||fieranorelco.dyndns.org:1693/video/mjpeg/stream2||||4||10003||FIERA|| NOR Storage Area
+814||10.10.8.98||1898||4||10003||FIERA|| MS Electrical Room Door
+815||10.10.8.99:1899/video/mjpeg/stream2||||4||10003||FIERA|| ASRS Corridor to Lunch Room Mez
+816||10.10.8.100:18100/video/mjpeg/stream2||||4||10003||FIERA|| UCM Bagel Production
+817||10.10.8.101:18101/video/mjpeg/stream2||||4||10003||FIERA|| UCM Mixing and Dough Line
+818||10.10.8.102||18102||4||10003||FIERA|| MS Stairs East Tower South FL6
+819||10.10.8.103||18103||4||10003||FIERA|| MS Stairs East Tower North FLB
+820||10.10.8.104||18104||4||10003||FIERA|| MS Stairs East Tower North FLG
+821||10.10.8.105:18105/video/mjpeg/stream2||||4||10003||FIERA|| BD Bread Line Corridor
+822||10.10.8.106:18106/video/mjpeg/stream2||||4||10003||FIERA|| UCM Mixing Area 2-3
+823||10.10.8.107:18107/video/mjpeg/stream2||||4||10003||FIERA|| UCM Ingredients Area
+824||10.10.8.108:18108/video/mjpeg/stream2||||4||10003||FIERA|| MS Stairs to Offices SW FLB
+825||10.10.8.109:18109/video/mjpeg/stream2||||4||10003||FIERA|| MS Stairs Tower North FL2
+826||10.10.8.110:18110/video/mjpeg/stream2||||4||10003||FIERA|| MS Stairs Tower North FL3
+827||10.10.8.111||18111||4||10003||FIERA|| MS Stairs Tower North FL4
+828||10.10.8.112:18112/video/mjpeg/stream2||||4||10003||FIERA|| MS Stairs to Offices SW FL5
+829||10.10.8.113:18113/video/mjpeg/stream2||||4||10003||FIERA|| MS Stairs Tower East FL 3-4
+830||10.10.8.114:18114/video/mjpeg/stream2||||4||10003||FIERA|| UCM Scoring before Baking
+831||fieranorelco.dyndns.org||1694||4||10003||FIERA|| NOR Packaging Area 1
+832||fieranorelco.dyndns.org:1695/video/mjpeg/stream2||||4||10003||FIERA|| NOR Packaging Area 2
+833||fieranorfinch.dyndns.org||1712||4||10003||FIERA|| CMS New Freezer Back 2
+834||fieranorfinch.dyndns.org||1713||4||10003||FIERA|| CMS New Freezer Row 1-1
+835||10.10.8.115||18115||4||10003||FIERA|| ASRS Control Panels
+836||fieranorfinch.dyndns.org||1714||4||10003||FIERA|| CMS New Freezer Row 2-1
+837||fieranorfinch.dyndns.org||1715||4||10003||FIERA|| CMS New Freezer Row 3-1
+838||fieranorfinch.dyndns.org||1716||4||10003||FIERA|| CMS New Freezer Row 1-2
+839||fieranorfinch.dyndns.org||1717||4||10003||FIERA|| CMS New Freezer Row 2-2
+840||fieranorfinch.dyndns.org||1718||4||10003||FIERA|| CMS New Freezer Row 3-3
+841||fieranorfinch.dyndns.org||1719||4||10003||FIERA|| CMS Old Dry WH 1-2
+842||10.10.8.116||18116||4||10003||FIERA|| MS HWY400 to South
+843||10.10.8.117||18117||4||10003||FIERA|| MEZ Overhead traffic
+844||fieranorelco.dyndns.org||1696||4||10003||FIERA|| NOR SP #1 Out
+845||10.10.8.118||18118||4||10003||FIERA|| MF St. Freezer New Gates Out
+846||10.10.8.119||18119||4||10003||FIERA|| MFC St. Freezer Gates to ASRS
+847||fieranorfinch.dyndns.org||1720||4||10003||FIERA|| CMS New Lunch Room
+848||fieranorfinch.dyndns.org||1721||4||10003||FIERA|| CMS SE Exit Door
+849||fieranorfinch.dyndns.org||1722||4||10003||FIERA|| CMS LD6 South
+850||fieranorelco.dyndns.org:1697/video/mjpeg/stream2||||4||10003||FIERA|| NOR Lunch Room 2
+851||fieranorelco.dyndns.org:1698/video/mjpeg/stream2||||4||10003||FIERA|| NOR Lunch Room 3
+852||10.10.8.120:18120/video/mjpeg/stream2||||4||10003||FIERA|| MS South Cooling System 1
+853||10.10.8.121:18121/video/mjpeg/stream2||||4||10003||FIERA|| MS South Cooling System 2
+854||10.10.8.122:18122/video/mjpeg/stream2||||4||10003||FIERA|| UCM Scoring Robots
+855||10.10.8.123:18123/video/mjpeg/stream2||||4||10003||FIERA|| BD Compressor Room 1
+856||10.10.8.124:18124/video/mjpeg/stream2||||4||10003||FIERA|| MS Compressor Room 2
+857||fieranorfinch.dyndns.org||1723||4||10003||FIERA|| CMS Tempering Room South Gates
+858||fieranorfinch.dyndns.org||1724||4||10003||FIERA|| CMS Cold Storage North Gates
+859||fieranorfinch.dyndns.org||1725||4||10003||FIERA|| CMS Cold Storage South Gates
+860||10.10.8.125||18125||4||10003||FIERA|| MS Sensor in Compressor Room 1
+861||10.10.8.126:18126/video/mjpeg/stream2||||4||10003||FIERA|| MEZ SF # 3 Box Check Up
+862||10.10.8.127||18127||4||10003||FIERA|| MFC New Gates from LD2 to St. Freezer
+863||10.10.8.128:18128/video/mjpeg/stream2||||4||10003||FIERA|| ASRS SE to Gates 2
+864||10.10.8.129:18129/video/mjpeg/stream2||||4||10003||FIERA|| AP Harness
+865||10.10.8.130||18130||4||10003||FIERA|| MS Boiler Sensor
+866||10.10.8.131:18131/video/mjpeg/stream2||||4||10003||FIERA|| UCM SF #6 Inside 2
+867||10.10.8.132||18132||4||10003||FIERA|| UCM Product Sorting Before SF #6
+868||10.10.8.133:18133/video/mjpeg/stream2||||4||10003||FIERA|| MEZ SF # 2 Box Check Up
+869||10.10.8.134:18134/video/mjpeg/stream2||||4||10003||FIERA|| MEZ SF # 1 Box Check Up 1
+870||10.10.8.135:18135/video/mjpeg/stream2||||4||10003||FIERA|| MEZ SF # 1 Box Check Up 2
+871||10.10.8.136:18136/video/mjpeg/stream2||||4||10003||FIERA|| MEZ SF # 4 Box Check Up
+872||10.10.8.137:18137/video/mjpeg/stream2||||4||10003||FIERA|| AP Gouet 1 Box Check Up
+873||10.10.8.138:18138/video/mjpeg/stream2||||4||10003||FIERA|| UCM DAO Box Check Up
+874||10.10.8.139||18139||4||10003||FIERA|| UCM SF # 6 Box Check Up
+875||10.10.8.140:18140/video/mjpeg/stream2||||4||10003||FIERA|| BD QA Lab
+876||10.10.8.141:18141/video/mjpeg/stream2||||4||10003||FIERA|| BD Labels Room
+877||fieranorelco.dyndns.org:1699/video/mjpeg/stream2||||4||10003||FIERA|| NOR Garbage Compactor
+878||fierauc.dyndns.org:1675/video/mjpeg/stream2||||4||10003||FIERA|| UC Roof construction 1
+879||fierauc.dyndns.org:1676/video/mjpeg/stream2||||4||10003||FIERA|| UC Roof construction 2
+880||fierauc.dyndns.org:1677/video/mjpeg/stream2||||4||10003||FIERA|| UC Roof construction 3
+881||fierauc.dyndns.org:1678/video/mjpeg/stream2||||4||10003||FIERA|| UC Roof construction 4
+882||10.10.8.142:18142/video/mjpeg/stream2||||4||10003||FIERA|| AP Boiler Room
+883||10.10.8.143:18143/video/mjpeg/stream2||||4||10003||FIERA|| MF Product Scaling
+884||fierauc.dyndns.org:1679/video/mjpeg/stream2||||4||10003||FIERA|| UC SF#3 In
+885||fierauc.dyndns.org:1680/video/mjpeg/stream2||||4||10003||FIERA|| UC SF#3 Out
+886||fierauc.dyndns.org:1681/video/mjpeg/stream2||||4||10003||FIERA|| UC Mixing Area 1
+887||fierauc.dyndns.org:1682/video/mjpeg/stream2||||4||10003||FIERA|| UC Mixing Area 2
+888||fierauc.dyndns.org:1683/video/mjpeg/stream2||||4||10003||FIERA|| UC Mez Fritsch Line 3
+889||fierauc.dyndns.org:1684/video/mjpeg/stream2||||4||10003||FIERA|| UC MEZ
+890||fieranorfinch.dyndns.org:1726/video/mjpeg/stream2||||4||10003||FIERA|| CMS New Warehouse 3
+891||fieranorfinch.dyndns.org:1727/video/mjpeg/stream2||||4||10003||FIERA|| CMS New Warehouse 4
+892||fieranorfinch.dyndns.org:1728/video/mjpeg/stream2||||4||10003||FIERA|| CMS New Warehouse 5
+893||fieranorfinch.dyndns.org:1729/video/mjpeg/stream2||||4||10003||FIERA|| CMS New Warehouse 6
+894||10.10.8.144||18144||4||10003||FIERA|| UCM Boards Lowerator
+895||fierauc.dyndns.org:1685/video/mjpeg/stream2||||4||10003||FIERA|| UC Mez Fritsch Line 5
+896||fierauc.dyndns.org:1686/video/mjpeg/stream2||||4||10003||FIERA|| UC Mez Fritsch Line 4
+897||fierauc.dyndns.org:1687/video/mjpeg/stream2||||4||10003||FIERA|| UC Mez Fritsch Line 7
+898||fieranorelco.dyndns.org:16100/video/mjpeg/stream2||||4||10003||FIERA|| NOR De La Ballina Tower 1
+899||fieranorelco.dyndns.org:16101/video/mjpeg/stream2||||4||10003||FIERA|| NOR De La Ballina Tower 2
+900||10.10.8.145:18145/video/mjpeg/stream2||||4||10003||FIERA|| MF Croissant Conv 1
+901||10.10.8.146:18146/video/mjpeg/stream2||||4||10003||FIERA|| MF Croissant Conv 2
+902||fierauc.dyndns.org:1688/video/mjpeg/stream2||||4||10003||FIERA|| UC Packaging
+903||fierauc.dyndns.org||1689||4||10003||FIERA|| UC Mez Fritsch Line
+904||10.10.8.147||18147||4||10003||FIERA|| MEZ Board Room 3
+905||10.10.8.148||18148||4||10003||FIERA|| MEZ Board Room 1
+906||10.10.8.149||18149||4||10003||FIERA|| MEZ Board Room 2
+
+
+
+Finkel||4||29||27||90||96||97||98||74||75||76||
+monitor3||2||34||203||61||174||
+loading||4||2||3||4||5||6||7||8||9||10||
+monitor2||2||68||69||63||292||
+Secp||2||13||296||295||11||
+ABLtoOVEN||4||343||342||93||98||337||338||338||307||53||
+monitor1||4||8||71||56||9||52||55||11||13||12||
+LPFF||2||469||468||35||242||
+SecTV2||4||440||287||61||288||332||71||58||100||321||
+SecTV3||4||331||397||334||119||12||373||304||9||305||
+SecTV4||4||556||499||65||60||34||39||370||441||443||
+SecTV5||4||444||447||448||316||333||295||296||430||431||
+ABLNew||7||35||93||98||94||247||249||92||82||342||679||261||620||91||64||95||53
+Cconveyor||1||95||
+NEWABL2||4||294||95||93||98||92||249||91||64||53||
+Packaging1||2||64||95||342||53||
+freezer2||4||477||476||481||482||530||533||534||531||401||
+ASRS_2||4||476||477||479||482||331||417||533||532||531||
+ASRS_1||4||410||413||416||412||414||415||411||409||408||
+Magdabagel||4||2||317||4||46||19||267||374||16||18
+Pretzel||4||2||3||16||46||21||22||47||48||62||
+mezanine||7||20||373||333||370||34||292||8||9||39||11||12||13||65||302||334||316||
+ABLMFB||4||98||64||95||46||19||267||374||16||294||
+ABL2Offices||2||428||429||425||335||
+bothovens||4||2||3||16||46||374||22||47||19||20||
+bothovenric||4||2||3||47||46||19||267||374||16||22||
+ABLTOUCMNEW||4||343||342||93||98||337||338||95||307||91
+ABLUCMNew||4||343||342||93||98||337||338||95||94||91
+ofise||4||79||80||81||302||303||23||39||60||65
+ABLNewcam||4||261||95||93||98||92||249||91||64||53
+ABLUCMcam||7||294||93||98||94||343||342||337||338||346||344||355||64||307||261||249||53
+Bagel1||4||2||3||374||19||20||46||65||242
+COLORADO||7||438||305||333||55||556||436||8||9||588||11||12||13||65||119||334||61
+ASRS_3||4||636||534||14||482||331||417||533||532||654||
+PRETZEL4X4||4||2||4||5||6||7||8||9||10||11
+4X4Pretzel||4||340||341||307||91||64||95||53||261||538
+SecTV7||4||83||85||23||335||142||327||336||127||144||
+PowerBagel||4||338||338||337||91||64||95||53||261||538
+Powerbagel||4||558||338||337||91||64||95||53||261||538Magda2||4||2||317||4||46||19||267||374||16||18
+Magdanew||2||16||3||22||19
+ABLCOMP3||7||35||93||98||94||247||249||92||343||342||299||261||620||91||64||95||53
+Tanya3||4||253||317||38||684||37||266||374||16||18ABLComplete||7||35||93||98||94||247||249||92||343||342||299||261||620||91||64||95||53
+warehouse1||4||79||80||81||302||303||85||65||60||56
+Parking||2||430||13||649||435
+Tanya1||4||40||317||38||89||37||266||374||16||430
+Magdalena||4||2||317||627||46||19||267||698||16||46GARBAGE||2||691||55||9||432
+ADA001||7||11||13||430||431||597||432||433||9||56||295||12||65||20||439||296||435
+alexey1||4||79||80||81||302||303||85||65||60||597GARBPREMIX||2||691||432||241||268
+satur||4||320||438||437||52||53||439||72||633||440
+gouetnov||4||2||317||698||46||19||42||374||16||3
+SecTV6||4||432||438||289||52||53||54||72||81||80
+SecTV8||4||127||124||174||163||387||386||200||203||202GARBPREMIX||2||691||432||241||268
+
+prod1||4||67||3||93||41||111||68||8||9||59
+allprod1||4||19||69||128||24||85||110||25||126||58
+allprod2||4||14||19||20||53||80||105||123||71||107
+pretzel1||4||71||83||80||107||122||123||43||130||79||55
+4deprtments||2||18||84||24||127
+4dept||2||18||84||24||127
+stoneoven||2||2||12||14||13
+allprod||7||36||42||124||143||37||86||127||145||56||102||130||75||41||105||142||154
+igor9||4||35||586||584||585||609||471||598||610||11
+aaa111||2||2||3||4||5
+aaa1||1||202
+9cam528931||4||2||3||4||5||6||7||528||529||532
+ninecams||4||2||3||4||5||6||7||8||9||10
+nine52567||4||2||3||4||5||6||7||525||526||527
+ninecamss||4||2||3||4||5||6||7||525||526||527
+9fobdcc||4||87||29||670||641||45||488||76||671||640
+fobdcc||4||87||29||670||641||45||488||76||671||640
+fobdcc9||4||87||29||670||641||45||488||76||671||640upper_crust||2||203||238||212||209new_mez||2||726||727||728||40nor_1||4||516||141||152||131||716||717||720||719||718
+nor1||4||516||141||152||131||716||717||720||719||718GARBAGE||2||691||435||55||9
+Type||2||110||101||845||846
+Control||2||793||333||611||119
+GARBPREMIX||2||691||432||241||268
+ABL2||7||35||93||98||94||247||249||92||82||342||679||261||800||91||64||95||53
+SecTV1||4||11||56||523||55||8||68||439||70||793
+ASRS_4||2||845||110||846||636
+MAGDABAGL||4||2||317||698||46||19||267||698||16||698
+bubliki||4||2||317||698||46||19||267||3||16||698
+ASRS_5||2||845||862||846||636
+GARBAGE||2||691||435||608||55
+QUALITY||4||66||67||509||786||307||501||392||358||374
+BakedBagel1||4||2||317||627||46||19||267||698||16||3
+Magdabagel2||4||2||317||698||46||19||267||698||16||698
+Bakedbagel3||4||2||317||698||46||19||267||698||16||698
+Bagelcol3||1||3
+Bageldivid||1||19
+PREMIX||2||241||268||33||44
+bAKEDbAGELS||4||2||317||698||46||19||267||3||16||42
+Bagelbaked||4||2||317||16||46||19||42||374||16||3
+bagelbaked||4||2||317||16||46||19||42||374||16||3
+ADA002||4||11||597||556||20||430||439||56||65||440
+Gawedzkab||4||2||317||16||46||19||42||374||627||3
+WHmarmora||4||79||80||81||9||303||776||65||60||597
+Magbagels||2||2||374||19||46
+APGroup1||7||35||93||98||486||247||249||92||82||342||679||261||800||91||64||95||52
+ABLgroup2||7||35||93||98||486||247||249||92||82||342||679||261||800||91||64||95||52
+whmarmora||4||79||80||81||9||303||85||65||60||597

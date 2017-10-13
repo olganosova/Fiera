@@ -356,8 +356,16 @@
             if (duplicates.length === 1 && !duplicates[0].comment && !toRemove.isNew) {
                 var isOk = confirm("Are you sure you want to remove the only camera?"); //jshint ignore: line
                 if (!isOk) {
+                    toRemove.isDeleteCandidate = false;
                     return;
                 }
+            }
+            //groupId
+            var duplicatesInGroup = ($filter('filter')($scope.masterJSON, {groupId: toRemove.groupId}, true));
+            if (duplicatesInGroup.length <= 2) {
+                alert("This camera is the last one in the group. Please delete the whole group instead"); //jshint ignore: line
+                toRemove.isDeleteCandidate = false;
+                return;
             }
 
             $scope.masterJSON.splice(val, 1);
@@ -509,6 +517,14 @@
                 isFromSource = true;
             }
 
+            var duplicatesInGroup = ($filter('filter')($scope.masterJSON, {camNum: line.camNum, groupId: line.groupId}, true));
+            if (duplicatesInGroup && duplicatesInGroup.length > 1) {
+                var dupInGroup = ($filter('filter')(duplicatesInGroup, {isNew: false}, true));
+                dupInGroup[0].isDup = true;
+                alert("This group already contains camera #" + line.camNum); //jshint ignore: line
+                line.camNum = '';
+                return;
+            }
 
             line.dns = found.dns;
             line.prop1 = found.prop1;
@@ -743,9 +759,12 @@
 
         $scope.getRowColor = function (line) {
             var result = "";
-
+            //duplicate ingroup isDup
+            if (line.isDup) {
+                result = "row-duplicate";
+            }
             //isDeleteCandidate
-            if (line.isDeleteCandidate) {
+            else if (line.isDeleteCandidate) {
                 result = "row-deleted";
             }
             else if (line.isNew) {

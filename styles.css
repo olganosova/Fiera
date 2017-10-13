@@ -69,6 +69,9 @@ body {
 .table-border {
     border: 1px solid darkslategray;
 }
+.row-duplicate {
+    background-color: #10f6c6;
+}
 
 .row-highlighted {
     background-color: #cde7f6;
